@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<items>
+	<item id="3363" name="master dragon scale legs">
+		<attribute key="primarytype" value="legs"/>
+		<attribute key="description" value="Protects the wielder from basic environmental conditions."/>
+		<attribute key="magiclevelpoints" value="10"/>
+		<attribute key="absorbPercentPhysical" value="10" />
+		<attribute key="absorbPercentEnergy" value="10" />
+		<attribute key="absorbPercentEarth" value="10" />
+		<attribute key="absorbPercentFire" value="10" />
+		<attribute key="absorbPercentIce" value="10" />
+		<attribute key="absorbPercentHoly" value="10" />
+		<attribute key="absorbPercentDeath" value="10" />
+		<attribute key="absorbPercentLifeDrain" value="10" />
+		<attribute key="absorbPercentManaDrain" value="10" />
+		<attribute key="skillaxe" value="10"/>
+		<attribute key="skillclub" value="10"/>
+		<attribute key="skillsword" value="10"/>
+		<attribute key="skillshield" value="10"/>
+		<attribute key="skilldist" value="10"/>
+		<attribute key="armor" value="20"/>
+		<attribute key="weight" value="3800"/>
+		<attribute key="imbuementslot" value="3">
+			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost shielding" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="increase speed" value="3"/>
+			<attribute key="elemental protection death" value="3"/>
+			<attribute key="elemental protection earth" value="3"/>
+			<attribute key="elemental protection fire" value="3"/>
+			<attribute key="elemental protection ice" value="3"/>
+			<attribute key="elemental protection energy" value="3"/>
+			<attribute key="elemental protection holy" value="3"/>
+			<attribute key="life leech" value="3"/>
+			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="elemental damage" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="legs"/>
+		</attribute>
+	</item>
+	<item id="3390" article="a" name="master horned helmet">
+		<attribute key="primarytype" value="helmets"/>
+		<attribute key="magiclevelpoints" value="10"/>
+		<attribute key="absorbPercentPhysical" value="10" />
+		<attribute key="absorbPercentEnergy" value="10" />
+		<attribute key="absorbPercentEarth" value="10" />
+		<attribute key="absorbPercentFire" value="10" />
+		<attribute key="absorbPercentIce" value="10" />
+		<attribute key="absorbPercentHoly" value="10" />
+		<attribute key="absorbPercentDeath" value="10" />
+		<attribute key="absorbPercentLifeDrain" value="10" />
+		<attribute key="absorbPercentManaDrain" value="10" />
+		<attribute key="skillaxe" value="10"/>
+		<attribute key="skillclub" value="10"/>
+		<attribute key="skillsword" value="10"/>
+		<attribute key="skillshield" value="10"/>
+		<attribute key="skilldist" value="10"/>
+		<attribute key="armor" value="20"/>
+		<attribute key="weight" value="5100"/>
+		<attribute key="imbuementslot" value="3">
+			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost shielding" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="increase speed" value="3"/>
+			<attribute key="elemental protection death" value="3"/>
+			<attribute key="elemental protection earth" value="3"/>
+			<attribute key="elemental protection fire" value="3"/>
+			<attribute key="elemental protection ice" value="3"/>
+			<attribute key="elemental protection energy" value="3"/>
+			<attribute key="elemental protection holy" value="3"/>
+			<attribute key="life leech" value="3"/>
+			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="elemental damage" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="head"/>
+		</attribute>
+	</item>
+	<item id="3423" article="a" name="master blessed shield">
+		<attribute key="primarytype" value="shields"/>
+		<attribute key="description" value="The shield grants divine protection"/>
+		<attribute key="weaponType" value="shield"/>
+		<attribute key="magiclevelpoints" value="10"/>
+		<attribute key="absorbPercentPhysical" value="10" />
+		<attribute key="absorbPercentEnergy" value="10" />
+		<attribute key="absorbPercentEarth" value="10" />
+		<attribute key="absorbPercentFire" value="10" />
+		<attribute key="absorbPercentIce" value="10" />
+		<attribute key="absorbPercentHoly" value="10" />
+		<attribute key="absorbPercentDeath" value="10" />
+		<attribute key="absorbPercentLifeDrain" value="10" />
+		<attribute key="absorbPercentManaDrain" value="10" />
+		<attribute key="skillaxe" value="10"/>
+		<attribute key="skillclub" value="10"/>
+		<attribute key="skillsword" value="10"/>
+		<attribute key="skillshield" value="10"/>
+		<attribute key="skilldist" value="10"/>
+		<attribute key="defense" value="80"/>
+		<attribute key="weight" value="6800"/>
+		<attribute key="imbuementslot" value="3">
+			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost shielding" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="increase speed" value="3"/>
+			<attribute key="elemental protection death" value="3"/>
+			<attribute key="elemental protection earth" value="3"/>
+			<attribute key="elemental protection fire" value="3"/>
+			<attribute key="elemental protection ice" value="3"/>
+			<attribute key="elemental protection energy" value="3"/>
+			<attribute key="elemental protection holy" value="3"/>
+			<attribute key="life leech" value="3"/>
+			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="elemental damage" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="shield"/>
+		</attribute>
+	</item>
+	<item id="3550" name="master patched boots">
+		<attribute key="primarytype" value="boots"/>
+		<attribute key="description" value="Legendary boots with many protections and a magnificent speed."/>
+		<attribute key="magiclevelpoints" value="10"/>
+		<attribute key="manaticks" value="5000"/>
+		<attribute key="managain" value="20"/>
+		<attribute key="healthticks" value="5000"/>
+		<attribute key="healthgain" value="10"/>
+		<attribute key="absorbPercentPhysical" value="10" />
+		<attribute key="absorbPercentEnergy" value="10" />
+		<attribute key="absorbPercentEarth" value="10" />
+		<attribute key="absorbPercentFire" value="10" />
+		<attribute key="absorbPercentIce" value="10" />
+		<attribute key="absorbPercentHoly" value="10" />
+		<attribute key="absorbPercentDeath" value="10" />
+		<attribute key="absorbPercentLifeDrain" value="10" />
+		<attribute key="absorbPercentManaDrain" value="10" />
+		<attribute key="skillaxe" value="10"/>
+		<attribute key="skillclub" value="10"/>
+		<attribute key="skillsword" value="10"/>
+		<attribute key="skillshield" value="10"/>
+		<attribute key="skilldist" value="10"/>
+		<attribute key="armor" value="20"/>
+		<attribute key="speed" value="100"/>
+		<attribute key="weight" value="1000"/>
+		<attribute key="imbuementslot" value="3">
+			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost shielding" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="increase speed" value="3"/>
+			<attribute key="elemental protection death" value="3"/>
+			<attribute key="elemental protection earth" value="3"/>
+			<attribute key="elemental protection fire" value="3"/>
+			<attribute key="elemental protection ice" value="3"/>
+			<attribute key="elemental protection energy" value="3"/>
+			<attribute key="elemental protection holy" value="3"/>
+			<attribute key="life leech" value="3"/>
+			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="elemental damage" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="feet"/>
+		</attribute>
+	</item>
+	<item id="8062" article="a" name="master robe of the underworld">
+		<attribute key="primarytype" value="armors"/>
+		<attribute key="description" value="A special forged plate with hidden spatial pockets."/>
+		<attribute key="magiclevelpoints" value="10"/>
+		<attribute key="absorbPercentPhysical" value="15" />
+		<attribute key="absorbPercentEnergy" value="15" />
+		<attribute key="absorbPercentEarth" value="15" />
+		<attribute key="absorbPercentFire" value="15" />
+		<attribute key="absorbPercentIce" value="15" />
+		<attribute key="absorbPercentHoly" value="15" />
+		<attribute key="absorbPercentDeath" value="15" />
+		<attribute key="absorbPercentLifeDrain" value="15" />
+		<attribute key="absorbPercentManaDrain" value="15" />
+		<attribute key="skillaxe" value="10"/>
+		<attribute key="skillclub" value="10"/>
+		<attribute key="skillsword" value="10"/>
+		<attribute key="skillshield" value="10"/>
+		<attribute key="skilldist" value="10"/>
+		<attribute key="armor" value="20"/>
+		<attribute key="weight" value="12000"/>
+		<attribute key="imbuementslot" value="3">
+			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost shielding" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="increase speed" value="3"/>
+			<attribute key="elemental protection death" value="3"/>
+			<attribute key="elemental protection earth" value="3"/>
+			<attribute key="elemental protection fire" value="3"/>
+			<attribute key="elemental protection ice" value="3"/>
+			<attribute key="elemental protection energy" value="3"/>
+			<attribute key="elemental protection holy" value="3"/>
+			<attribute key="life leech" value="3"/>
+			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="elemental damage" value="3"/>
+		</attribute>
+	</item>
+	<item id="26049" article="an" name="master ornate slayer of carving">
+		<attribute key="primarytype" value="sword weapons"/>
+		<attribute key="description" value="This sword looks a little overpower"/>
+		<attribute key="attack" value="20"/>
+		<attribute key="elementearth" value="60"/>
+		<attribute key="extradef" value="6"/>
+		<attribute key="defense" value="45"/>
+		<attribute key="magiclevelpoints" value="10"/>
+		<attribute key="absorbPercentPhysical" value="10" />
+		<attribute key="absorbPercentEnergy" value="10" />
+		<attribute key="absorbPercentEarth" value="10" />
+		<attribute key="absorbPercentFire" value="10" />
+		<attribute key="absorbPercentIce" value="10" />
+		<attribute key="absorbPercentHoly" value="10" />
+		<attribute key="absorbPercentDeath" value="10" />
+		<attribute key="absorbPercentLifeDrain" value="10" />
+		<attribute key="absorbPercentManaDrain" value="10" />
+		<attribute key="skillsword" value="10"/>
+		<attribute key="skillshield" value="10"/>
+		<attribute key="weight" value="6000"/>
+		<attribute key="imbuementslot" value="3">
+			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost shielding" value="3"/>
+			<attribute key="increase speed" value="3"/>
+			<attribute key="life leech" value="3"/>
+			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="elemental damage" value="3"/>
+		</attribute>
+		<attribute key="augments" value="1">
+			<attribute key="fierce berserk" value="powerful impact" />
+			<attribute key="intense wound cleansing" value="cooldown">
+				<attribute key="value" value="120000" />
+			</attribute>
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="unproperly" value="true"/>
+			<attribute key="weaponType" value="sword"/>
+			<attribute key="vocation" value="Knight;true, Elite Knight"/>
+			<attribute key="slot" value="hand"/>
+		</attribute>
+	</item>
+	<item id="26055" article="an" name="master ornate chopper of carving">
+		<attribute key="primarytype" value="axe weapons"/>
+		<attribute key="description" value="This axe looks a little overpower"/>		
+		<attribute key="weaponType" value="axe"/>
+		<attribute key="attack" value="20"/>
+		<attribute key="elementfire" value="60"/>
+		<attribute key="extradef" value="6"/>
+		<attribute key="defense" value="45"/>
+		<attribute key="magiclevelpoints" value="10"/>
+		<attribute key="absorbPercentPhysical" value="10" />
+		<attribute key="absorbPercentEnergy" value="10" />
+		<attribute key="absorbPercentEarth" value="10" />
+		<attribute key="absorbPercentFire" value="10" />
+		<attribute key="absorbPercentIce" value="10" />
+		<attribute key="absorbPercentHoly" value="10" />
+		<attribute key="absorbPercentDeath" value="10" />
+		<attribute key="absorbPercentLifeDrain" value="10" />
+		<attribute key="absorbPercentManaDrain" value="10" />
+		<attribute key="skillaxe" value="10"/>
+		<attribute key="skillshield" value="10"/>
+		<attribute key="weight" value="7200"/>
+		<attribute key="imbuementslot" value="3">
+			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost shielding" value="3"/>
+			<attribute key="increase speed" value="3"/>
+			<attribute key="life leech" value="3"/>
+			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="elemental damage" value="3"/>
+		</attribute>
+		<attribute key="augments" value="1">
+			<attribute key="fierce berserk" value="powerful impact" />
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="unproperly" value="true"/>
+			<attribute key="weaponType" value="axe"/>
+			<attribute key="vocation" value="Knight;true, Elite Knight"/>
+			<attribute key="slot" value="hand"/>
+		</attribute>
+	</item>
+	<item id="26061" article="a" name="master ornate hammer of carving">
+		<attribute key="primarytype" value="club weapons"/>
+		<attribute key="description" value="This club looks a little overpower"/>		
+		<attribute key="weaponType" value="club"/>
+		<attribute key="attack" value="20"/>
+		<attribute key="elementdeath" value="60"/>
+		<attribute key="extradef" value="6"/>
+		<attribute key="defense" value="45"/>
+		<attribute key="magiclevelpoints" value="10"/>
+		<attribute key="absorbPercentPhysical" value="10" />
+		<attribute key="absorbPercentEnergy" value="10" />
+		<attribute key="absorbPercentEarth" value="10" />
+		<attribute key="absorbPercentFire" value="10" />
+		<attribute key="absorbPercentIce" value="10" />
+		<attribute key="absorbPercentHoly" value="10" />
+		<attribute key="absorbPercentDeath" value="10" />
+		<attribute key="absorbPercentLifeDrain" value="10" />
+		<attribute key="absorbPercentManaDrain" value="10" />
+		<attribute key="skillclub" value="10"/>
+		<attribute key="skillshield" value="10"/>
+		<attribute key="weight" value="6800"/>
+		<attribute key="imbuementslot" value="3">
+			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost shielding" value="3"/>
+			<attribute key="increase speed" value="3"/>
+			<attribute key="life leech" value="3"/>
+			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="elemental damage" value="3"/>
+		</attribute>
+		<attribute key="augments" value="1">
+			<attribute key="fierce berserk" value="powerful impact" />
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="unproperly" value="true"/>
+			<attribute key="weaponType" value="club"/>
+			<attribute key="vocation" value="Knight;true, Elite Knight"/>
+			<attribute key="slot" value="hand"/>
+		</attribute>
+	</item>
+	<item id="26064" article="a" name="master ornate bow of carving">
+		<attribute key="primarytype" value="distance weapons"/>
+		<attribute key="description" value="This bow looks a little overpower"/>		
+		<attribute key="weaponType" value="distance"/>
+		<attribute key="slotType" value="two-handed"/>
+		<attribute key="criticalhitdamage" value="2500"/>
+		<attribute key="criticalhitchance" value="2000"/>
+		<attribute key="ammotype" value="arrow"/>
+		<attribute key="absorbPercentPhysical" value="10" />
+		<attribute key="absorbPercentEnergy" value="10" />
+		<attribute key="absorbPercentEarth" value="10" />
+		<attribute key="absorbPercentFire" value="10" />
+		<attribute key="absorbPercentIce" value="10" />
+		<attribute key="absorbPercentHoly" value="10" />
+		<attribute key="absorbPercentDeath" value="10" />
+		<attribute key="absorbPercentLifeDrain" value="10" />
+		<attribute key="absorbPercentManaDrain" value="10" />
+		<attribute key="skilldist" value="10"/>
+		<attribute key="hitchance" value="20"/>
+		<attribute key="range" value="8"/>
+		<attribute key="attack" value="25"/>
+		<attribute key="weight" value="4700"/>
+		<attribute key="imbuementslot" value="3">
+			<attribute key="skillboost distance" value="10"/>
+			<attribute key="increase speed" value="3"/>
+			<attribute key="elemental protection death" value="3"/>
+			<attribute key="elemental protection earth" value="3"/>
+			<attribute key="elemental protection fire" value="3"/>
+			<attribute key="elemental protection ice" value="3"/>
+			<attribute key="elemental protection energy" value="3"/>
+			<attribute key="elemental protection holy" value="3"/>
+			<attribute key="life leech" value="3"/>
+			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="elemental damage" value="3"/>
+		</attribute>
+		<attribute key="augments" value="1">
+			<attribute key="divine caldera" value="powerful impact" />
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="unproperly" value="true"/>
+			<attribute key="weaponType" value="distance"/>
+			<attribute key="vocation" value="Paladin;true, Royal Paladin"/>
+		</attribute>
+	</item>
+	<item id="26067" article="a" name="master ornate crossbow of carving">
+		<attribute key="primarytype" value="distance weapons"/>
+		<attribute key="description" value="This crossbow looks a little overpower"/>
+		<attribute key="weaponType" value="distance"/>
+		<attribute key="slotType" value="two-handed"/>
+		<attribute key="criticalhitdamage" value="1200"/>
+		<attribute key="criticalhitchance" value="1000"/>
+		<attribute key="ammotype" value="bolt"/>
+		<attribute key="absorbPercentPhysical" value="10" />
+		<attribute key="absorbPercentEnergy" value="10" />
+		<attribute key="absorbPercentEarth" value="10" />
+		<attribute key="absorbPercentFire" value="10" />
+		<attribute key="absorbPercentIce" value="10" />
+		<attribute key="absorbPercentHoly" value="10" />
+		<attribute key="absorbPercentDeath" value="10" />
+		<attribute key="absorbPercentLifeDrain" value="10" />
+		<attribute key="absorbPercentManaDrain" value="10" />
+		<attribute key="skilldist" value="10"/>
+		<attribute key="hitchance" value="20"/>
+		<attribute key="range" value="8"/>
+		<attribute key="attack" value="30"/>
+		<attribute key="weight" value="6500"/>
+		<attribute key="imbuementslot" value="3">
+			<attribute key="skillboost distance" value="10"/>
+			<attribute key="increase speed" value="3"/>
+			<attribute key="elemental protection death" value="3"/>
+			<attribute key="elemental protection earth" value="3"/>
+			<attribute key="elemental protection fire" value="3"/>
+			<attribute key="elemental protection ice" value="3"/>
+			<attribute key="elemental protection energy" value="3"/>
+			<attribute key="elemental protection holy" value="3"/>
+			<attribute key="life leech" value="3"/>
+			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="elemental damage" value="3"/>
+		</attribute>
+		<attribute key="augments" value="1">
+			<attribute key="divine caldera" value="powerful impact" />
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="level" value="600"/>
+			<attribute key="unproperly" value="true"/>
+			<attribute key="weaponType" value="distance"/>
+			<attribute key="vocation" value="Paladin;true, Royal Paladin"/>
+		</attribute>
+	</item>
+	<item id="26070" article="an" name="master ornate wand of carving">
+		<attribute key="primarytype" value="wands"/>
+		<attribute key="weaponType" value="wand"/>
+		<attribute key="shootType" value="energy"/>
+		<attribute key="absorbPercentPhysical" value="10" />
+		<attribute key="absorbPercentEnergy" value="10" />
+		<attribute key="absorbPercentEarth" value="10" />
+		<attribute key="absorbPercentFire" value="10" />
+		<attribute key="absorbPercentIce" value="10" />
+		<attribute key="absorbPercentHoly" value="10" />
+		<attribute key="absorbPercentDeath" value="10" />
+		<attribute key="absorbPercentLifeDrain" value="10" />
+		<attribute key="absorbPercentManaDrain" value="10" />
+		<attribute key="magiclevelpoints" value="10"/>
+		<attribute key="firemagiclevelpoints" value="10"/>
+		<attribute key="energymagiclevelpoints" value="10"/>
+		<attribute key="range" value="8"/>
+		<attribute key="criticalhitdamage" value="2500"/>
+		<attribute key="criticalhitchance" value="2000"/>
+		<attribute key="weight" value="2100"/>
+		<attribute key="imbuementslot" value="3">
+			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost shielding" value="3"/>
+			<attribute key="increase speed" value="3"/>
+			<attribute key="elemental protection death" value="3"/>
+			<attribute key="elemental protection earth" value="3"/>
+			<attribute key="elemental protection fire" value="3"/>
+			<attribute key="elemental protection ice" value="3"/>
+			<attribute key="elemental protection energy" value="3"/>
+			<attribute key="elemental protection holy" value="3"/>
+			<attribute key="life leech" value="3"/>
+			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="elemental damage" value="3"/>
+		</attribute>
+		<attribute key="augments" value="1">
+			<attribute key="hell's core" value="powerful impact" />
+			<attribute key="energy wave" value="powerful impact" />
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="mana" value="10"/>
+			<attribute key="unproperly" value="true"/>
+			<attribute key="fromDamage" value="200"/>
+			<attribute key="toDamage" value="400"/>
+			<attribute key="weaponType" value="wand"/>
+			<attribute key="wandType" value="energy"/>
+			<attribute key="vocation" value="Sorcerer;true, Master Sorcerer"/>
+			<attribute key="slot" value="hand"/>
+		</attribute>
+	</item>
+	<item id="26073" article="an" name="master ornate rod of carving">
+		<attribute key="primarytype" value="rods"/>
+		<attribute key="weaponType" value="wand"/>
+		<attribute key="shootType" value="ice"/>
+		<attribute key="absorbPercentPhysical" value="10" />
+		<attribute key="absorbPercentEnergy" value="10" />
+		<attribute key="absorbPercentEarth" value="10" />
+		<attribute key="absorbPercentFire" value="10" />
+		<attribute key="absorbPercentIce" value="10" />
+		<attribute key="absorbPercentHoly" value="10" />
+		<attribute key="absorbPercentDeath" value="10" />
+		<attribute key="absorbPercentLifeDrain" value="10" />
+		<attribute key="absorbPercentManaDrain" value="10" />
+		<attribute key="magiclevelpoints" value="10"/>
+		<attribute key="earthmagiclevelpoints" value="10"/>
+		<attribute key="icemagiclevelpoints" value="10"/>
+		<attribute key="range" value="8"/>
+		<attribute key="criticalhitdamage" value="2500"/>
+		<attribute key="criticalhitchance" value="2000"/>
+		<attribute key="weight" value="2400"/>
+		<attribute key="imbuementslot" value="3">
+			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost shielding" value="3"/>
+			<attribute key="increase speed" value="3"/>
+			<attribute key="elemental protection death" value="3"/>
+			<attribute key="elemental protection earth" value="3"/>
+			<attribute key="elemental protection fire" value="3"/>
+			<attribute key="elemental protection ice" value="3"/>
+			<attribute key="elemental protection energy" value="3"/>
+			<attribute key="elemental protection holy" value="3"/>
+			<attribute key="life leech" value="3"/>
+			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="elemental damage" value="3"/>
+		</attribute>
+		<attribute key="augments" value="1">
+			<attribute key="eternal winter" value="powerful impact" />
+			<attribute key="terra wave" value="powerful impact" />
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="mana" value="10"/>
+			<attribute key="unproperly" value="true"/>
+			<attribute key="fromDamage" value="200"/>
+			<attribute key="toDamage" value="400"/>
+			<attribute key="weaponType" value="wand"/>
+			<attribute key="wandType" value="ice"/>
+			<attribute key="vocation" value="Druid;true, Elder Druid"/>
+			<attribute key="slot" value="hand"/>
+		</attribute>
+	</item>
+	<item fromid="9144" toid="9145" article="an" name="relic of recall">
+		<attribute key="description" value="Use it to instantly teleport back to your home temple." />
+		<attribute key="weight" value="5.00" />
+		<!-- data-otservbr-global\scripts\custom\relic_recall.LUA -->
+	</item>
+	<item id="26187" name="Mage Spitter">
+		<attribute key="description" value="Relics are used on torch slot." />
+		<attribute key="weight" value="0.10" />
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="ammo"/>
+		</attribute>
+		<attribute key="criticalHitChance" value="1500" />
+		<attribute key="absorbPercentManaDrain" value="14" />
+		<attribute key="imbuementslot" value="3">
+			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="life leech" value="3"/>
+			<attribute key="increase speed" value="3"/>
+			<attribute key="elemental protection death" value="3"/>
+			<attribute key="elemental protection earth" value="3"/>
+			<attribute key="elemental protection fire" value="3"/>
+			<attribute key="elemental protection ice" value="3"/>
+			<attribute key="elemental protection energy" value="3"/>
+			<attribute key="elemental protection holy" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="ammo"/>
+			<attribute key="vocation" value="Sorcerer;true, Druid;true, Master Sorcerer, Elder Druid"/>
+		</attribute>
+		<!-- data-otservbr-global\scripts\custom\mage_spitter.LUA -->
+	</item>
+	<item id="26188" name="Berserker Spitter">
+		<attribute key="description" value="Relics are used on torch slot." />
+		<attribute key="weight" value="0.10" />
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="ammo"/>
+		</attribute>
+		<attribute key="criticalHitChance" value="1500" />
+		<attribute key="absorbPercentManaDrain" value="14" />
+		<attribute key="imbuementslot" value="3">
+			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="life leech" value="3"/>
+			<attribute key="increase speed" value="3"/>
+			<attribute key="elemental protection death" value="3"/>
+			<attribute key="elemental protection earth" value="3"/>
+			<attribute key="elemental protection fire" value="3"/>
+			<attribute key="elemental protection ice" value="3"/>
+			<attribute key="elemental protection energy" value="3"/>
+			<attribute key="elemental protection holy" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="ammo"/>
+			<attribute key="vocation" value="Knight;true, Elite Knight"/>
+		</attribute>
+		<!-- data-otservbr-global\scripts\custom\berserker_spitter.LUA -->
+	</item>
+	<item id="26189" name="Obliterator">
+		<attribute key="description" value="An ancient relic that grants god-like powers." />
+		<attribute key="weight" value="1.00" />
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="ammo"/>
+		</attribute>
+		<!-- Configuração final para exibir 80.00%, 55.00% e 48.00% no cliente -->
+		<attribute key="criticalHitChance" value="8000" />
+		<attribute key="criticalHitDamage" value="5500" />
+		<attribute key="lifeLeechChance" value="10000" />
+		<attribute key="lifeLeechAmount" value="4800" />
+		<attribute key="manaLeechChance" value="10000" />
+		<attribute key="manaLeechAmount" value="4800" />
+		<!-- Proteções Elementais (%) -->
+		<attribute key="absorbPercentPhysical" value="15" />
+		<attribute key="absorbPercentEnergy" value="10" />
+		<attribute key="absorbPercentEarth" value="10" />
+		<attribute key="absorbPercentFire" value="10" />
+		<attribute key="absorbPercentIce" value="10" />
+		<attribute key="absorbPercentHoly" value="10" />
+		<attribute key="absorbPercentDeath" value="10" />
+		<attribute key="absorbPercentLifeDrain" value="18" />
+		<attribute key="absorbPercentManaDrain" value="18" />
+		<!-- Slots de Imbuement -->
+		<attribute key="imbuementslot" value="3">
+			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="life leech" value="3"/>
+			<attribute key="increase speed" value="3"/>
+			<attribute key="elemental protection death" value="3"/>
+			<attribute key="elemental protection earth" value="3"/>
+			<attribute key="elemental protection fire" value="3"/>
+			<attribute key="elemental protection ice" value="3"/>
+			<attribute key="elemental protection energy" value="3"/>
+			<attribute key="elemental protection holy" value="3"/>
+		</attribute>
+		<!-- data-otservbr-global\scripts\custom\obliterator.LUA -->
+	</item>
+	<item id="26190" name="Distance Spitter">
+		<attribute key="description" value="Relics are used on torch slot." />
+		<attribute key="weight" value="0.10" />
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="ammo"/>
+		</attribute>
+		<attribute key="criticalHitChance" value="1500" />
+		<attribute key="absorbPercentManaDrain" value="14" />
+		<attribute key="imbuementslot" value="3">
+			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="life leech" value="3"/>
+			<attribute key="increase speed" value="3"/>
+			<attribute key="elemental protection death" value="3"/>
+			<attribute key="elemental protection earth" value="3"/>
+			<attribute key="elemental protection fire" value="3"/>
+			<attribute key="elemental protection ice" value="3"/>
+			<attribute key="elemental protection energy" value="3"/>
+			<attribute key="elemental protection holy" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="ammo"/>
+			<attribute key="vocation" value="Paladin;true, Royal Paladin"/>
+		</attribute>
+		<!-- data-otservbr-global\scripts\custom\distance_spitter.LUA -->
+	</item>
+	<item id="31268" article="a" name="supreme amulet">
+		<attribute key="description" value="An ancient star amulet infused with the unbreakable essence of stone skin and might rings." />
+		<attribute key="weight" value="4.20" />
+		<attribute key="slotType" value="necklace" />
+		<!-- Fusão Perfeita: SSA (80%) + Might Ring (25%) com balanceamento do Canary -->
+		<attribute key="absorbPercentPhysical" value="85" />
+		<attribute key="absorbPercentDeath" value="85" />
+		<attribute key="absorbPercentFire" value="25" />
+		<attribute key="absorbPercentEarth" value="25" />
+		<attribute key="absorbPercentEnergy" value="25" />
+		<attribute key="absorbPercentIce" value="25" />
+		<attribute key="absorbPercentHoly" value="25" />
+		<!-- Adicional extra de slots para você colocar imbuements de defesa elemental se quiser -->
+		<attribute key="imbuementslot" value="3">
+			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="life leech" value="3"/>
+			<attribute key="increase speed" value="3"/>
+			<attribute key="elemental protection death" value="3"/>
+			<attribute key="elemental protection earth" value="3"/>
+			<attribute key="elemental protection fire" value="3"/>
+			<attribute key="elemental protection ice" value="3"/>
+			<attribute key="elemental protection energy" value="3"/>
+			<attribute key="elemental protection holy" value="3"/>
+		</attribute>
+		<!-- data-otservbr-global\scripts\custom\supreme_amulet.LUA -->
+	</item>
+	<item id="30056" name="Final Fate">
+		<attribute key="description" value="Relics are used on torch slot." />
+		<attribute key="weight" value="1.00" />
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="ammo"/>
+		</attribute>
+		<attribute key="lifeLeechChance" value="10000" />
+		<attribute key="lifeLeechAmount" value="2500" />
+		<attribute key="manaLeechChance" value="10000" />
+		<attribute key="manaLeechAmount" value="3000" />
+		<attribute key="criticalHitChance" value="7500" />
+		<attribute key="criticalHitDamage" value="2500" />
+		<attribute key="absorbPercentPhysical" value="40" />
+		<attribute key="imbuementslot" value="3">
+			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="life leech" value="3"/>
+			<attribute key="increase speed" value="3"/>
+			<attribute key="elemental protection death" value="3"/>
+			<attribute key="elemental protection earth" value="3"/>
+			<attribute key="elemental protection fire" value="3"/>
+			<attribute key="elemental protection ice" value="3"/>
+			<attribute key="elemental protection energy" value="3"/>
+			<attribute key="elemental protection holy" value="3"/>
+		</attribute>
+		<!-- data-otservbr-global\scripts\custom\final_fate.LUA -->
+	</item>
+	<item id="30058" name="Damage Absorber">
+		<attribute key="description" value="Relics are used on torch slot." />
+		<attribute key="weight" value="1.00" />
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="ammo"/>
+		</attribute>
+		<attribute key="lifeLeechChance" value="10000" />
+		<attribute key="lifeLeechAmount" value="2500" />
+		<attribute key="manaLeechChance" value="10000" />
+		<attribute key="manaLeechAmount" value="3000" />
+		<attribute key="absorbPercentPhysical" value="50" />
+		<attribute key="absorbPercentEnergy" value="22" />
+		<attribute key="absorbPercentEarth" value="22" />
+		<attribute key="absorbPercentFire" value="22" />
+		<attribute key="absorbPercentIce" value="22" />
+		<attribute key="absorbPercentHoly" value="22" />
+		<attribute key="absorbPercentDeath" value="22" />
+		<attribute key="absorbPercentLifeDrain" value="28" />
+		<attribute key="absorbPercentManaDrain" value="28" />
+		<attribute key="reflectPercentAll" value="10" />
+		<attribute key="imbuementslot" value="3">
+			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="life leech" value="3"/>
+			<attribute key="increase speed" value="3"/>
+			<attribute key="elemental protection death" value="3"/>
+			<attribute key="elemental protection earth" value="3"/>
+			<attribute key="elemental protection fire" value="3"/>
+			<attribute key="elemental protection ice" value="3"/>
+			<attribute key="elemental protection energy" value="3"/>
+			<attribute key="elemental protection holy" value="3"/>
+		</attribute>
+		<!-- data-otservbr-global\scripts\custom\damage_absorber.LUA -->
+	</item>
+</items>

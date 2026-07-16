@@ -1,0 +1,31 @@
+	<!-- SEU DREAM SET CUSTOMIZADO (SUBSTITUA XXX PELOS IDS QUE ESCOLHER) -->
+
+	<item id="XXX" name="Titan Demon Armor">
+		<attribute key="description" value="A special forged plate with hidden spatial pockets." />
+		<attribute key="weight" value="80.00" />
+		<attribute key="slotType" value="body"/>
+		<attribute key="armor" value="16" />
+		<attribute key="imbuementslot" value="2" />
+	</item>
+
+	<item id="XXX" name="Godly Golden Legs">
+		<attribute key="description" value="Protects the wielder from basic environmental conditions." />
+		<attribute key="weight" value="45.00" />
+		<attribute key="slotType" value="legs"/>
+		<attribute key="armor" value="20" />
+		<attribute key="imbuementslot" value="2" />
+	</item>
+
+	<item id="XXX" name="Supreme Boots of Haste">
+		<attribute key="description" value="Legendary boots that grant complete immunity to paralysis." />
+		<attribute key="weight" value="7.50" />
+		<attribute key="slotType" value="feet"/>
+		<attribute key="speed" value="300" />
+	</item>
+
+	<item id="XXX" name="Aegis of Honour">
+		<attribute key="description" value="A legendary shield that inspires its wielder to gain more battle experience." />
+		<attribute key="weight" value="45.00" />
+		<attribute key="weaponType" value="shield"/>
+		<attribute key="defense" value="40" />
+	</item>

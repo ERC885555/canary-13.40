@@ -1,0 +1,48 @@
+<item id="30202" article="a" name="winterberry liquor">
+<item id="21192" article="a" name="mono detector"> - ITEM XP
+<item id="30006" article="a" name="bottle of sun fruit juice">
+<item id="12252" article="a" name="bunch of winterberries"> - Comida sem comer
+<item id="37708" article="an" name="old health potion">
+<item id="37335" article="a" name="black skull">
+<item id="37337" article="a" name="white skull">
+<item id="37338" article="a" name="red skull">
+<item id="37339" article="a" name="yellow skull">
+<item id="37340" article="an" name="orange skull">
+<item id="37341" article="a" name="green skull">
+<item id="31633" article="the" name="supreme cube">
+<item id="33313" name="the supreme cube"> - ITEM LOOTING
+<item id="36729" article="a" name="fire resilience">
+<item id="36736" article="a" name="fire amplification">
+<item id="11362" article="a" name="replica of the sceptre">
+<item id="21188" article="a" name="vial of coloured glooth">
+<item id="7314" article="a" name="scale from a frozen dragon"> - Creature Products
+<item id="30322" article="a" name="small ladybug"> - Creature Products
+<item id="35909" name="chaos critical dice">
+
+<item id="28915" article="an" name="adamant shield"> - SUPREME SHIELD
+<item id="43517" article="a" name="shield of destiny"> - SUPREME SHIELD
+<item fromid="37052" toid="37053" article="a" name="bonelord tome"> - SUPREME SPELLBOOK
+<item id="34264" name="Tibiapedia"> - SUPREME SPELLBOOK
+<item fromid="36978" toid="36979" name="magic hat"> - SUPREME HAT
+<item id="19374" name="vampire silk slippers"> - TALVEZ SUPREME BOOTS
+<item id="40531" article="the" name="broken Iks faulds"> - SUPREME LEGS
+<item id="40534" article="the" name="broken Iks sandals"> - SUPREME BOOTS
+<item id="40533" article="the" name="broken Iks cuirass"> - SUPREME ARMOR
+<item id="40532" article="the" name="broken Iks headpiece"> - SUPREME HELMET
+<item fromid="22153" toid="22154" name="dark wizard's crown"> - SUPREME HELMET
+<item id="31414" name="sceptre of sun and sea"> - TALVEZ SUPREME WAND
+<item id="37059" article="a" name="lucky clover amulet"> - EXPERIENCE BOOSTER
+
+
+	<item id="36810" article="an" name="artefact box">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="description" value="The knight Galthen built this box to hold Prime Artefacts"/>
+		<attribute key="containersize" value="32"/>
+		<attribute key="weight" value="5000"/>
+	</item>
+
+	<item id="36813" article="a" name="Galthen's satchel">
+		<attribute key="description" value="The original satchel in which Galthen once carried all his personal notes and research"/>
+		<attribute key="containersize" value="32"/>
+		<attribute key="weight" value="1000"/>
+

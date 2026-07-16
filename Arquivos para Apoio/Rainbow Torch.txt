@@ -1,0 +1,64 @@
+Compreendido perfeitamente, meu parceiro! Faz total sentido. Modificar as imagens e sprites profundas do cliente exige abrir o Object Builder e o Asset Editor, o que dá um trabalho danado e exige muita paciência. Estacionar o visual e focar na mecânica do jogo por enquanto é a jogada mais inteligente. Depois, com calma, você entra lá, pega o nome original do item do Pagodera e nós atualizamos o seu histórico!Sobre a sua Rainbow Torch, essa mecânica clássica de Tibia de "gastar o tempo do item e ele se transformar em outro" (igual o Ring of Healing ou a Soft Boots antiga) é controlada de forma nativa pelo C++ através do atributo de decaimento.Para garantir que a sua Rainbow Torch funcione de forma eterna e infinita — ou seja, quando ela terminar o tempo de duração da luz, ela se transforme automaticamente em uma versão "apagada" que você pode clicar com o botão direito para acender e usar de novo para sempre —, nós precisamos configurar o par de IDs dela de forma espelhada no seu XML.Como você está mantendo a estrutura padrão, veja como os dois blocos (o da tocha acesa e o da tocha apagada) devem ficar alinhados no seu items.xml:
+
+1. Configuração no items.xml
+
+xml	<!-- RAINBOW TORCH (VERSÃO APAGADA - PRONTA PARA USAR) -->
+	<item id="21747" name="Rainbow Torch">
+		<attribute key="description" value="An enchanted torch. You can light it to reveal mystical colors." />
+		<attribute key="weight" value="5.00" />
+		<attribute key="slotType" value="ring" /> <!-- Slot de Tocha/Anel -->
+		<!-- Whitelist de Imbuements Completa que você descobriu -->
+		<attribute key="imbuementslot" value="3">
+			<attribute key="mana leech" value="3"/>
+			<attribute key="life leech" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="increase speed" value="3"/>
+		</attribute>
+	</item>
+
+	<!-- RAINBOW TORCH (VERSÃO ACESA - CONSUMINDO TEMPO) -->
+	<item id="21748" name="Rainbow Torch (Active)">
+		<attribute key="description" value="An enchanted torch. It is burning with mystical colors." />
+		<attribute key="weight" value="5.00" />
+		<attribute key="slotType" value="ring" />
+		<attribute key="light" value="115,215" /> <!-- Luz forte e colorida -->
+		<attribute key="decayTo" value="21747" /> <!-- O SEGREDO: Quando o tempo acaba, ela VOLTA a ser o ID apagado! -->
+		<attribute key="duration" value="3600" /> <!-- Duração de 1 hora ligada (60 minutos = 3600 segundos) -->
+		<attribute key="imbuementslot" value="3">
+			<attribute key="mana leech" value="3"/>
+			<attribute key="life leech" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="increase speed" value="3"/>
+		</attribute>
+	</item>
+
+2. O Script de Ação para Ligar/Desligar (rainbow_torch.lua)
+
+Para você conseguir dar o clique com o botão direito e alternar entre acesa e apagada quando quiser, crie um arquivo chamado rainbow_torch.lua na pasta data-otservbr-global/scripts/custom/ com este código leve:
+
+lualocal torchAction = Action()
+
+function torchAction.onUse(player, item, fromPosition, target, toPosition, isHotkey)
+	-- Se clicar na apagada (21747), ela vira a acesa (21748) e começa o tempo
+	if item:getId() == 21747 then
+		item:transform(21748)
+		fromPosition:sendMagicEffect(EFFECT_FIRE) -- Solta o efeito de fogo clássico
+		player:sendTextMessage(MESSAGE_STATUS_SMALL, "You light up the Rainbow Torch.")
+		return true
+	-- Se clicar na acesa (21748), você apaga ela manualmente e o tempo para
+	elseif item:getId() == 21748 then
+		item:transform(21747)
+		fromPosition:sendMagicEffect(EFFECT_POFF)
+		player:sendTextMessage(MESSAGE_STATUS_SMALL, "You extinguish the Rainbow Torch.")
+		return true
+	end
+	return false
+end
+
+-- Vincula o clique em ambos os IDs da tocha
+torchAction:id(21747, 21748)
+torchAction:register()
+
+
+
+Dessa forma, o ciclo fica perfeito e indestrutível! Você pode usar a tocha até o final dos 60 minutos, e no segundo em que ela apagar, ela volta a ser o item original na sua mochila pronto para ser aceso novamente, mantendo todos os seus slots de imbuements intactos!Deixei essa engrenagem de ciclo infinito montada e documentada! Quando você puder aplicar e der o /reload scripts, me avise se o clique de acender e apagar a Rainbow Torch ficou macio e rodando perfeitamente no seu chat! Qual vai ser o próximo passo do seu projeto?
