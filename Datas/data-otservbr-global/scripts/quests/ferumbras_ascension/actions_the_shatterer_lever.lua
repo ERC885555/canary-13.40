@@ -5,12 +5,8 @@ local config = {
 	},
 	timeToDefeat = 17 * 60, -- 17 minutes in seconds
 	playerPositions = {
-		{ pos = Position(33403, 32465, 13), teleport = Position(33398, 32414, 14), effect = CONST_ME_TELEPORT },
-		{ pos = Position(33404, 32465, 13), teleport = Position(33398, 32414, 14), effect = CONST_ME_TELEPORT },
-		{ pos = Position(33405, 32465, 13), teleport = Position(33398, 32414, 14), effect = CONST_ME_TELEPORT },
-		{ pos = Position(33406, 32465, 13), teleport = Position(33398, 32414, 14), effect = CONST_ME_TELEPORT },
-		{ pos = Position(33407, 32465, 13), teleport = Position(33398, 32414, 14), effect = CONST_ME_TELEPORT },
-	},
+		{ pos = Position(33403, 32465, 13), teleport = Position(33398, 32414, 14), effect = CONST_ME_TELEPORT},
+		},
 	specPos = {
 		from = Position(33377, 32390, 14),
 		to = Position(33446, 32447, 14),
@@ -39,24 +35,15 @@ function ferumbrasAscendantTheShattererLever.onUse(player, item, fromPosition, t
 		return true
 	end
 
-	local players = {}
-	for i = 1, #config.playerPositions do
-		local pos = config.playerPositions[i].pos
-		local creature = Tile(pos):getTopCreature()
-		if not creature or not creature:isPlayer() then
-			player:sendCancelMessage("You need " .. #config.playerPositions .. " players to challenge " .. config.boss.name .. ".")
-			return true
-		end
-		table.insert(players, creature)
-	end
+	local players = { player }
 
-	for i = 1, #players do
-		local playerToTeleport = players[i]
-		local teleportPos = config.playerPositions[i].teleport
-		local effect = config.playerPositions[i].effect
-		playerToTeleport:teleportTo(teleportPos)
-		teleportPos:sendMagicEffect(effect)
-	end
+	local teleportPos = config.playerPositions[1].teleport
+
+	fromPosition:sendMagicEffect(CONST_ME_TELEPORT)
+
+	player:teleportTo(teleportPos)
+
+	teleportPos:sendMagicEffect(CONST_ME_TELEPORT)
 
 	Game.createMonster(config.boss.name, config.boss.position, true, true)
 

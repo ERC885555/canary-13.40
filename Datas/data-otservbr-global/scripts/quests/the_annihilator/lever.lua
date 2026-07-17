@@ -25,29 +25,13 @@ local lever = Action()
 
 function lever.onUse(player, item, fromPosition, target, toPosition, isHotkey)
 	if item.itemid == 2772 then
-		-- Checks if you have the 4 players and if they have the required level
-		for i = 1, #setting.playersPositions do
-			local creature = Tile(setting.playersPositions[i].fromPos):getTopCreature()
-			if creature and creature:isPlayer() then
-				if creature:getLevel() < setting.requiredLevel then
-					player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "All the players need to be level " .. setting.requiredLevel .. "or higher.")
-					return true
-				end
-				table.insert(participants, creature)
-			--if not creature then
-			--	player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "Four players are required to start the quest.")
-			--	return true
-			--end
-			--if creature and creature:getLevel() < setting.requiredLevel then
-			--	player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "All the players need to be level " .. setting.requiredLevel .. " or higher.")
-			--	return true
-			end
-		end
-
-		-- Check if there are any players on the tiles
-		if #participants == 0 then
-			player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You need at least one player standing on the correct positions to start the quest.")
-			return true
+		-- Single player check
+		if player:getLevel() < setting.requiredLevel then
+		player:sendTextMessage(
+			MESSAGE_EVENT_ADVANCE,
+			"You need to be level " .. setting.requiredLevel .. " or higher."
+		)
+		return true
 		end
 
 		-- Checks if there are still players inside the room, if so, return true
@@ -61,23 +45,12 @@ function lever.onUse(player, item, fromPosition, target, toPosition, isHotkey)
 			Game.createMonster("Angry Demon", setting.demonsPositions[i])
 		end
 
-		-- Teleport all participating players
-		for i, creature in ipairs(participants) do
-			local toPos = setting.playersPositions[i].toPos
-			creature:teleportTo(toPos)
-			creature:getPosition():sendMagicEffect(CONST_ME_TELEPORT)
-		end
+		-- Teleport only the player who pulled the lever
+		local destination = Position(33222, 31659, 13)
 
-		-- Get players from the tiles "playersPositions" and teleport to the demons room if all of the above requirements are met
-		--for i = 1, #setting.playersPositions do
-		--	local creature = Tile(setting.playersPositions[i].fromPos):getTopCreature()
-		--	if creature and creature:isPlayer() then
-		--		creature:teleportTo(setting.playersPositions[i].toPos)
-		--		creature:getPosition():sendMagicEffect(CONST_ME_TELEPORT)
-		--	else
-		--		return false
-		--	end
-		--end
+		player:teleportTo(destination)
+		destination:sendMagicEffect(CONST_ME_TELEPORT)
+		player:getPosition():sendMagicEffect(CONST_ME_TELEPORT)
 		item:transform(2773)
 	elseif item.itemid == 2773 then
 		-- If it has "daily = true" then it will execute this function
