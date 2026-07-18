@@ -29,7 +29,7 @@ function lootAction.onUse(player, item, fromPosition, target, toPosition, isHotk
     return true
 end
 
-lootAction:id(33313)
+lootAction:id(9222)
 lootAction:register()
 
 -- ====================================================

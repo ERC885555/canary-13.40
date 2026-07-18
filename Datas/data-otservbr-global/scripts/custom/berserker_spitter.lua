@@ -13,7 +13,7 @@ berserkerCondition:setParameter(CONDITION_PARAM_SKILL_CLUB, 70)
 -- EVENTOS DE MOVIMENTO (EQUIP / DEEQUIP)
 -- ====================================================
 
--- REGISTRO: BERSERKER SPITTER (ID: 26188)
+-- REGISTRO: BERSERKER SPITTER (ID: 9216)
 local moveBerEquip = MoveEvent()
 function moveBerEquip.onEquip(player, item, slot)
     if not player:getCondition(CONDITION_ATTRIBUTES) then
@@ -22,7 +22,7 @@ function moveBerEquip.onEquip(player, item, slot)
     end
     return true
 end
-moveBerEquip:id("26188")
+moveBerEquip:id("9216")
 moveBerEquip:slot("ammo")
 moveBerEquip:register()
 
@@ -31,6 +31,6 @@ function moveBerDeEquip.onDeEquip(player, item, slot)
     player:removeCondition(CONDITION_ATTRIBUTES)
     return true
 end
-moveBerDeEquip:id("26188")
+moveBerDeEquip:id("9216")
 moveBerDeEquip:slot("ammo")
 moveBerDeEquip:register()

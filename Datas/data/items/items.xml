@@ -24593,9 +24593,10 @@
 	<item id="9143" name="Amarie's favourite book">
 		<attribute key="weight" value="800"/>
 	</item>
-	<item fromid="9144" toid="9145" article="an" name="relic of recall">
-		<attribute key="description" value="Use it to instantly teleport back to your home temple." />
-		<attribute key="weight" value="5.00" />
+	<item fromid="9144" toid="9145" article="an" name="Epaminondas doll">
+		<attribute key="primarytype" value="dolls and bears"/>
+		<attribute key="description" value="He talks, moves and sings just like a real person. It is awarded only by PortalTibia.com.br"/>
+		<attribute key="weight" value="777"/>
 	</item>
 	<item id="9147" article="a" name="glob of grease">
 		<attribute key="weight" value="260"/>
@@ -24878,44 +24879,95 @@
 		<attribute key="maxtextlen" value="199"/>
 		<attribute key="weight" value="1300"/>
 	</item>
-	<item id="9215" article="a" name="gold medal">
-		<attribute key="primarytype" value="amulets and necklaces"/>
-		<attribute key="writeable" value="1"/>
-		<attribute key="maxtextlen" value="149"/>
-		<attribute key="weight" value="1240"/>
+	<item id="9215" article="a" name="distance spitter">
+		<attribute key="description" value="Relics are used on torch slot." />
+		<attribute key="weight" value="0.10" />
 		<attribute key="script" value="moveevent">
-			<attribute key="slot" value="necklace"/>
+			<attribute key="slot" value="ammo"/>
 		</attribute>
+		<attribute key="criticalHitChance" value="1500" />
+		<attribute key="absorbPercentManaDrain" value="14" />
+		<attribute key="imbuementslot" value="3">
+			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="life leech" value="3"/>
+			<attribute key="increase speed" value="3"/>
+			<attribute key="elemental protection death" value="3"/>
+			<attribute key="elemental protection earth" value="3"/>
+			<attribute key="elemental protection fire" value="3"/>
+			<attribute key="elemental protection ice" value="3"/>
+			<attribute key="elemental protection energy" value="3"/>
+			<attribute key="elemental protection holy" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="ammo"/>
+			<attribute key="vocation" value="Paladin;true, Royal Paladin"/>
+		</attribute>
+		<!-- data-otservbr-global\scripts\custom\distance_spitter.LUA -->
 	</item>
-	<item id="9216" article="a" name="silver medal">
-		<attribute key="primarytype" value="amulets and necklaces"/>
-		<attribute key="writeable" value="1"/>
-		<attribute key="maxtextlen" value="149"/>
-		<attribute key="weight" value="1220"/>
+	<item id="9216" article="a" name="berserker spitter">
+		<attribute key="description" value="Relics are used on torch slot." />
+		<attribute key="weight" value="0.10" />
 		<attribute key="script" value="moveevent">
-			<attribute key="slot" value="necklace"/>
+			<attribute key="slot" value="ammo"/>
 		</attribute>
+		<attribute key="criticalHitChance" value="1500" />
+		<attribute key="absorbPercentManaDrain" value="14" />
+		<attribute key="imbuementslot" value="3">
+			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="life leech" value="3"/>
+			<attribute key="increase speed" value="3"/>
+			<attribute key="elemental protection death" value="3"/>
+			<attribute key="elemental protection earth" value="3"/>
+			<attribute key="elemental protection fire" value="3"/>
+			<attribute key="elemental protection ice" value="3"/>
+			<attribute key="elemental protection energy" value="3"/>
+			<attribute key="elemental protection holy" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="ammo"/>
+			<attribute key="vocation" value="Knight;true, Elite Knight"/>
+		</attribute>
+		<!-- data-otservbr-global\scripts\custom\berserker_spitter.LUA -->
 	</item>
-	<item id="9217" article="a" name="bronze medal">
-		<attribute key="primarytype" value="amulets and necklaces"/>
-		<attribute key="writeable" value="1"/>
-		<attribute key="maxtextlen" value="149"/>
-		<attribute key="weight" value="1200"/>
+	<item id="9217" article="a" name="mage spitter">
+		<attribute key="description" value="Relics are used on torch slot." />
+		<attribute key="weight" value="0.10" />
 		<attribute key="script" value="moveevent">
-			<attribute key="slot" value="necklace"/>
+			<attribute key="slot" value="ammo"/>
 		</attribute>
+		<attribute key="criticalHitChance" value="1500" />
+		<attribute key="absorbPercentManaDrain" value="14" />
+		<attribute key="imbuementslot" value="3">
+			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="life leech" value="3"/>
+			<attribute key="increase speed" value="3"/>
+			<attribute key="elemental protection death" value="3"/>
+			<attribute key="elemental protection earth" value="3"/>
+			<attribute key="elemental protection fire" value="3"/>
+			<attribute key="elemental protection ice" value="3"/>
+			<attribute key="elemental protection energy" value="3"/>
+			<attribute key="elemental protection holy" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="ammo"/>
+			<attribute key="vocation" value="Sorcerer;true, Druid;true, Master Sorcerer, Elder Druid"/>
+		</attribute>
+		<!-- data-otservbr-global\scripts\custom\mage_spitter.LUA -->
 	</item>
 	<item id="9218" article="a" name="badge of glory">
 		<attribute key="writeable" value="1"/>
 		<attribute key="maxtextlen" value="149"/>
 		<attribute key="weight" value="1550"/>
 	</item>
-	<item id="9219" article="an" name="arcane insignia">
-		<attribute key="primarytype" value="contest prizes"/>
-		<attribute key="writeable" value="1"/>
-		<attribute key="maxtextlen" value="149"/>
-		<attribute key="weight" value="1350"/>
-	</item>
+	<item id="9219" article="an" name="relic of infinity wisdom">
+		<attribute key="description" value="Use it to activate a powerful experience boost for 2 hours." />
+		<attribute key="weight" value="1.00" />
 	<item id="9220" article="a" name="hero's medal">
 		<attribute key="writeable" value="1"/>
 		<attribute key="maxtextlen" value="149"/>
@@ -24930,17 +24982,48 @@
 			<attribute key="slot" value="head"/>
 		</attribute>
 	</item>
-	<item id="9222" article="a" name="royal medal">
-		<attribute key="primarytype" value="contest prizes"/>
-		<attribute key="writeable" value="1"/>
-		<attribute key="maxtextlen" value="149"/>
-		<attribute key="weight" value="1600"/>
+	<item id="9222" name="relic of infinite fortune">
+		<attribute key="description" value="Use it to activate a powerful loot boost for 2 hours." />
+		<attribute key="weight" value="1.00" />
 	</item>
-	<item id="9223" article="a" name="heavy medal">
-		<attribute key="primarytype" value="contest prizes"/>
-		<attribute key="writeable" value="1"/>
-		<attribute key="maxtextlen" value="149"/>
-		<attribute key="weight" value="5500"/>
+	<item id="9223" article="a" name="obliterator">
+		<attribute key="description" value="An ancient relic that grants god-like powers." />
+		<attribute key="weight" value="1.00" />
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="ammo"/>
+		</attribute>
+		<!-- Configuração final para exibir 80.00%, 55.00% e 48.00% no cliente -->
+		<attribute key="criticalHitChance" value="8000" />
+		<attribute key="criticalHitDamage" value="5500" />
+		<attribute key="lifeLeechChance" value="10000" />
+		<attribute key="lifeLeechAmount" value="4800" />
+		<attribute key="manaLeechChance" value="10000" />
+		<attribute key="manaLeechAmount" value="4800" />
+		<!-- Proteções Elementais (%) -->
+		<attribute key="absorbPercentPhysical" value="15" />
+		<attribute key="absorbPercentEnergy" value="10" />
+		<attribute key="absorbPercentEarth" value="10" />
+		<attribute key="absorbPercentFire" value="10" />
+		<attribute key="absorbPercentIce" value="10" />
+		<attribute key="absorbPercentHoly" value="10" />
+		<attribute key="absorbPercentDeath" value="10" />
+		<attribute key="absorbPercentLifeDrain" value="18" />
+		<attribute key="absorbPercentManaDrain" value="18" />
+		<!-- Slots de Imbuement -->
+		<attribute key="imbuementslot" value="3">
+			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="life leech" value="3"/>
+			<attribute key="increase speed" value="3"/>
+			<attribute key="elemental protection death" value="3"/>
+			<attribute key="elemental protection earth" value="3"/>
+			<attribute key="elemental protection fire" value="3"/>
+			<attribute key="elemental protection ice" value="3"/>
+			<attribute key="elemental protection energy" value="3"/>
+			<attribute key="elemental protection holy" value="3"/>
+		</attribute>
+		<!-- data-otservbr-global\scripts\custom\obliterator.LUA -->
 	</item>
 	<item id="9224" article="an" name="elven trophy">
 		<attribute key="primarytype" value="contest prizes"/>
@@ -34969,7 +35052,7 @@
 		<attribute key="weight" value="80"/>
 	</item>
 	<item fromid="16258" toid="16261" name="RESERVED SPRITE"/>
-	<item id="16262" article="a" name="Relic of Boss Recall">
+	<item id="16262" article="a" name="Relic Bosses">
 	<attribute key="description" value="Shortcut to a lot of bosses"/>
 		<attribute key="weight" value="1" />
 	</item>
@@ -46486,9 +46569,40 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="description" value="This barrel is highly explosive."/>
 		<attribute key="weight" value="280"/>
 	</item>
-	<item id="23487" article="an" name="arena badge">
-		<attribute key="primarytype" value="valuables"/>
-		<attribute key="weight" value="100"/>
+	<item id="23487" article="an" name="damage absorber">
+		<attribute key="description" value="Relics are used on torch slot." />
+		<attribute key="weight" value="1.00" />
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="ammo"/>
+		</attribute>
+		<attribute key="lifeLeechChance" value="10000" />
+		<attribute key="lifeLeechAmount" value="2500" />
+		<attribute key="manaLeechChance" value="10000" />
+		<attribute key="manaLeechAmount" value="3000" />
+		<attribute key="absorbPercentPhysical" value="50" />
+		<attribute key="absorbPercentEnergy" value="22" />
+		<attribute key="absorbPercentEarth" value="22" />
+		<attribute key="absorbPercentFire" value="22" />
+		<attribute key="absorbPercentIce" value="22" />
+		<attribute key="absorbPercentHoly" value="22" />
+		<attribute key="absorbPercentDeath" value="22" />
+		<attribute key="absorbPercentLifeDrain" value="28" />
+		<attribute key="absorbPercentManaDrain" value="28" />
+		<attribute key="reflectPercentAll" value="10" />
+		<attribute key="imbuementslot" value="3">
+			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="life leech" value="3"/>
+			<attribute key="increase speed" value="3"/>
+			<attribute key="elemental protection death" value="3"/>
+			<attribute key="elemental protection earth" value="3"/>
+			<attribute key="elemental protection fire" value="3"/>
+			<attribute key="elemental protection ice" value="3"/>
+			<attribute key="elemental protection energy" value="3"/>
+			<attribute key="elemental protection holy" value="3"/>
+		</attribute>
+		<!-- data-otservbr-global\scripts\custom\damage_absorber.LUA -->
 	</item>
 	<item id="23488" article="a" name="surprise cube">
 		<attribute key="primarytype" value="valuables"/>
@@ -51833,53 +51947,53 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="description" value="There is something inside this box. A light scent of magic envelops it"/>
 		<attribute key="weight" value="1500"/>
 	</item>
-	<!-- 1. Mage Spitter (ED/MS) -->
-	<item id="26187" name="Mage Spitter">
-		<attribute key="description" value="Relics are used on torch slot." />
-		<attribute key="weight" value="0.10" />
-		<attribute key="slotType" value="ring" />
-		<attribute key="criticalHitChance" value="1500" />
-		<attribute key="absorbPercentManaDrain" value="14" />
+	<item id="26187" article="a" name="leaf crown">
+		<attribute key="primarytype" value="helmets"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="head"/>
+		</attribute>
 	</item>
-	<!-- 3. Berserker Spitter (EK) -->
-	<item id="26188" name="Berserker Spitter">
-		<attribute key="description" value="Relics are used on torch slot." />
-		<attribute key="weight" value="0.10" />
-		<attribute key="slotType" value="ring" />
-		<attribute key="criticalHitChance" value="1500" />
-		<attribute key="absorbPercentManaDrain" value="14" />
+	<item id="26188" article="an" name="iron crown">
+		<attribute key="primarytype" value="helmets"/>
+		<attribute key="weight" value="1000"/>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="head"/>
+		</attribute>
 	</item>
-	<item id="26189" name="Epic Relic">
-		<attribute key="description" value="An ancient relic that grants god-like powers." />
-		<attribute key="weight" value="1.00" />
-		<attribute key="slotType" value="ring" />
-		<!-- Configuração final para exibir 80.00%, 55.00% e 48.00% no cliente -->
-		<attribute key="criticalHitChance" value="8000" />
-		<attribute key="criticalHitDamage" value="5500" />
-		<attribute key="lifeLeechChance" value="10000" />
-		<attribute key="lifeLeechAmount" value="4800" />
-		<attribute key="manaLeechChance" value="10000" />
-		<attribute key="manaLeechAmount" value="4800" />
-		<!-- Proteções Elementais (%) -->
-		<attribute key="absorbPercentPhysical" value="15" />
-		<attribute key="absorbPercentEnergy" value="10" />
-		<attribute key="absorbPercentEarth" value="10" />
-		<attribute key="absorbPercentFire" value="10" />
-		<attribute key="absorbPercentIce" value="10" />
-		<attribute key="absorbPercentHoly" value="10" />
-		<attribute key="absorbPercentDeath" value="10" />
-		<attribute key="absorbPercentLifeDrain" value="18" />
-		<attribute key="absorbPercentManaDrain" value="18" />
-		<!-- Slots de Imbuement -->
-		<attribute key="imbuementslot" value="3" />
+	<item id="26189" article="a" name="incandescent crown">
+		<attribute key="primarytype" value="helmets"/>
+		<attribute key="weight" value="1000"/>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="head"/>
+		</attribute>
 	</item>
-<!-- 2. Distance Spitter (RP) -->
 	<item id="26190" name="Distance Spitter">
 		<attribute key="description" value="Relics are used on torch slot." />
 		<attribute key="weight" value="0.10" />
-		<attribute key="slotType" value="ring" />
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="ammo"/>
+		</attribute>
 		<attribute key="criticalHitChance" value="1500" />
 		<attribute key="absorbPercentManaDrain" value="14" />
+		<attribute key="imbuementslot" value="3">
+			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="life leech" value="3"/>
+			<attribute key="increase speed" value="3"/>
+			<attribute key="elemental protection death" value="3"/>
+			<attribute key="elemental protection earth" value="3"/>
+			<attribute key="elemental protection fire" value="3"/>
+			<attribute key="elemental protection ice" value="3"/>
+			<attribute key="elemental protection energy" value="3"/>
+			<attribute key="elemental protection holy" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="ammo"/>
+			<attribute key="vocation" value="Paladin;true, Royal Paladin"/>
+		</attribute>
+		<!-- data-otservbr-global\scripts\custom\distance_spitter.LUA -->
 	</item>
 	<item id="26191" article="a" name="your magical tree">
 		<attribute key="description" value="This certainly is no ordinary tree, yet it looks exactly like one and smells invigoratingly fresh."/>
@@ -56398,11 +56512,12 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="primarytype" value="valuables"/>
 		<attribute key="weight" value="650"/>
 	</item>
-	<!-- 5. Final Fate -->
 	<item id="30056" name="Final Fate">
 		<attribute key="description" value="Relics are used on torch slot." />
 		<attribute key="weight" value="1.00" />
-		<attribute key="slotType" value="ring" />
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="ammo"/>
+		</attribute>
 		<attribute key="lifeLeechChance" value="10000" />
 		<attribute key="lifeLeechAmount" value="2500" />
 		<attribute key="manaLeechChance" value="10000" />
@@ -56410,32 +56525,28 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="criticalHitChance" value="7500" />
 		<attribute key="criticalHitDamage" value="2500" />
 		<attribute key="absorbPercentPhysical" value="40" />
-		<attribute key="imbuementslot" value="3" />
+		<attribute key="imbuementslot" value="3">
+			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="life leech" value="3"/>
+			<attribute key="increase speed" value="3"/>
+			<attribute key="elemental protection death" value="3"/>
+			<attribute key="elemental protection earth" value="3"/>
+			<attribute key="elemental protection fire" value="3"/>
+			<attribute key="elemental protection ice" value="3"/>
+			<attribute key="elemental protection energy" value="3"/>
+			<attribute key="elemental protection holy" value="3"/>
+		</attribute>
+		<!-- data-otservbr-global\scripts\custom\final_fate.LUA -->
 	</item>
 	<item id="30057" article="a" name="closed door">
 		<attribute key="type" value="door"/>
 		<attribute key="blockProjectile" value="1"/>
 	</item>
-	<!-- 4. Damage Absorber -->
-	<item id="30058" name="Damage Absorber">
-		<attribute key="description" value="Relics are used on torch slot." />
-		<attribute key="weight" value="1.00" />
-		<attribute key="slotType" value="ring" />
-		<attribute key="lifeLeechChance" value="10000" />
-		<attribute key="lifeLeechAmount" value="2500" />
-		<attribute key="manaLeechChance" value="10000" />
-		<attribute key="manaLeechAmount" value="3000" />
-		<attribute key="absorbPercentPhysical" value="50" />
-		<attribute key="absorbPercentEnergy" value="22" />
-		<attribute key="absorbPercentEarth" value="22" />
-		<attribute key="absorbPercentFire" value="22" />
-		<attribute key="absorbPercentIce" value="22" />
-		<attribute key="absorbPercentHoly" value="22" />
-		<attribute key="absorbPercentDeath" value="22" />
-		<attribute key="absorbPercentLifeDrain" value="28" />
-		<attribute key="absorbPercentManaDrain" value="28" />
-		<attribute key="reflectPercentAll" value="10" />
-		<attribute key="imbuementslot" value="3" />
+	<item id="30058" article="an" name="ice flower">
+		<attribute key="primarytype" value="flowers"/>
+		<attribute key="weight" value="10"/>
 	</item>
 	<item id="30059" article="a" name="giant ruby">
 		<attribute key="primarytype" value="valuables"/>
@@ -59793,9 +59904,10 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="description" value="It's black and it's missing"/>
 		<attribute key="weight" value="100"/>
 	</item>
-	<item id="31633" article="the" name="supreme cube">
+	<item id="31633" article="the" name="relic travel">
 		<attribute key="description" value="It's black and it's supreme"/>
 		<attribute key="weight" value="1000"/>
+		<!-- data-otservbr-global\scripts\custom\relic_travel.LUA -->
 	</item>
 	<item id="31634" article="a" name="box with waterproof balm">
 		<attribute key="weight" value="240"/>
@@ -63261,10 +63373,10 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="description" value="A psychedelic marble. An engraving reads: IX"/>
 		<attribute key="weight" value="10"/>
 	</item>
-		<!-- RELÍQUIA ATIVÁVEL DE LOOTING (LOOT BOOST) -->
-	<item id="33313" name="relic of infinite fortune">
-		<attribute key="description" value="Use it to activate a powerful loot boost for 2 hours." />
-		<attribute key="weight" value="1.00" />
+	<item id="33313" name="the supreme cube">
+		<attribute key="primarytype" value="quest items"/>
+		<attribute key="description" value="It's black and it's supreme... and it's currently occupied"/>
+		<attribute key="weight" value="1000"/>
 	</item>
 	<item id="33317" article="a" name="sulphur puddle">
 		<attribute key="primarytype" value="fields"/>
@@ -69598,10 +69710,10 @@ Granted by TibiaGoals.com"/>
 		<attribute key="description" value="Souvenir from Thais Museum"/>
 		<attribute key="weight" value="2613"/>
 	</item>
-	<!-- RELÍQUIA ATIVÁVEL DE EXPERIÊNCIA (XP BOOST) -->
-	<item id="37059" name="relic of infinite wisdom">
-		<attribute key="description" value="Use it to activate a powerful experience boost for 2 hours." />
-		<attribute key="weight" value="1.00" />
+	<item id="37059" article="a" name="lucky clover amulet">
+		<attribute key="primarytype" value="amulets and necklaces"/>
+		<attribute key="description" value="Souvenir from Thais Museum"/>
+		<attribute key="weight" value="150"/>
 	</item>
 	<item id="37060" article="a" name="shield of endless search">
 		<attribute key="description" value="Souvenir from Thais Museum"/>
@@ -70157,9 +70269,33 @@ Granted by TibiaGoals.com"/>
 	<item id="37334" article="a" name="picture of the Colossus">
 		<attribute key="weight" value="100"/>
 	</item>
-	<item id="37335" article="a" name="black skull">
-		<attribute key="description" value="The real one"/>
-		<attribute key="weight" value="250"/>
+	<item id="37335" article="a" name="final fate">
+		<attribute key="description" value="Relics are used on torch slot." />
+		<attribute key="weight" value="1.00" />
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="ammo"/>
+		</attribute>
+		<attribute key="lifeLeechChance" value="10000" />
+		<attribute key="lifeLeechAmount" value="2500" />
+		<attribute key="manaLeechChance" value="10000" />
+		<attribute key="manaLeechAmount" value="3000" />
+		<attribute key="criticalHitChance" value="7500" />
+		<attribute key="criticalHitDamage" value="2500" />
+		<attribute key="absorbPercentPhysical" value="40" />
+		<attribute key="imbuementslot" value="3">
+			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="life leech" value="3"/>
+			<attribute key="increase speed" value="3"/>
+			<attribute key="elemental protection death" value="3"/>
+			<attribute key="elemental protection earth" value="3"/>
+			<attribute key="elemental protection fire" value="3"/>
+			<attribute key="elemental protection ice" value="3"/>
+			<attribute key="elemental protection energy" value="3"/>
+			<attribute key="elemental protection holy" value="3"/>
+		</attribute>
+		<!-- data-otservbr-global\scripts\custom\final_fate.LUA -->
 	</item>
 	<item id="37336" article="a" name="bridal wreath">
 		<attribute key="primarytype" value="helmets"/>

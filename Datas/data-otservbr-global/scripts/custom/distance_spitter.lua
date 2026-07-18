@@ -12,7 +12,7 @@ distanceCondition:setParameter(CONDITION_PARAM_STAT_MAGICPOINTS, 70)
 -- EVENTOS DE MOVIMENTO (EQUIP / DEEQUIP)
 -- ====================================================
 
--- REGISTRO: DISTANCE SPITTER (ID: 26190)
+-- REGISTRO: DISTANCE SPITTER (ID: 9215)
 local moveDistEquip = MoveEvent()
 function moveDistEquip.onEquip(player, item, slot)
     if not player:getCondition(CONDITION_ATTRIBUTES) then
@@ -21,7 +21,7 @@ function moveDistEquip.onEquip(player, item, slot)
     end
     return true
 end
-moveDistEquip:id("26190")
+moveDistEquip:id("9215")
 moveDistEquip:slot("ammo")
 moveDistEquip:register()
 
@@ -30,6 +30,6 @@ function moveDistDeEquip.onDeEquip(player, item, slot)
     player:removeCondition(CONDITION_ATTRIBUTES)
     return true
 end
-moveDistDeEquip:id("26190")
+moveDistDeEquip:id("9215")
 moveDistDeEquip:slot("ammo")
 moveDistDeEquip:register()

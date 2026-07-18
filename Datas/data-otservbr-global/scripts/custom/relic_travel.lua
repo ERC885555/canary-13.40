@@ -148,5 +148,5 @@ function travelRelic.onUse(player, item, fromPosition, target, toPosition, isHot
     return true
 end
 
-travelRelic:id(XXXXXX) -- Coloque o id do item aqui
+travelRelic:id(31633) -- Coloque o id do item aqui
 travelRelic:register()

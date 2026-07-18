@@ -545,12 +545,12 @@
 			<attribute key="slot" value="hand"/>
 		</attribute>
 	</item>
-	<item fromid="9144" toid="9145" article="an" name="relic of recall">
-		<attribute key="description" value="Use it to instantly teleport back to your home temple." />
+	<item id="31633" name="relic travel">
+		<attribute key="description" value="It's black and it's supreme." />
 		<attribute key="weight" value="5.00" />
-		<!-- data-otservbr-global\scripts\custom\relic_recall.LUA -->
+		<!-- data-otservbr-global\scripts\custom\relic_travel.LUA -->
 	</item>
-	<item id="26187" name="Mage Spitter">
+	<item id="9217" name="Mage Spitter">
 		<attribute key="description" value="Relics are used on torch slot." />
 		<attribute key="weight" value="0.10" />
 		<attribute key="script" value="moveevent">
@@ -577,7 +577,7 @@
 		</attribute>
 		<!-- data-otservbr-global\scripts\custom\mage_spitter.LUA -->
 	</item>
-	<item id="26188" name="Berserker Spitter">
+	<item id="9216" name="Berserker Spitter">
 		<attribute key="description" value="Relics are used on torch slot." />
 		<attribute key="weight" value="0.10" />
 		<attribute key="script" value="moveevent">
@@ -604,7 +604,21 @@
 		</attribute>
 		<!-- data-otservbr-global\scripts\custom\berserker_spitter.LUA -->
 	</item>
-	<item id="26189" name="Obliterator">
+		<item id="9219" article="an" name="relic of infinity wisdom">
+		<attribute key="description" value="Use it to activate a powerful experience boost for 2 hours." />
+		<attribute key="weight" value="1.00" />
+	<item id="9220" article="a" name="hero's medal">
+		<attribute key="writeable" value="1"/>
+		<attribute key="maxtextlen" value="149"/>
+		<attribute key="weight" value="1670"/>
+		<!-- data-otservbr-global\scripts\custom\use_relic_xp.LUA -->		
+	</item>
+		<item id="9222" name="relic of infinite fortune">
+		<attribute key="description" value="Use it to activate a powerful loot boost for 2 hours." />
+		<attribute key="weight" value="1.00" />
+		<!-- data-otservbr-global\scripts\custom\use_relic_loot.LUA -->
+	</item>
+	<item id="9223" name="Obliterator">
 		<attribute key="description" value="An ancient relic that grants god-like powers." />
 		<attribute key="weight" value="1.00" />
 		<attribute key="script" value="moveevent">
@@ -643,7 +657,7 @@
 		</attribute>
 		<!-- data-otservbr-global\scripts\custom\obliterator.LUA -->
 	</item>
-	<item id="26190" name="Distance Spitter">
+	<item id="9215" name="Distance Spitter">
 		<attribute key="description" value="Relics are used on torch slot." />
 		<attribute key="weight" value="0.10" />
 		<attribute key="script" value="moveevent">
@@ -698,7 +712,7 @@
 		</attribute>
 		<!-- data-otservbr-global\scripts\custom\supreme_amulet.LUA -->
 	</item>
-	<item id="30056" name="Final Fate">
+	<item id="37335" name="Final Fate">
 		<attribute key="description" value="Relics are used on torch slot." />
 		<attribute key="weight" value="1.00" />
 		<attribute key="script" value="moveevent">
@@ -726,7 +740,7 @@
 		</attribute>
 		<!-- data-otservbr-global\scripts\custom\final_fate.LUA -->
 	</item>
-	<item id="30058" name="Damage Absorber">
+	<item id="23487" name="Damage Absorber">
 		<attribute key="description" value="Relics are used on torch slot." />
 		<attribute key="weight" value="1.00" />
 		<attribute key="script" value="moveevent">

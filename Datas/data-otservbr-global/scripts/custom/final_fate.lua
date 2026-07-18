@@ -16,7 +16,7 @@ fateSpeed:setParameter(CONDITION_PARAM_SPEED, 1000)
 -- EVENTOS DE MOVIMENTO (EQUIP / DEEQUIP)
 -- ====================================================
 
--- REGISTRO: FINAL FATE (ID: 30056)
+-- REGISTRO: FINAL FATE (ID: 37335)
 local moveFateEquip = MoveEvent()
 function moveFateEquip.onEquip(player, item, slot)
     if not player:getCondition(CONDITION_ATTRIBUTES) then
@@ -26,7 +26,7 @@ function moveFateEquip.onEquip(player, item, slot)
     end
     return true
 end
-moveFateEquip:id("30056")
+moveFateEquip:id("37335")
 moveFateEquip:slot("ammo")
 moveFateEquip:register()
 
@@ -36,6 +36,6 @@ function moveFateDeEquip.onDeEquip(player, item, slot)
     player:removeCondition(CONDITION_HASTE)
     return true
 end
-moveFateDeEquip:id("30056")
+moveFateDeEquip:id("37335")
 moveFateDeEquip:slot("ammo")
 moveFateDeEquip:register()

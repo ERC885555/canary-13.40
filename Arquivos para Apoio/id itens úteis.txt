@@ -27,20 +27,18 @@
 <item id="2973" article="a" name="bone key">
 
 
-
-
-<item id="28915" article="an" name="adamant shield"> - SUPREME SHIELD
-<item id="43517" article="a" name="shield of destiny"> - SUPREME SHIELD
-<item fromid="37052" toid="37053" article="a" name="bonelord tome"> - SUPREME SPELLBOOK
-<item id="34264" name="Tibiapedia"> - SUPREME SPELLBOOK
-<item fromid="36978" toid="36979" name="magic hat"> - SUPREME HAT
-<item id="19374" name="vampire silk slippers"> - TALVEZ SUPREME BOOTS
-<item id="40531" article="the" name="broken Iks faulds"> - SUPREME LEGS
-<item id="40534" article="the" name="broken Iks sandals"> - SUPREME BOOTS
-<item id="40533" article="the" name="broken Iks cuirass"> - SUPREME ARMOR
-<item id="40532" article="the" name="broken Iks headpiece"> - SUPREME HELMET
+EQUIPAMENTOS
+<item id="28915" article="an" name="adamant shield">
+<item id="43517" article="a" name="shield of destiny">
+<item fromid="37052" toid="37053" article="a" name="bonelord tome">
+<item id="34264" name="Tibiapedia">
+<item fromid="36978" toid="36979" name="magic hat">
+<item id="19374" name="vampire silk slippers">
 <item id="3365" article="a" name="golden helmet">
-<item id="5799" article="a" name="golden figurine">
+<item fromid="22153" toid="22154" name="dark wizard's crown">
+<item id="31414" name="sceptre of sun and sea">
+
+
 <item id="8150" article="a" name="key of numerous locks">
 <item id="8153" article="a" name="golden newspaper">
 <item id="9209" article="a" name="golden warrior trophy">
@@ -64,24 +62,19 @@
 <item id="14670" article="a" name="CM token">
 <item id="19082" article="a" name="golden raid token">
 <item id="19083" article="a" name="silver raid token">
-<item id="22870" article="a" name="throwing star of Sula">
 <item id="27499" name="golden symbol of Suon">
 <item id="3023" article="a" name="holy scarab">
 <item id="3024" article="a" name="holy falcon">
 <item id="2851" article="a" name="grey tome">
 
-<item id="14259" name="Eighty outfit"/>
 <item id="14671" name="Delany's golden bug trophy">
 <item id="14672" name="Bolfrim's golden bug trophy">
 <item id="14673" name="Siramal's golden bug trophy">
 
-
 <item id="9206" article="a" name="champion's cup">
 <item id="9207" article="a" name="silver cup of honour">
 <item id="9208" article="a" name="bronze cup of honour">
-<item fromid="22153" toid="22154" name="dark wizard's crown"> - SUPREME HELMET
-<item id="31414" name="sceptre of sun and sea"> - TALVEZ SUPREME WAND
-<item id="37059" article="a" name="lucky clover amulet"> - EXPERIENCE BOOSTER
+<item id="37059" article="a" name="lucky clover amulet">
 
 
 	<item id="36810" article="an" name="artefact box">

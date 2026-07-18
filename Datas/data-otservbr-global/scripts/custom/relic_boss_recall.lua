@@ -153,7 +153,7 @@ function bossRelic.onUse(player, item, fromPosition, target, toPosition, isHotke
     end
 
     local modal = ModalWindow({
-        title = "Relic of Boss Recall",
+        title = "Relic Bosses",
         message = "Choose a boss category:"
     })
 

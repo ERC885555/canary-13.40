@@ -20,7 +20,7 @@ speedCondition:setParameter(CONDITION_PARAM_SPEED, 500)
 -- EVENTOS DE MOVIMENTO (EQUIP / DEEQUIP)
 -- ====================================================
 
--- REGISTRO: OBLITERATOR (ID: 26189)
+-- REGISTRO: OBLITERATOR (ID: 9223)
 local moveEventEquip = MoveEvent()
 
 function moveEventEquip.onEquip(player, item, slot)
@@ -32,7 +32,7 @@ function moveEventEquip.onEquip(player, item, slot)
     return true
 end
 
-moveEventEquip:id(26189)
+moveEventEquip:id(9223)
 moveEventEquip:slot("ammo")
 moveEventEquip:register()
 
@@ -46,6 +46,6 @@ function moveEventDeEquip.onDeEquip(player, item, slot)
     return true
 end
 
-moveEventDeEquip:id(26189)
+moveEventDeEquip:id(9223)
 moveEventDeEquip:slot("ammo")
 moveEventDeEquip:register()

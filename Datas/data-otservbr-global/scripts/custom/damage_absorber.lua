@@ -15,7 +15,7 @@ absorberSpeed:setParameter(CONDITION_PARAM_SPEED, 500)
 -- EVENTOS DE MOVIMENTO (EQUIP / DEEQUIP)
 -- ====================================================
 
--- REGISTRO: DAMAGE ABSORBER (ID: 30058)
+-- REGISTRO: DAMAGE ABSORBER (ID: 23487)
 local moveAbsEquip = MoveEvent()
 function moveAbsEquip.onEquip(player, item, slot)
     if not player:getCondition(CONDITION_ATTRIBUTES) then
@@ -25,7 +25,7 @@ function moveAbsEquip.onEquip(player, item, slot)
     end
     return true
 end
-moveAbsEquip:id("30058")
+moveAbsEquip:id("23487")
 moveAbsEquip:slot("ammo")
 moveAbsEquip:register()
 
@@ -35,6 +35,6 @@ function moveAbsDeEquip.onDeEquip(player, item, slot)
     player:removeCondition(CONDITION_HASTE)
     return true
 end
-moveAbsDeEquip:id("30058")
+moveAbsDeEquip:id("23487")
 moveAbsDeEquip:slot("ammo")
 moveAbsDeEquip:register()

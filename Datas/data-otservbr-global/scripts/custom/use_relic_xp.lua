@@ -35,7 +35,7 @@ function xpAction.onUse(player, item, fromPosition, target, toPosition, isHotkey
     return true
 end
 
-xpAction:id(37059)
+xpAction:id(9219)
 xpAction:register()
 
 -- ====================================================
