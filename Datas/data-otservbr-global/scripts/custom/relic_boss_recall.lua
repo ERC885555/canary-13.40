@@ -13,7 +13,6 @@ local bossCategories = {
         ["Lady Tenebris"] = Position(32900, 31624, 14),
         ["Melting Frozen Horror"] = Position(32300, 31089, 14),
         ["Lloyd"] = Position(32759, 32868, 14),
-        ["The Brainstealer"] = Position(32531, 31120, 15),
         ["The Last Lorekeeper"] = Position(32016, 32845, 14),
         ["The Thorn Knight"] = Position(32657, 32877, 14),
         ["The Time Guardian"] = Position(33010, 31660, 14),
@@ -73,6 +72,22 @@ local bossCategories = {
     ["Primal Ordeal"] = {
         ["Magma Bubble"] = Position(33668, 32927, 15),
     },
+    ["Warzones"] = {
+        ["Deathstrike"] = Position(33102, 31908, 10),
+        ["Gnomevil"] = Position(33096, 31976, 11),
+        ["Abyssador"] = Position(33073, 31880, 12),
+        ["The Baron from Below"] = Position(33669, 32302, 15),
+        ["The Count Of The Core"] = Position(33681, 32314, 15),
+        ["The Duke Of The Depths"] = Position(33690, 32301, 15),
+        ["The Brainstealer"] = Position(32531, 31120, 15),
+    },
+    ["The First Dragon"] = {
+        ["Gelidrazah the Frozen"] = Position(32276, 31369, 4),
+        ["Kalyassa"] = Position(33160, 31318, 5),
+        ["Tazhadur"] = Position(33234, 32275, 12),
+        ["Zorvorax"] = Position(33003, 31594, 11),
+        ["The First Dragon"] = Position(33580, 30993, 14),
+    },
     ["Ferumbras Ascension"] = {
         ["Tarbaz"] = Position(33418, 32841, 11),
         ["Ragiaz"] = Position(33452, 32356, 13),
@@ -119,7 +134,11 @@ local function openBossList(player, categoryName)
     for _, bossName in ipairs(sortedBosses) do
         local pos = category[bossName]
 
-        modal:addChoice(bossName, function(player)
+        modal:addChoice(bossName, function(player, button, choice)
+
+            if button.name ~= "Teleport" then
+                return true
+            end
 
             local currentPos = player:getPosition()
 

@@ -41,6 +41,7 @@ EQUIPAMENTOS
 <item id="31414" name="sceptre of sun and sea">
 <item id="18935" article="a" name="vampire's signet ring">
 <item id="895" article="a" name="jester staff">
+<item id="8155" article="a" name="heavily bound book">
 
 
 <item id="8150" article="a" name="key of numerous locks">
@@ -69,7 +70,11 @@ EQUIPAMENTOS
 <item id="27499" name="golden symbol of Suon">
 <item id="3023" article="a" name="holy scarab">
 <item id="3024" article="a" name="holy falcon">
+<item id="2848" article="a" name="purple tome">
+<item id="2849" article="a" name="green tome">
+<item id="2850" article="a" name="blue tome">
 <item id="2851" article="a" name="grey tome">
+<item id="2852" article="a" name="red tome">
 <item id="12540" article="a" name="armageddon plans">
 <item id="37572" article="a" name="vessel of Gaz'haragoth">
 <item id="37573" article="a" name="vessel of Ferumbras">
@@ -85,6 +90,19 @@ EQUIPAMENTOS
 <item id="3248" article="a" name="portable hole">
 <item id="22120" article="a" name="little adventurer doll">
 <item id="22121"" article="a" name="little adventurer doll">
+<item id="37311" article="a" name="picture album">
+<item id="5090" article="a" name="treasure map">
+<item id="14143" article="a" name="four-leaf clover">
+<item id="19216" article="a" name="partially charged lodestone">
+<item id="19204" article="a" name="tuning fork">
+<item id="32584" article="a" name="vial with a skull cork">
+<item id="32603" article="a" name="grave flower extract">
+<item id="8020" article="a" name="baking tray">
+<item id="8198" article="a" name="baking tray">
+<item id="31913" article="a" name="baking tray">
+<item id="31685" name="reed balls">
+<item id="3120" article="a" name="mouldy cheese">
+<item id="12231" name="tonguefruit">
 
 <item id="14671" name="Delany's golden bug trophy">
 <item id="14672" name="Bolfrim's golden bug trophy">

@@ -28,44 +28,24 @@ local travelCategories = {
     },
     ["Special Locations"] = {
         ["Dawnport"] = Position (32064, 31894, 6),
-        ["Pits of Inferno Hub"] = Position(32838, 32230, 13),
-        ["Inquisition Hub"] = Position(33165, 31709, 14),
-        ["Demon Helmet Quest"] = Position (33276, 31591, 11),
-        ["Behemoth Quest"] = Position (33285, 31700, 14),
         ["Island of Destiny"] = Position (32091, 32027, 7),
+        ["Chayenne's Realm"] = Position (32825, 31509, 7),
+        ["Schrödinger's Island"] = Position (32831, 32435, 7),
+        ["Basilisk"] = Position (32639, 31944, 15),
         ["Rookgaard"] = Position (32097, 32219, 7),
         ["GM Island"] = Position (32316, 31942, 7),
-        ["Event Room"] = Position (),
+        ["Adventurer's Guild"] = Position (32200, 32294, 7),
+        ["Forge Shrine"] = Position (32209, 32275, 7),
+        ["Morgaroth Lair"] = Position (32062, 32600, 13),
+        ["Ghazbaran Lair"] = Position (32228, 31184, 15),
         ["Depot Room"] = Position ()
     },
-    ["Hunt Entrances"] = {
-        ["Gnomprona Entrance"] = Position (33517, 32856, 14),
-        ["Lower Roshamuul"] = Position(),
-        ["Upper Roshamuul"] = Position(),
-        ["Roshamuul Prison"] = Position(),
-        ["Wyrms Darashia"] = Position(33067, 32396, 12),
-        ["Werehyaenas"] = Position(33223, 32350, 10),
-        ["Issavi Crypt Wardens"] = Position(33871, 31456, 6),
-        ["Soul War Hub"] = Position(33621, 31427, 10),
-        ["Asura Mirror"] = Position (32812, 32753, 9),
-        ["Summer Court"] = Position (33670, 32233, 7),
-        ["Winter Court"] = Position (33680, 32155, 7),
-        ["Cobra Bastion"] = Position (33397, 32651, 7),
-        ["Bounac"] = Position (32424, 32445, 7),
-        ["Falcon Bastion"] = Position (33364, 31330, 4),
-        ["Bashmu"] = Position (33971, 31653, 7),
-        ["Issavi Surface"] = Position (33939, 31549, 6),
-        ["Issavi Sewers"] = Position (33926, 31465, 7),
-        ["Secret Library"] = Position (32515, 32532, 12),
-       ["Werelions"] = Position (33160, 32335, 12),
-        ["Pirats"] = Position (33838, 31222, 5),
-        ["Nagas"] = Position (33659, 32738, 7),
-    },
-    ["Utilities"] = {
-        ["Adventurer's Guild"] = Position (32200, 32294, 7),
---        ["Blessings"] = Position (),
---        ["Offline Training"] = Position (),
---        ["Prey Shrine"] = Position ()
+    ["Quest Entrances"] = {
+        ["Pits of Inferno Hub"] = Position(32838, 32230, 13),
+        ["Inquisition Hub"] = Position(33165, 31709, 14),
+        ["Annihilation Quest"] = Position(33225, 31670, 13),
+        ["Demon Helmet Quest"] = Position (33276, 31591, 11),
+        ["Behemoth Quest"] = Position (33285, 31700, 14),
     },
 }
 
@@ -88,7 +68,11 @@ local function openTravelList(player, categoryName)
     for _, travelName in ipairs(sortedTravel) do
         local pos = category[travelName]
 
-        modal:addChoice(travelName, function(player)
+        modal:addChoice(travelName, function(player, button, choice)
+
+            if button.name ~= "Teleport" then
+                return true
+            end
 
             local currentPos = player:getPosition()
 
@@ -106,7 +90,9 @@ local function openTravelList(player, categoryName)
     end
 
     modal:addButton("Teleport")
-    modal:addButton("Back")
+    modal:addButton("Cancel", function(player)
+        return true
+    end)
 
     modal:sendToPlayer(player)
 end

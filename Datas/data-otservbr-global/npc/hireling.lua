@@ -1368,6 +1368,7 @@ function createHirelingType(HirelingName)
 								
 			{ itemName = "25 years backpack", clientId = 39693, buy = 100000 },					
 			{ itemName = "anniversary backpack", clientId = 14674, buy = 50000 },					
+			{ itemName = "artefact box", clientId = 36810, buy = 100000 },					
 			{ itemName = "backpack of holding", clientId = 3253, buy = 100000 },					
 			{ itemName = "backpack", clientId = 2854, buy = 20 },					
 			{ itemName = "bag", clientId = 2853, buy = 10 },					
@@ -1397,6 +1398,7 @@ function createHirelingType(HirelingName)
 			{ itemName = "festive backpack", clientId = 30197, buy = 10000 },					
 			{ itemName = "fur backpack", clientId = 7342, buy = 500 },					
 			{ itemName = "fur bag", clientId = 7343, buy = 250 },					
+			{ itemName = "Galthen's satchel", clientId = 36813, buy = 300000 },					
 			{ itemName = "ghost backpack", clientId = 32620, buy = 250000 },					
 			{ itemName = "glooth backpack", clientId = 21295, buy = 500 },					
 			{ itemName = "golden backpack", clientId = 2871, buy = 20 },					
@@ -1428,7 +1430,7 @@ function createHirelingType(HirelingName)
 			{ itemName = "wolf backpack", clientId = 22084, buy = 50000 },					
 			{ itemName = "yellow backpack", clientId = 2866, buy = 20 },					
 			{ itemName = "yellow bag", clientId = 2858, buy = 10 },					
-			{ itemName = "zaoan chess box", clientId = 31282, buy = 50000 },					
+			{ itemName = "zaoan chess box", clientId = 18339, buy = 50000 },					
 								
 		},						
 		["distance"] = {						
