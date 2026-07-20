@@ -1,22 +1,24 @@
 <item id="30202" article="a" name="winterberry liquor">
 <item id="21192" article="a" name="mono detector"> - ITEM XP
 <item id="30006" article="a" name="bottle of sun fruit juice">
-<item id="12252" article="a" name="bunch of winterberries"> - Comida sem comer
+<item id="12252" article="a" name="bunch of winterberries">
 <item id="37708" article="an" name="old health potion">
+<item id="10" name="manafluid"/>
+<item id="11" name="lifefluid"/>
 <item id="37335" article="a" name="black skull">
 <item id="37337" article="a" name="white skull">
 <item id="37338" article="a" name="red skull">
 <item id="37339" article="a" name="yellow skull">
 <item id="37340" article="an" name="orange skull">
 <item id="37341" article="a" name="green skull">
-<item id="31633" article="the" name="supreme cube"> - RELIC TRAVEL
-<item id="33313" name="the supreme cube"> - ITEM LOOTING
+<item id="31633" article="the" name="supreme cube">
+<item id="33313" name="the supreme cube">
 <item id="36729" article="a" name="fire resilience">
 <item id="36736" article="a" name="fire amplification">
 <item id="11362" article="a" name="replica of the sceptre">
 <item id="21188" article="a" name="vial of coloured glooth">
-<item id="7314" article="a" name="scale from a frozen dragon"> - Creature Products
-<item id="30322" article="a" name="small ladybug"> - Creature Products
+<item id="7314" article="a" name="scale from a frozen dragon">
+<item id="30322" article="a" name="small ladybug">
 <item id="35909" name="chaos critical dice">
 <item id="2967" article="a" name="magical key">
 <item id="2968" article="a" name="wooden key">
@@ -37,6 +39,8 @@ EQUIPAMENTOS
 <item id="3365" article="a" name="golden helmet">
 <item fromid="22153" toid="22154" name="dark wizard's crown">
 <item id="31414" name="sceptre of sun and sea">
+<item id="18935" article="a" name="vampire's signet ring">
+<item id="895" article="a" name="jester staff">
 
 
 <item id="8150" article="a" name="key of numerous locks">
@@ -51,7 +55,7 @@ EQUIPAMENTOS
 <item id="9216" article="a" name="silver medal">
 <item id="9217" article="a" name="bronze medal">
 <item id="9218" article="a" name="badge of glory">
-<item id="9219" article="an" name="arcane insignia"> - ESSE É BOM
+<item id="9219" article="an" name="arcane insignia">
 <item id="9220" article="a" name="hero's medal">
 <item id="9221" article="a" name="laurel wreath">
 <item id="9222" article="a" name="royal medal">
@@ -66,6 +70,21 @@ EQUIPAMENTOS
 <item id="3023" article="a" name="holy scarab">
 <item id="3024" article="a" name="holy falcon">
 <item id="2851" article="a" name="grey tome">
+<item id="12540" article="a" name="armageddon plans">
+<item id="37572" article="a" name="vessel of Gaz'haragoth">
+<item id="37573" article="a" name="vessel of Ferumbras">
+<item id="37574" article="a" name="vessel of the Mad Mage">
+<item id="37575" article="a" name="vessel of Horestis">
+<item id="37576" article="a" name="vessel of Devovorga">
+<item id="22771" article="a" name="scroll of ascension">
+<item id="22772" article="a" name="scroll of ascension">
+<item id="27845" article="a" name="Citizen Doll">
+<item id="27846" article="a" name="Citizen Doll">
+<item id="37333" article="an" name="Adventurers' Guild picture">
+<item id="8778" article="a" name="jester doll">
+<item id="3248" article="a" name="portable hole">
+<item id="22120" article="a" name="little adventurer doll">
+<item id="22121"" article="a" name="little adventurer doll">
 
 <item id="14671" name="Delany's golden bug trophy">
 <item id="14672" name="Bolfrim's golden bug trophy">
