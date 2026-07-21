@@ -1578,6 +1578,7 @@ function GameStore.processItemPurchase(player, offerId, offerCount, movable, set
 				26067, -- master ornate crossbow of carving
 				26070, -- Master Ornate Wand of Carving
 				26073, -- Master Ornate Rod of Carving
+				22120, -- Relic Hunt
 				16262, -- Relic Bosses
 				31633, -- Relic Travel
 				9222, -- Relic of Infinity Fortune

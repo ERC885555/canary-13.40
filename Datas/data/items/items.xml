@@ -44290,7 +44290,11 @@ Awarded by TibiaMagazine.com.ve"/>
 		<attribute key="attack" value="27"/>
 		<attribute key="weight" value="90"/>
 	</item>
-	<item fromid="22120" toid="22121" article="a" name="little adventurer doll">
+	<item id="22120" article="a" name="relic hunt">
+		<attribute key="description" value="Shortcut to a lot of hunts"/>
+		<attribute key="weight" value="1" />
+	</item>
+	<item id="22121" article="a" name="little adventurer doll">
 		<attribute key="primarytype" value="dolls and bears"/>
 		<attribute key="description" value="This little fellow has faced many dangers. He will follow you anywhere. Awarded by TibiaGuias"/>
 		<attribute key="weight" value="2613"/>

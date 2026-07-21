@@ -4466,6 +4466,15 @@ GameStore.Categories = {
 				count = 1,
 				description = "<i>Use it to activate a powerful experience boost for 2 hours.</i>\n\n{character}\n{storeinbox}",
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+			},
+			{
+				icons = { "Little_Adventure_Doll.png" },
+				name = "Relic Hunt",
+				price = 25,
+				itemtype = 22120,
+				count = 1,
+				description = "<i>Shortcut to a lot of hunts.</i>\n\n{character}\n{storeinbox}",
+				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
 			},			
 			{
 				icons = { "Heavy_Medal.png" },
