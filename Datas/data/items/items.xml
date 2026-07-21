@@ -25011,10 +25011,11 @@
 			<attribute key="slot" value="head"/>
 		</attribute>
 	</item>
-	<item id="9222" name="relic of infinite fortune">
-		<attribute key="description" value="Use it to activate a powerful loot boost for 2 hours." />
-		<attribute key="weight" value="1.00" />
-		<!-- otserv\data-otservbr-global\scripts\custom\use_relic_loot.lua -->		
+	<item id="9222" article="a" name="royal medal">
+		<attribute key="primarytype" value="contest prizes"/>
+		<attribute key="writeable" value="1"/>
+		<attribute key="maxtextlen" value="149"/>
+		<attribute key="weight" value="1600"/>
 	</item>
 	<item id="9223" article="a" name="obliterator">
 		<attribute key="description" value="An ancient relic that grants god-like powers." />
@@ -32708,11 +32709,10 @@
 		<attribute key="description" value="A hermit near Carlin might be able to tell you more about it"/>
 		<attribute key="weight" value="200"/>
 	</item>
-	<item id="14143" article="a" name="four-leaf clover">
-		<attribute key="primarytype" value="taming items"/>
-		<attribute key="description" value="A hermit near Carlin might be able to tell you more about it"/>
-		<attribute key="weight" value="200"/>
-	</item>
+	<item id="14143" name="relic of infinite fortune">
+		<attribute key="description" value="Use it to activate a powerful loot boost for 2 hours." />
+		<attribute key="weight" value="1.00" />
+		<!-- otserv\data-otservbr-global\scripts\custom\use_relic_loot.lua -->
 	<item fromid="14144" toid="14151" article="a" name="lava stream">
 		<attribute key="primarytype" value="fields"/>
 	</item>
