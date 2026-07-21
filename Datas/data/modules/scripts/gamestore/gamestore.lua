@@ -4541,7 +4541,15 @@ GameStore.Categories = {
 	rookgaard = true,
 	state = GameStore.States.STATE_NONE,
 	offers = {
-	-- Suas ofertas de Rings entrarão aqui
+			{
+				icons = { "Ring_of_Ending.png" },
+				name = "Protection Ring of Ending",
+				price = 25,
+				itemtype = 20182,
+				count = 1,
+				description = "<i>A master protection ring.</i>\n\n{character}\n{storeinbox}",
+				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+			},
 	},
 	},
 
@@ -4553,14 +4561,31 @@ GameStore.Categories = {
 	rookgaard = true,
 	state = GameStore.States.STATE_NONE,
 	offers = {
-	-- O seu Supreme Stone Skin Amulet entrará aqui
 			{
 				icons = { "Jade_Amulet.png" },
 				name = "Supreme Amulet",
 				price = 25,
 				itemtype = 31268,
 				count = 1,
-				description = "<i>Infused with unbreakable stone skin essence. Grants 85% Physical and Death protection.</i>\n\n{character}\n{storeinbox}",
+				description = "<i>Amulet with a huge protection and has 3 slot for imbuements.</i>\n\n{character}\n{storeinbox}",
+				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+			},
+			{
+				icons = { "Broken_Amulet.png" },
+				name = "Broken Amulet",
+				price = 25,
+				itemtype = 3080,
+				count = 1,
+				description = "<i>stone skin amulet and might ring merged in a legendary amulet to keep her protections forever.</i>\n\n{character}\n{storeinbox}",
+				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+			},
+			{
+				icons = { "Badge_of_Glory.png" },
+				name = "Badge of Master Protection",
+				price = 25,
+				itemtype = 9218,
+				count = 1,
+				description = "<i>A master protection amulet.</i>\n\n{character}\n{storeinbox}",
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
 			},
 	},

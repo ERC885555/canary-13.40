@@ -6,7 +6,6 @@
 local distanceCondition = Condition(CONDITION_ATTRIBUTES)
 distanceCondition:setParameter(CONDITION_PARAM_TICKS, -1)
 distanceCondition:setParameter(CONDITION_PARAM_SKILL_DISTANCE, 70)
-distanceCondition:setParameter(CONDITION_PARAM_STAT_MAGICPOINTS, 70)
 
 -- ====================================================
 -- EVENTOS DE MOVIMENTO (EQUIP / DEEQUIP)
@@ -21,7 +20,7 @@ function moveDistEquip.onEquip(player, item, slot)
     end
     return true
 end
-moveDistEquip:id("9215")
+moveDistEquip:id(9215)
 moveDistEquip:slot("ammo")
 moveDistEquip:register()
 
@@ -30,6 +29,6 @@ function moveDistDeEquip.onDeEquip(player, item, slot)
     player:removeCondition(CONDITION_ATTRIBUTES)
     return true
 end
-moveDistDeEquip:id("9215")
+moveDistDeEquip:id(9215)
 moveDistDeEquip:slot("ammo")
 moveDistDeEquip:register()

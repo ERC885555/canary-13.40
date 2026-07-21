@@ -1,0 +1,104 @@
+Distance Spitter
+Relics are used on torch slot.
+￼Distance +70
+￼Critical Chance +15%
+￼Protection Mana Drain +14%
+
+Berserker Spitter
+Relics are used on torch slot.
+￼Sword Skill Level +70
+￼Axe Skill Level +70
+￼Club Skill Level +70
+￼Critical Chance +15%
+￼Protection Mana Drain +14%
+
+Mage Spitter
+Relics are used on torch slot.
+￼Energy Magic Level +70
+￼Critical Chance +15%
+￼Protection Mana Drain +14%
+
+Damage Absorber
+Relics are used on torch slot.
+It grants additional 
+shielding +200, 
+10% damage reflection, 
+120 damage reflection, 
+life leech chance +100%, 
+life leech amount +25%, 
+mana leech chance +100%, 
+mana leech amount +30%, 
+protection physical +50%, 
+energy +22%, 
+earth +22%, 
+fire +22%, 
+lifedrain +28%, 
+manadrain +28%, 
+ice +22%, 
+holy +22%, 
+death +22%, 
+speed +500. 
+It also has 3 imbuements slots.
+
+
+Final Fate
+elics are used on torch slot.
+￼Shielding Skill +20
+￼Death Magic Level +120
+￼Earth Magic Level +120
+￼Energy Magic Level +120
+￼Fire Magic Level +120
+￼Healing Magic Level +120
+￼Holy Magic Level +120
+￼Ice Magic Level +120
+￼Mana Leech +30%
+￼Mana Leech Chance +100%
+￼Life Leech +25%
+￼Life Leech Chance +100%
+￼Critical +25% Hit Damage
+￼Critical +75% Hit Chance
+￼Speed +1000
+￼Protection Physical 40%
+￼Damage Reflection +80
+
+The Obliterator
+Relics are used on torch slot. 
+It grants additional 
+club fighting +70, 
+sword fighting +70, 
+axe fighting +70, 
+distance fighting +70, 
+shielding +70, 
+critical hit chance 80%, 
+critical extra damage +55%, 
+life leech chance +100%, 
+life leech amount +48%, 
+mana leech chance +100%, 
+mana leech amount +48%, 
+magic level +10, 
+protection physical +15%, 
+energy +10%, 
+earth +10%, 
+fire +10%, 
+lifedrain +18%, 
+manadrain +18%, 
+ice +10%, 
+holy +10%, 
+death +10%, 
+speed +500. 
+It also has 3 imbuements slots.
+
+
+Amuletos
+12% protection (cada 1 uma cor ou todas as proteções: death, earth, energy, fire, holy, ice), 
++4 distance, 
++4 sword, 
++4 club, 
++4 axe, 
++4 magic level, 
++4 shielding
+
+Anéis
+15% protection (cada 1 uma cor ou todas as proteções: death, earth, energy, fire, holy, ice), 
++2% critical hit chance, 
++5% critical hit damage

@@ -1,0 +1,49 @@
+		<attribute key="showAttributes" value="1"/>
+
+		<attribute key="absorbPercentPhysical" value="10" />
+		<attribute key="absorbPercentEnergy" value="10" />
+		<attribute key="absorbPercentEarth" value="10" />
+		<attribute key="absorbPercentFire" value="10" />
+		<attribute key="absorbPercentIce" value="10" />
+		<attribute key="absorbPercentHoly" value="10" />
+		<attribute key="absorbPercentDeath" value="10" />
+		<attribute key="absorbPercentLifeDrain" value="10" />
+		<attribute key="absorbPercentManaDrain" value="10" />
+		<attribute key="absorbpercentpoison" value="3"/>
+		<attribute key="absorbpercentdrown" value="100"/>
+
+
+		<attribute key="skillaxe" value="10"/>
+		<attribute key="skillclub" value="10"/>
+		<attribute key="skillsword" value="10"/>
+		<attribute key="skillshield" value="10"/>
+		<attribute key="skilldist" value="10"/>
+		<attribute key="armor" value="20"/>
+
+		<attribute key="perfectshotdamage" value="40"/>
+		<attribute key="perfectshotrange" value="6"/>
+
+		<attribute key="reflectdamage" value="19"/>
+		<attribute key="reflectPercentAll" value="10" />
+
+
+		<attribute key="criticalHitChance" value="8000" />
+		<attribute key="criticalHitDamage" value="5500" />
+		<attribute key="lifeLeechChance" value="10000" />
+		<attribute key="lifeLeechAmount" value="4800" />
+		<attribute key="manaLeechChance" value="10000" />
+		<attribute key="manaLeechAmount" value="4800" />
+
+
+		<attribute key="magiclevelpoints" value="10"/>
+		<attribute key="healingmagiclevelpoints" value="1"/>
+		<attribute key="firemagiclevelpoints" value="10"/>
+		<attribute key="energymagiclevelpoints" value="10"/>
+		<attribute key="earthmagiclevelpoints" value="10"/>
+		<attribute key="icemagiclevelpoints" value="10"/>
+		<attribute key="holymagiclevelpoints" value="1"/>
+
+		<attribute key="magicshieldCapacityflat" value="80"/>
+		<attribute key="magicshieldCapacitypercent" value="8"/>
+
+		<attribute key="speed" value="500"/>

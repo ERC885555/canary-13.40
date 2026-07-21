@@ -1,0 +1,40 @@
+	<item id="3048" article="a" name="might ring">
+		<attribute key="primarytype" value="rings"/>
+		<attribute key="showCharges" value="1"/>
+		<attribute key="showAttributes" value="1"/>
+		<attribute key="absorbpercentphysical" value="20"/>
+		<attribute key="absorbpercentfire" value="20"/>
+		<attribute key="absorbpercentpoison" value="20"/>
+		<attribute key="absorbpercentenergy" value="20"/>
+		<attribute key="absorbpercentice" value="20"/>
+		<attribute key="absorbpercentholy" value="20"/>
+		<attribute key="absorbpercentdeath" value="20"/>
+		<attribute key="charges" value="20"/>
+		<attribute key="weight" value="100"/>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="ring"/>
+		</attribute>
+	</item>
+
+
+	<item id="3081" article="a" name="stone skin amulet">
+		<attribute key="primarytype" value="amulets and necklaces"/>
+		<attribute key="showCharges" value="1"/>
+		<attribute key="showAttributes" value="1"/>
+		<attribute key="absorbpercentphysical" value="80"/>
+		<attribute key="absorbpercentdeath" value="80"/>
+		<attribute key="charges" value="5"/>
+		<attribute key="weight" value="700"/>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="necklace"/>
+		</attribute>
+	</item>
+
+
+	<item id="3080" article="a" name="broken amulet">
+		<attribute key="primarytype" value="amulets and necklaces"/>
+		<attribute key="weight" value="420"/>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="necklace"/>
+		</attribute>
+	</item>
