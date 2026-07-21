@@ -32713,6 +32713,7 @@
 		<attribute key="description" value="Use it to activate a powerful loot boost for 2 hours." />
 		<attribute key="weight" value="1.00" />
 		<!-- otserv\data-otservbr-global\scripts\custom\use_relic_loot.lua -->
+	</item>
 	<item fromid="14144" toid="14151" article="a" name="lava stream">
 		<attribute key="primarytype" value="fields"/>
 	</item>
