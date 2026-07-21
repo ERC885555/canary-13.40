@@ -92,7 +92,8 @@ EQUIPAMENTOS
 <item id="22121"" article="a" name="little adventurer doll">
 <item id="37311" article="a" name="picture album">
 <item id="5090" article="a" name="treasure map">
-<item id="14143" article="a" name="four-leaf clover">
+<item id="14143" article="a" name="four-leaf clover"> - LOOT
+<item id="38844" article="an" name="asuri talisman">
 <item id="19216" article="a" name="partially charged lodestone">
 <item id="19204" article="a" name="tuning fork">
 <item id="32584" article="a" name="vial with a skull cork">

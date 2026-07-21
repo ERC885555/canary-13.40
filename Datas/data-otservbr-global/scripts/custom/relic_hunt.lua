@@ -35,7 +35,7 @@ local huntCategories = {
         ["Glooth Factory"] = Position(33651, 31941, 7),
         ["Ghastly Dragon Lair"] = Position(33176, 31016, 7),
         ["Spirittrails"] = Position(33139, 31058, 6),
-        ["Feyrist Undergound"] = Position(33548, 32267, 8),
+        ["Feyrist Underground"] = Position(33548, 32267, 8),
         ["Medusa Cave"] = Position (31928, 32632, 10),
         ["Kharos"] = Position (32120, 32709, 7),
         ["Oramond Catacombs"] = Position (33525, 32024, 10),
@@ -59,7 +59,7 @@ local huntCategories = {
         ["Upper Roshamuul"] = Position(33674, 32359, 6),
         ["Lower Roshamuul"] = Position(33532, 32480, 6),
         ["Foam Stalker"] = Position (33743, 32781, 7),
-        ["Ferumbras Entrance"] = Position (33322, 32324, 12)
+        ["Ferumbras Entrance"] = Position (33322, 32324, 12),
         ["Issavi Sewers"] = Position (33926, 31465, 7),
         ["Medusa Tower"] = Position (32850, 32814, 8),
         ["Rathleton Catacombs"] = Position (33453, 31725, 9),
@@ -91,25 +91,9 @@ local huntCategories = {
         ["The Cube"] = Position (33842, 32507, 14),
         ["Secret Library"] = Position (32515, 32532, 12),
     },
-    --["500-600"] = {
-        --["Hunt"] = Position(),
-    --},
-    --["600-700"] = {
-        --["Hunt"] = Position(),
-    --},
-    --["700-800"] = {
-        --["Hunt"] = Position(),
-    --},
-    --["800-900"] = {
-        --["Hunt"] = Position(),
-    --},
-    --["900-1000"] = {
-        --["Hunt"] = Position(),
-    --},
     ["1000+"] = {
         ["Gnomprona Entrance"] = Position (33517, 32856, 14),
         ["Soul War Hub"] = Position(33621, 31427, 10),
-
     },
 }
 
@@ -176,19 +160,28 @@ function huntRelic.onUse(player, item, fromPosition, target, toPosition, isHotke
         message = "Choose a location:"
     })
 
-    local sortedCategories = {}
+    local categoryOrder = {
+    "0-50",
+    "50-100",
+    "100-200",
+    "200-300",
+    "300-400",
+    "400-500",
+    "500-600",
+    "600-700",
+    "700-800",
+    "800-900",
+    "900-1000",
+    "1000+"
+}
 
-    for categoryName in pairs(huntCategories) do
-        table.insert(sortedCategories, categoryName)
-    end
-
-    table.sort(sortedCategories)
-
-    for _, categoryName in ipairs(sortedCategories) do
+for _, categoryName in ipairs(categoryOrder) do
+    if huntCategories[categoryName] then
         modal:addChoice(categoryName, function(player)
             openhuntList(player, categoryName)
         end)
     end
+end
 
     modal:addButton("Open")
     modal:addButton("Cancel")

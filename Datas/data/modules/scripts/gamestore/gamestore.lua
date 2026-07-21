@@ -4450,10 +4450,10 @@ GameStore.Categories = {
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
 			},
 			{
-				icons = { "The_Supreme_Cube.png" },
+				icons = { "Four-Leaf Clover.png" },
 				name = "Relic of Infinity Fortune",
 				price = 25,
-				itemtype = 9222,
+				itemtype = 14143,
 				count = 1,
 				description = "<i>Use it to activate a powerful loot boost for 2 hours.</i>\n\n{character}\n{storeinbox}",
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
