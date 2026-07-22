@@ -24,7 +24,7 @@ local travelCategories = {
         ["Svargrond"] = Position (32212, 31132, 7),
         ["Thais"] = Position (32369, 32241, 7),
         ["Venore"] = Position (32957, 32076, 7),
-        ["Yalahar"] = Position (32787, 31276, 7)
+        ["Yalahar"] = Position (32787, 31276, 7),
     },
     ["Special Locations"] = {
         ["Dawnport"] = Position (32064, 31894, 6),
@@ -38,9 +38,9 @@ local travelCategories = {
         ["Forge Shrine"] = Position (32209, 32275, 7),
         ["Morgaroth Lair"] = Position (32062, 32600, 13),
         ["Ghazbaran Lair"] = Position (32228, 31184, 15),
-        ["Event Room"] = Position (1062, 1024, 7)
-        ["NPC Room"] = Position (994, 1029, 6)
-        ["Training Room"] = Position (1116, 1094, 7)
+        ["Event Room"] = Position (1062, 1024, 7),
+        ["NPC Room"] = Position (994, 1029, 6),
+        ["Training Room"] = Position (1116, 1094, 7),
     },
     ["Quest Entrances"] = {
         ["Pits of Inferno Hub"] = Position(32838, 32230, 13),
