@@ -20,7 +20,7 @@ local config = {
 	[12801] = { NAME = "inoperative uniwheel", ID = 15, BREAK = true, TYPE = TYPE_ITEM, CHANCE = 40, FAIL_MSG = { { 3, "The oil have no effect." }, { 2, "Splosh!" } }, SUCCESS_MSG = "The strange wheel seems to vibrate and slowly starts turning continuously.", ACHIEV = "Stuntman" },
 	[16153] = { NAME = "Ironblight", ID = 29, BREAK = true, TYPE = TYPE_MONSTER, CHANCE = 30, FAIL_MSG = { { 1, "The ironblight managed to run away." }, { 2, "Oh no! The magnet lost its power!" }, { 3, "The ironblight is fighting against the magnetic force." } }, SUCCESS_MSG = "You tamed the ironblight.", ACHIEV = "Magnetised" },
 	[30170] = { NAME = "Lacewing Moth", ID = 130, BREAK = false, TYPE = TYPE_MONSTER, CHANCE = 20, FAIL_MSG = { { 2, "The lacewing moth is not interested in your lantern and flies away." }, { 4, "The lacewing moth is not interested in your lantern and flies away." } }, SUCCESS_MSG = "You have tamed a lancewing moth.", ACHIEV = "Lacewing Catcher" },
-	[14143] = { NAME = "Ladybug", ID = 27, BREAK = true, TYPE = TYPE_MONSTER, CHANCE = 30, FAIL_MSG = { { 1, "The ladybug got scared and ran away." }, { 3, "The ladybug is trying to nibble." } }, SUCCESS_MSG = "You tame a lady bug.", ACHIEV = "Lovely Dots" },
+	[9222] = { NAME = "Ladybug", ID = 27, BREAK = true, TYPE = TYPE_MONSTER, CHANCE = 30, FAIL_MSG = { { 1, "The ladybug got scared and ran away." }, { 3, "The ladybug is trying to nibble." } }, SUCCESS_MSG = "You tame a lady bug.", ACHIEV = "Lovely Dots" },
 	[16154] = {
 		NAME = "Magma Crawler",
 		ID = 30,
