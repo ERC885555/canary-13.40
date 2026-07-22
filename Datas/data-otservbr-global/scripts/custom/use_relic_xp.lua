@@ -1,7 +1,7 @@
 local xpAction = Action()
 
 -- Configurações da Relíquia
-local XP_MULTIPLIER = 1000 -- 1000% representa 10x XP
+local XP_MULTIPLIER = 1000000 -- 1000000% representa 10000x XP
 local BOOST_DURATION = 2 * 60 * 60 -- Tempo de duração: 2 horas (em segundos)
 local STORAGE_TIME = 859601 -- Storage que guarda quando o buff vai acabar
 local STORAGE_ACTIVE = 859602 -- Storage que diz se o buff está ligado
@@ -27,7 +27,7 @@ function xpAction.onUse(player, item, fromPosition, target, toPosition, isHotkey
     player:setBaseXpGain(XP_MULTIPLIER)
 
     -- Mensagem verde de impacto na tela e efeitos mágicos sagrados
-    player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "The Relic of Infinite Wisdom has been unleashed! You now have 10x Experience for the next 2 hours.")
+    player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "The Relic of Infinite Wisdom has been unleashed! You now have 10000x Experience for the next 2 hours.")
     player:getPosition():sendMagicEffect(EFFECT_HOLY)
     
     -- Como é uma relíquia eterna e não um consumível, NÃO colocamos a linha de remover o item! 

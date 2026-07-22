@@ -34,11 +34,13 @@ local travelCategories = {
         ["Basilisk"] = Position (32639, 31944, 15),
         ["Rookgaard"] = Position (32097, 32219, 7),
         ["GM Island"] = Position (32316, 31942, 7),
-        ["Adventurer's Guild"] = Position (32200, 32294, 7),
+        ["Adventurer's Guild"] = Position (32192, 32296, 7),
         ["Forge Shrine"] = Position (32209, 32275, 7),
         ["Morgaroth Lair"] = Position (32062, 32600, 13),
         ["Ghazbaran Lair"] = Position (32228, 31184, 15),
-        ["Depot Room"] = Position ()
+        ["Event Room"] = Position (1062, 1024, 7)
+        ["NPC Room"] = Position (994, 1029, 6)
+        ["Training Room"] = Position (1116, 1094, 7)
     },
     ["Quest Entrances"] = {
         ["Pits of Inferno Hub"] = Position(32838, 32230, 13),
