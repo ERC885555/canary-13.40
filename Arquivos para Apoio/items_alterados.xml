@@ -3,6 +3,7 @@
 	<item id="3363" name="master dragon scale legs">
 		<attribute key="primarytype" value="legs"/>
 		<attribute key="description" value="Protects the wielder from basic environmental conditions."/>
+		<attribute key="showAttributes" value="1"/>
 		<attribute key="magiclevelpoints" value="10"/>
 		<attribute key="absorbPercentPhysical" value="10" />
 		<attribute key="absorbPercentEnergy" value="10" />
@@ -46,6 +47,7 @@
 	</item>
 	<item id="3390" article="a" name="master horned helmet">
 		<attribute key="primarytype" value="helmets"/>
+		<attribute key="showAttributes" value="1"/>
 		<attribute key="magiclevelpoints" value="10"/>
 		<attribute key="absorbPercentPhysical" value="10" />
 		<attribute key="absorbPercentEnergy" value="10" />
@@ -90,6 +92,7 @@
 	<item id="3423" article="a" name="master blessed shield">
 		<attribute key="primarytype" value="shields"/>
 		<attribute key="description" value="The shield grants divine protection"/>
+		<attribute key="showAttributes" value="1"/>
 		<attribute key="weaponType" value="shield"/>
 		<attribute key="magiclevelpoints" value="10"/>
 		<attribute key="absorbPercentPhysical" value="10" />
@@ -184,6 +187,7 @@
 	<item id="8062" article="a" name="master robe of the underworld">
 		<attribute key="primarytype" value="armors"/>
 		<attribute key="description" value="A special forged plate with hidden spatial pockets."/>
+		<attribute key="showAttributes" value="1"/>
 		<attribute key="magiclevelpoints" value="10"/>
 		<attribute key="absorbPercentPhysical" value="15" />
 		<attribute key="absorbPercentEnergy" value="15" />
@@ -225,6 +229,7 @@
 	<item id="26049" article="an" name="master ornate slayer of carving">
 		<attribute key="primarytype" value="sword weapons"/>
 		<attribute key="description" value="This sword looks a little overpower"/>
+		<attribute key="showAttributes" value="1"/>
 		<attribute key="attack" value="20"/>
 		<attribute key="elementearth" value="60"/>
 		<attribute key="extradef" value="6"/>
@@ -268,7 +273,8 @@
 	</item>
 	<item id="26055" article="an" name="master ornate chopper of carving">
 		<attribute key="primarytype" value="axe weapons"/>
-		<attribute key="description" value="This axe looks a little overpower"/>		
+		<attribute key="description" value="This axe looks a little overpower"/>
+		<attribute key="showAttributes" value="1"/>		
 		<attribute key="weaponType" value="axe"/>
 		<attribute key="attack" value="20"/>
 		<attribute key="elementfire" value="60"/>
@@ -307,10 +313,10 @@
 			<attribute key="vocation" value="Knight;true, Elite Knight"/>
 			<attribute key="slot" value="hand"/>
 		</attribute>
-	</item>
 	<item id="26061" article="a" name="master ornate hammer of carving">
 		<attribute key="primarytype" value="club weapons"/>
-		<attribute key="description" value="This club looks a little overpower"/>		
+		<attribute key="description" value="This club looks a little overpower"/>
+		<attribute key="showAttributes" value="1"/>	
 		<attribute key="weaponType" value="club"/>
 		<attribute key="attack" value="20"/>
 		<attribute key="elementdeath" value="60"/>
@@ -352,7 +358,8 @@
 	</item>
 	<item id="26064" article="a" name="master ornate bow of carving">
 		<attribute key="primarytype" value="distance weapons"/>
-		<attribute key="description" value="This bow looks a little overpower"/>		
+		<attribute key="description" value="This bow looks a little overpower"/>
+		<attribute key="showAttributes" value="1"/>		
 		<attribute key="weaponType" value="distance"/>
 		<attribute key="slotType" value="two-handed"/>
 		<attribute key="criticalhitdamage" value="2500"/>
@@ -399,6 +406,7 @@
 	<item id="26067" article="a" name="master ornate crossbow of carving">
 		<attribute key="primarytype" value="distance weapons"/>
 		<attribute key="description" value="This crossbow looks a little overpower"/>
+		<attribute key="showAttributes" value="1"/>
 		<attribute key="weaponType" value="distance"/>
 		<attribute key="slotType" value="two-handed"/>
 		<attribute key="criticalhitdamage" value="1200"/>
@@ -447,6 +455,7 @@
 		<attribute key="primarytype" value="wands"/>
 		<attribute key="weaponType" value="wand"/>
 		<attribute key="shootType" value="energy"/>
+		<attribute key="showAttributes" value="1"/>
 		<attribute key="absorbPercentPhysical" value="10" />
 		<attribute key="absorbPercentEnergy" value="10" />
 		<attribute key="absorbPercentEarth" value="10" />
@@ -498,6 +507,7 @@
 		<attribute key="primarytype" value="rods"/>
 		<attribute key="weaponType" value="wand"/>
 		<attribute key="shootType" value="ice"/>
+		<attribute key="showAttributes" value="1"/>
 		<attribute key="absorbPercentPhysical" value="10" />
 		<attribute key="absorbPercentEnergy" value="10" />
 		<attribute key="absorbPercentEarth" value="10" />

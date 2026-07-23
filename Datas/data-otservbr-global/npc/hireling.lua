@@ -1877,6 +1877,32 @@ function createHirelingType(HirelingName)
 				else
 					sendSkillNotLearned(npc, creature, bankerSkillName)
 				end
+			--codigo--
+			elseif MsgContains(message, "test pouch") then
+				local pouch = player:getLootPouch()
+
+				if not pouch then
+					npcHandler:say("No pouch.", npc, creature)
+				return true
+				end
+
+				npcHandler:say(
+				"Pouch size: " .. pouch:getSize(),
+				npc,
+				creature
+				)
+				return true
+				end
+				elseif MsgContains(message, "test bp") then
+					local bp = player:getSlotItem(CONST_SLOT_BACKPACK)
+
+					if bp then
+						npcHandler:say("Backpack found.", npc, creature)
+					else
+						npcHandler:say("Backpack not found.", npc, creature)
+					end
+				end
+			--codigo--
 			elseif MsgContains(message, "stash") then
 				local bankerSkillName = HIRELING_SKILLS.STEWARD[2]
 				if hireling:hasSkill(bankerSkillName) then
