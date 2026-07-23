@@ -24996,7 +24996,7 @@
 			<attribute key="slot" value="necklace"/>
 		</attribute>
 	</item>
-	<item id="9219" article="an" name="relic of infinity wisdom">
+	<item id="9219" article="an" name="relic of infinite wisdom">
 		<attribute key="description" value="Use it to activate a powerful experience boost for 2 hours." />
 		<attribute key="weight" value="1.00" />
 		<!-- otserv\data-otservbr-global\scripts\custom\use_relic_xp.lua -->		
@@ -30566,9 +30566,9 @@
 		<attribute key="decayTo" value="12530"/>
 		<attribute key="containersize" value="22"/>
 	</item>
-	<item id="12540" article="a" name="armageddon plans">
+	<item id="12540" article="a" name="relic of residence">
 		<attribute key="primarytype" value="documents and papers"/>
-		<attribute key="weight" value="400"/>
+		<attribute key="weight" value="10"/>
 	</item>
 	<item id="12541" article="a" name="demonic finger">
 		<attribute key="primarytype" value="creature products"/>
@@ -38423,7 +38423,7 @@
 	<item id="18339" article="a" name="Zaoan chess box">
 		<attribute key="primarytype" value="game tokens"/>
 		<attribute key="description" value="This chess box is made of jade and obsidian. It will hold a full set of 32 Zaoan chess figures"/>
-		<attribute key="containersize" value="32"/>
+		<attribute key="containersize" value="60"/>
 		<attribute key="weight" value="3800"/>
 	</item>
 	<item fromid="18340" toid="18342" name="RESERVED SPRITE"/>

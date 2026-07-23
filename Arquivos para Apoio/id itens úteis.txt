@@ -1,5 +1,5 @@
 <item id="30202" article="a" name="winterberry liquor">
-<item id="21192" article="a" name="mono detector"> - ITEM XP
+<item id="21192" article="a" name="mono detector">
 <item id="30006" article="a" name="bottle of sun fruit juice">
 <item id="12252" article="a" name="bunch of winterberries">
 <item id="37708" article="an" name="old health potion">

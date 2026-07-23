@@ -3,7 +3,7 @@ zone:addArea(Position(32331, 32182, 7), Position(32426, 32261, 7))
 
 local raid = Raid("thais.rats", {
 	zone = zone,
-	allowedDays = { "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" },
+	allowedDays = { "Sunday" },
 	minActivePlayers = 2,
 	initialChance = 0.04,
 	targetChancePerDay = 0.02,

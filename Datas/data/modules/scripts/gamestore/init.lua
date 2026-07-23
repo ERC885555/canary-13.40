@@ -1581,8 +1581,9 @@ function GameStore.processItemPurchase(player, offerId, offerCount, movable, set
 				22120, -- Relic Hunt
 				16262, -- Relic Bosses
 				31633, -- Relic Travel
-				14143, -- Relic of Infinity Fortune
-				9219, -- Relic of Infinity Wisdom
+				12540, -- Relic of Residence
+				14143, -- Relic of Infinite Fortune
+				9219, -- Relic of Infinite Wisdom
 				9223, -- Obliterator
 				9217, -- Mage Spitter
 				9216, -- Berserker Spitter
