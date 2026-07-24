@@ -1610,22 +1610,16 @@ function createHirelingType(HirelingName)
 			{ itemName = "starlight vial", clientId = 25976, buy = 25000 },					
 			{ itemName = "sun catcher", clientId = 25977, buy = 25000 },					
 			{ itemName = "torch", clientId = 2920, buy = 2 },					
-			{ itemName = "whacking driller of fate", clientId = 9598, buy = 100000 },										
+			{ itemName = "whacking driller of fate", clientId = 9598, buy = 100000 },					
+								
 		},
-		["special"] = {
-			{ itemName = "white skull", clientID = "37337", buy = 40000 },
-			{ itemName = "red skull", clientID = "37338", buy = 40000 },
-			{ itemName = "yellow skull", clientID = "37339", buy = 40000 },
-			{ itemName = "orange skull", clientID = "37340", buy = 40000 },
-			{ itemName = "green skull", clientID = "37341", buy = 40000 },
-			{ itemName = "old health potion", clientID = "37708", buy = 40000 },
-			{ itemName = "the cube", clientID = "27511", buy = 40000 },
-			{ itemName = "chaos critical dice", clientID = "35909", buy = 40000 },
-			{ itemName = "magical key", clientID = "2967", buy = 40000 },
-			{ itemName = "golden raid token", clientID = "19082", buy = 40000 },
-			{ itemName = "golden warrior trophy", clientID = "9209", buy = 40000 },
-			{ itemName = "Crunor's heart", clientID = "30183", buy = 40000 },
-		},					
+--		["special"] = {						
+--								
+--			{ itemName = "label", clientId = 3507, buy = 1 },					
+--			{ itemName = "letter", clientId = 3505, buy = 8 },					
+--			{ itemName = "parcel", clientId = 3503, buy = 15 },					
+--								
+--		},					
 		["postal"] = {						
 								
 			{ itemName = "label", clientId = 3507, buy = 1 },					
