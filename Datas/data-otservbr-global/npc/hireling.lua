@@ -1619,7 +1619,12 @@ function createHirelingType(HirelingName)
 			{ itemName = "orange skull", clientID = "37340", buy = 40000 },
 			{ itemName = "green skull", clientID = "37341", buy = 40000 },
 			{ itemName = "old health potion", clientID = "37708", buy = 40000 },
-			{ itemName = "old health potion", clientID = "37708", buy = 40000 },
+			{ itemName = "the cube", clientID = "27511", buy = 40000 },
+			{ itemName = "chaos critical dice", clientID = "35909", buy = 40000 },
+			{ itemName = "magical key", clientID = "2967", buy = 40000 },
+			{ itemName = "golden raid token", clientID = "19082", buy = 40000 },
+			{ itemName = "golden warrior trophy", clientID = "9209", buy = 40000 },
+			{ itemName = "Crunor's heart", clientID = "30183", buy = 40000 },
 		},					
 		["postal"] = {						
 								

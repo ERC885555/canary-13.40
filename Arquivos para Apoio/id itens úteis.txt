@@ -12,6 +12,7 @@
 <item id="37340" article="an" name="orange skull">
 <item id="37341" article="a" name="green skull">
 <item id="31633" article="the" name="supreme cube">
+<item id="27511" article="the" name="the cube">
 <item id="33313" name="the supreme cube">
 <item id="36729" article="a" name="fire resilience">
 <item id="36736" article="a" name="fire amplification">
