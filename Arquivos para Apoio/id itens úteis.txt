@@ -28,6 +28,15 @@
 <item id="2971" article="a" name="crystal key">
 <item id="2972" article="a" name="golden key">
 <item id="2973" article="a" name="bone key">
+<item id="44750" name="exalted seal">
+<item id="44751" name="gold-scaled sentinel">
+<item id="44752" name="crystallized blood">
+<item id="44753" name="herald's insignia ">
+<item id="44754" name="herald's wings">
+<item id="32711" article="a" name="luminescent crystal pickaxe">
+<item id="31591" article="a" name="medal of valiance">
+
+
 
 
 EQUIPAMENTOS
@@ -47,6 +56,7 @@ EQUIPAMENTOS
 <item id="44622" article="an" name="unerring dragon scale armor">
 <item id="44623" article="an" name="arcane dragon robe">
 <item id="44624" article="an" name="mystical dragon robe">
+<item id="36808" article="an" name="old royal diary">
 
 
 <item id="8150" article="a" name="key of numerous locks">
