@@ -30562,9 +30562,9 @@
 		<attribute key="decayTo" value="12530"/>
 		<attribute key="containersize" value="22"/>
 	</item>
-	<item id="12540" article="a" name="armageddon plans">
+	<item id="12540" article="a" name="relic of residence">
 		<attribute key="primarytype" value="documents and papers"/>
-		<attribute key="weight" value="400"/>
+		<attribute key="weight" value="10"/>
 	</item>
 	<item id="12541" article="a" name="demonic finger">
 		<attribute key="primarytype" value="creature products"/>
@@ -38419,7 +38419,7 @@
 	<item id="18339" article="a" name="Zaoan chess box">
 		<attribute key="primarytype" value="game tokens"/>
 		<attribute key="description" value="This chess box is made of jade and obsidian. It will hold a full set of 32 Zaoan chess figures"/>
-		<attribute key="containersize" value="32"/>
+		<attribute key="containersize" value="60"/>
 		<attribute key="weight" value="3800"/>
 	</item>
 	<item fromid="18340" toid="18342" name="RESERVED SPRITE"/>
@@ -47312,8 +47312,8 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="weight" value="850"/>
 	</item>
 	<item id="23721" article="a" name="gold pouch">
-		<attribute key="description" value="A infinity bag where you can hold coins."/>
-		<attribute key="containersize" value="20"/>
+		<attribute key="description" value="A infinity bag where you can hold coins or items."/>
+		<attribute key="containersize" value="32"/>
 		<attribute key="movable" value="0"/>
 	</item>
 	<item id="23722" article="a" name="gold converter">

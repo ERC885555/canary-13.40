@@ -1847,6 +1847,18 @@ function createHirelingType(HirelingName)
 			return false
 		end
 
+--		codigo aqui
+		elseif MsgContains(message, "test pouch") then
+
+		local pouch = player:getLootPouch()
+
+		if pouch then
+			npcHandler:say("Pouch found.", npc, creature)
+		else
+			npcHandler:say("Pouch not found.", npc, creature)
+		end
+--		codigo aqui
+
 		-- roleplay
 		if MsgContains(message, "sword of fury") then
 			npcHandler:say("In my youth I dreamt to wield it! Now I wield the broom of... brooming. I guess that's the next best thing!", npc, creature)
