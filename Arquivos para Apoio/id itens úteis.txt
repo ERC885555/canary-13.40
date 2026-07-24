@@ -43,6 +43,10 @@ EQUIPAMENTOS
 <item id="18935" article="a" name="vampire's signet ring">
 <item id="895" article="a" name="jester staff">
 <item id="8155" article="a" name="heavily bound book">
+<item id="44621" article="a" name="dauntless dragon scale armor">
+<item id="44622" article="an" name="unerring dragon scale armor">
+<item id="44623" article="an" name="arcane dragon robe">
+<item id="44624" article="an" name="mystical dragon robe">
 
 
 <item id="8150" article="a" name="key of numerous locks">

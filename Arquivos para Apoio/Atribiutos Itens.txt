@@ -47,3 +47,119 @@
 		<attribute key="magicshieldCapacitypercent" value="8"/>
 
 		<attribute key="speed" value="500"/>
+
+
+
+
+arma ek
+		<attribute key="augments" value="1">
+			<attribute key="fierce berserk" value="powerful impact" />
+			<attribute key="intense wound cleansing" value="cooldown">
+				<attribute key="value" value="120000" />
+			</attribute>
+
+arco
+		<attribute key="augments" value="1">
+			<attribute key="divine caldera" value="powerful impact" />
+		</attribute>
+
+wand
+		<attribute key="augments" value="1">
+			<attribute key="hell's core" value="powerful impact" />
+			<attribute key="energy wave" value="powerful impact" />
+		</attribute>
+
+rod
+		<attribute key="augments" value="1">
+			<attribute key="eternal winter" value="powerful impact" />
+			<attribute key="terra wave" value="powerful impact" />
+		</attribute>
+
+calça EK
+			<attribute key="avatar of steel" value="cooldown">
+				<attribute key="value" value="900000" />
+			</attribute>
+			<attribute key="augments" value="1">
+				<attribute key="intense wound cleansing" value="strong impact" />
+			</attribute>
+
+calça RP
+			<attribute key="avatar of light" value="cooldown">
+				<attribute key="value" value="900000" />
+			</attribute>
+
+bota MS
+			<attribute key="augments" value="1">
+			<attribute key="avatar of storm" value="cooldown">
+				<attribute key="value" value="900000" />
+			</attribute>
+			<attribute key="great energy beam" value="critical extra damage">
+				<attribute key="value" value="5" />
+			</attribute>
+			<attribute key="great death beam" value="critical extra damage">
+				<attribute key="value" value="5" />
+			</attribute>
+
+bota ED
+			<attribute key="augments" value="1">
+			<attribute key="avatar of nature" value="cooldown">
+				<attribute key="value" value="900000" />
+			</attribute>
+
+armadura ED
+			<attribute key="augments" value="1">
+				<attribute key="wrath of nature" value="strong impact" />
+			</attribute>
+
+armadura EK
+			<attribute key="augments" value="1">
+				<attribute key="intense wound cleansing" value="cooldown">
+					<attribute key="value" value="120000" />
+				</attribute>
+			<attribute key="augments" value="1">
+				<attribute key="front sweep" value="life leech">
+					<attribute key="value" value="4" />
+				</attribute>
+
+armadura RP
+			<attribute key="augments" value="1">
+				<attribute key="strong ethereal spear" value="life leech">
+					<attribute key="value" value="4" />
+				</attribute>
+
+armadura MS
+			<attribute key="augments" value="1">
+				<attribute key="energy wave" value="life leech">
+					<attribute key="value" value="5" />
+				</attribute>
+
+armadura ED
+			<attribute key="augments" value="1">
+				<attribute key="terra wave" value="life leech">
+					<attribute key="value" value="3" />
+				</attribute>
+
+elmo RP
+			<attribute key="augments" value="1">
+				<attribute key="divine missile" value="strong impact" />
+			</attribute>
+
+elmo ED
+			<attribute key="augments" value="1">
+				<attribute key="wrath of nature" value="critical extra damage">
+					<attribute key="value" value="5" />
+				</attribute>
+
+calça MS
+			<attribute key="augments" value="1">
+				<attribute key="great energy beam" value="increased damage" />
+				<attribute key="great death beam" value="increased damage" />
+			</attribute>
+
+bota RP
+			<attribute key="augments" value="1">
+				<attribute key="divine missile" value="critical extra damage">
+					<attribute key="value" value="5" />
+				</attribute>
+
+
