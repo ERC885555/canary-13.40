@@ -1612,7 +1612,14 @@ function createHirelingType(HirelingName)
 			{ itemName = "torch", clientId = 2920, buy = 2 },					
 			{ itemName = "whacking driller of fate", clientId = 9598, buy = 100000 },					
 								
-		},						
+		},
+--		["special"] = {						
+--								
+--			{ itemName = "label", clientId = 3507, buy = 1 },					
+--			{ itemName = "letter", clientId = 3505, buy = 8 },					
+--			{ itemName = "parcel", clientId = 3503, buy = 15 },					
+--								
+--		},					
 		["postal"] = {						
 								
 			{ itemName = "label", clientId = 3507, buy = 1 },					
@@ -1623,6 +1630,17 @@ function createHirelingType(HirelingName)
 	}
 	-- ========================[[ END TRADER FUNCTIONS ]] ========================== --		
 
+	-- função para separador de milhar
+	local function formatNumber(number)
+	local formatted = tostring(number)
+
+	repeat
+	formatted, k = formatted:gsub("^(-?%d+)(%d%d%d)", "%1,%2")
+	until k == 0
+
+	return formatted
+	end
+	-- função para separador de milhar
 
 	-- On buy npc shop message
 	npcType.onBuyItem = function(npc, player, itemId, subType, amount, ignore, inBackpacks, totalCost)
@@ -1640,6 +1658,7 @@ function createHirelingType(HirelingName)
 	local hireling = nil
 	local count = {} -- for banking
 	local transfer = {} -- for banking
+	local sellConfirm = {} -- for sell all itens with confirmation
 
 	npcType.onAppear = function(npc, creature)
 		npcHandler:onAppear(npc, creature)
@@ -1847,6 +1866,7 @@ function createHirelingType(HirelingName)
 			return false
 		end
 
+<<<<<<< HEAD
 --		codigo aqui
 		elseif MsgContains(message, "test pouch") then
 
@@ -1859,6 +1879,159 @@ function createHirelingType(HirelingName)
 		end
 --		codigo aqui
 
+=======
+	-- ======================[[ SELL ALL FUNCTIONS ]] ======================== --
+		if MsgContains(message, "sell all") then
+
+		local inbox = player:getSlotItem(CONST_SLOT_STORE_INBOX)
+
+		if not inbox then
+		npcHandler:say("Store Inbox not found.", npc, creature)
+		return true
+		end
+
+		local pouch = nil
+
+		for i = 0, inbox:getSize() - 1 do
+		local item = inbox:getItem(i)
+
+		if item and item:getId() == 23721 then -- Gold Pouch
+			pouch = Container(item.uid)
+			break
+		end
+		end
+
+		if not pouch then
+		npcHandler:say("Gold Pouch not found.", npc, creature)
+		return true
+		end
+
+		local sellPrices = {}
+
+		for _, category in pairs(itemsTable) do
+		for _, entry in ipairs(category) do
+			if entry.sell then
+			sellPrices[entry.clientId] = entry.sell
+			end
+		end
+		end
+
+		local totalItems = 0
+		local totalValue = 0
+
+		for i = 0, pouch:getSize() - 1 do
+		local item = pouch:getItem(i)
+
+		if item and sellPrices[item:getId()] then
+			totalItems = totalItems + item:getCount()
+			totalValue = totalValue + (sellPrices[item:getId()] * item:getCount())
+		end
+		end
+
+		if totalValue == 0 then
+		npcHandler:say(
+			"I could not find any sellable items in your Gold Pouch.",
+			npc,
+			creature
+		)
+		return true
+		end
+
+		sellConfirm[playerId] = {
+		value = totalValue,
+		items = totalItems
+		}
+
+		npcHandler:say(
+		"I found " .. totalItems ..
+		" sellable item(s) worth " ..
+		formatNumber(totalValue) ..
+		" gold. Do you really want to sell everything in your Gold Pouch? {yes}",
+		npc,
+		creature
+		)
+
+		return true
+		end
+
+		if MsgContains(message, "no") and sellConfirm[playerId] then
+
+		sellConfirm[playerId] = nil
+
+		npcHandler:say(
+		"Very well. I have cancelled the sale.",
+		npc,
+		creature
+		)
+
+		return true
+
+		end
+
+		if MsgContains(message, "yes") and sellConfirm[playerId] then
+
+		local inbox = player:getSlotItem(CONST_SLOT_STORE_INBOX)
+
+		if not inbox then
+		sellConfirm[playerId] = nil
+		return true
+		end
+
+		local pouch = nil
+
+		for i = 0, inbox:getSize() - 1 do
+		local item = inbox:getItem(i)
+
+		if item and item:getId() == 23721 then
+			pouch = Container(item.uid)
+			break
+		end
+		end
+
+		if not pouch then
+		sellConfirm[playerId] = nil
+		return true
+		end
+
+		local sellPrices = {}
+
+		for _, category in pairs(itemsTable) do
+		for _, entry in ipairs(category) do
+			if entry.sell then
+			sellPrices[entry.clientId] = entry.sell
+			end
+		end
+		end
+
+		for i = pouch:getSize() - 1, 0, -1 do
+
+		local item = pouch:getItem(i)
+
+		if item and sellPrices[item:getId()] then
+			item:remove()
+		end
+		end
+
+		player:setBankBalance(
+		player:getBankBalance() + sellConfirm[playerId].value
+		)
+
+		npcHandler:say(
+		"Done! Sold " ..
+		sellConfirm[playerId].items ..
+		" item(s) for " ..
+		formatNumber(sellConfirm[playerId].value) ..
+		" gold. The money has been deposited into your bank account.",
+		npc,
+		creature
+		)
+
+		sellConfirm[playerId] = nil
+
+		return true
+		end
+	-- ======================[[ END OF SELL ALL FUNCTIONS ]] ======================== --
+>>>>>>> 2cd67417869fdcd9c085adfdafb65e20442b1abb
 		-- roleplay
 		if MsgContains(message, "sword of fury") then
 			npcHandler:say("In my youth I dreamt to wield it! Now I wield the broom of... brooming. I guess that's the next best thing!", npc, creature)

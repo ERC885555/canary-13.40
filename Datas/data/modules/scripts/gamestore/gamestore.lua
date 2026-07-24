@@ -4451,7 +4451,7 @@ GameStore.Categories = {
 			},
 			{
 				icons = { "Four-Leaf Clover.png" },
-				name = "Relic of Infinity Fortune",
+				name = "Relic of Infinite Fortune",
 				price = 25,
 				itemtype = 14143,
 				count = 1,
@@ -4459,8 +4459,17 @@ GameStore.Categories = {
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
 			},
 			{
+				icons = { "Armagedon_Plans.png" },
+				name = "Relic of Residence",
+				price = 25,
+				itemtype = 12540,
+				count = 1,
+				description = "<i>Go home of go temple!.</i>\n\n{character}\n{storeinbox}",
+				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+			},
+			{
 				icons = { "The_Supreme_Cube.png" },
-				name = "Relic of Infinity Wisdom",
+				name = "Relic of Infinite Wisdom",
 				price = 25,
 				itemtype = 9219,
 				count = 1,
