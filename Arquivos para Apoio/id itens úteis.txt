@@ -1,0 +1,184 @@
+<item id="30202" article="a" name="winterberry liquor">
+<item id="21192" article="a" name="mono detector">
+<item id="30006" article="a" name="bottle of sun fruit juice">
+<item id="12252" article="a" name="bunch of winterberries">
+<item id="37708" article="an" name="old health potion">
+<item id="10" name="manafluid"/>
+<item id="11" name="lifefluid"/>
+<item id="37335" article="a" name="black skull">
+<item id="37337" article="a" name="white skull">
+<item id="37338" article="a" name="red skull">
+<item id="37339" article="a" name="yellow skull">
+<item id="37340" article="an" name="orange skull">
+<item id="37341" article="a" name="green skull">
+<item id="31633" article="the" name="supreme cube">
+<item id="27511" article="the" name="the cube">
+<item id="33313" name="the supreme cube">
+<item id="36729" article="a" name="fire resilience">
+<item id="36736" article="a" name="fire amplification">
+<item id="11362" article="a" name="replica of the sceptre">
+<item id="21188" article="a" name="vial of coloured glooth">
+<item id="7314" article="a" name="scale from a frozen dragon">
+<item id="30322" article="a" name="small ladybug">
+<item id="35909" name="chaos critical dice">
+<item id="2967" article="a" name="magical key">
+<item id="2968" article="a" name="wooden key">
+<item id="2969" article="a" name="silver key">
+<item id="2970" article="a" name="copper key">
+<item id="2971" article="a" name="crystal key">
+<item id="2972" article="a" name="golden key">
+<item id="2973" article="a" name="bone key">
+<item id="44750" name="exalted seal">
+<item id="44751" name="gold-scaled sentinel">
+<item id="44752" name="crystallized blood">
+<item id="44753" name="herald's insignia ">
+<item id="44754" name="herald's wings">
+<item id="32711" article="a" name="luminescent crystal pickaxe">
+<item id="31591" article="a" name="medal of valiance">
+
+
+
+
+EQUIPAMENTOS
+<item id="28915" article="an" name="adamant shield">
+<item fromid="37052" toid="37053" article="a" name="bonelord tome">
+<item id="34264" name="Tibiapedia">
+<<<<<<< HEAD
+<item fromid="36978" toid="36979" name="magic hat"> - ED
+<item fromid="12809" toid="12810" article="the" name="epic wisdom"> - MS
+<item id="31414" name="sceptre of sun and sea"> - ED
+<item id="11362" article="a" name="replica of the sceptre"> - MS
+<item id="44621" article="a" name="dauntless dragon scale armor"> - USADO
+<item id="44622" article="an" name="unerring dragon scale armor"> - USADO
+<item id="44623" article="an" name="arcane dragon robe"> - USADO
+<item id="44624" article="an" name="mystical dragon robe"> - USADO
+<item id="21445" article="a" name="war backpack"> - USADO
+
+ARMAS KNIGHT
+ESPADAS
+<item id="8103" article="the" name="masterforged blade"> - PHYSICAL
+<item id="26044" article="a" name="masterforged blade of corruption"> - DEATH
+<item id="661" article="a" name="masterforged blade of inferno"> - FIRE
+<item id="680" article="an" name="masterforged blade of frost"> - ICE
+<item id="780" article="an" name="masterforged blade of nature"> - EARTH
+<item id="795" article="an" name="masterforged blade of thunder"> - ENERGY
+
+MACHADOS
+<item id="8097" article="a" name="masterforged axe"> - PHYSICAL
+<item id="26050" article="a" name="masterforged axe of corruption"> - DEATH
+<item id="25924" article="a" name="masterforged axe of inferno"> - FIRE
+<item id="25939" article="an" name="masterforged axe of frost"> - ICE
+<item id="25954" article="an" name="masterforged axe of nature"> - EARTH
+<item id="25969" article="an" name="masterforged axe of thunder"> - ENERGY
+
+CLAVAS
+<item id="8099" article="a" name="masterforged hammer"> - PHYSICAL
+<item id="26059" article="a" name="masterforged hammer of corruption"> - DEATH
+<item id="671" article="a" name="masterforged hammer of inferno"> - FIRE
+<item id="690" article="an" name="masterforged hammer of frost"> - ICE
+<item id="790" article="an" name="masterforged hammer of eartquake"> - EARTH
+<item id="807" article="an" name="masterforged hammer of thunder"> - ENERGY
+
+DISTÂNCIA
+<item id="26003" article="an" name="masterforged bow of mayhem"> - USADO
+<item id="26006" article="an" name="masterforged crossbow of mayhem"> - USADO
+=======
+<item fromid="36978" toid="36979" name="magic hat">
+<item id="19374" name="vampire silk slippers">
+<item id="3365" article="a" name="golden helmet">
+<item fromid="22153" toid="22154" name="dark wizard's crown">
+<item id="31414" name="sceptre of sun and sea">
+<item id="18935" article="a" name="vampire's signet ring">
+<item id="895" article="a" name="jester staff">
+<item id="8155" article="a" name="heavily bound book">
+<item id="44621" article="a" name="dauntless dragon scale armor">
+<item id="44622" article="an" name="unerring dragon scale armor">
+<item id="44623" article="an" name="arcane dragon robe">
+<item id="44624" article="an" name="mystical dragon robe">
+<item id="36808" article="an" name="old royal diary">
+>>>>>>> 7ecf0b47193c6c771fcffb3d26d2dca945dd31d9
+
+
+<item id="8150" article="a" name="key of numerous locks">
+<item id="8153" article="a" name="golden newspaper">
+<item id="9209" article="a" name="golden warrior trophy">
+<item id="9210" article="a" name="silver warrior trophy">
+<item id="9211" article="a" name="bronze warrior trophy">
+<item id="9212" article="a" name="golden trophy of excellence">
+<item id="9213" article="a" name="silver trophy of excellence">
+<item id="9214" article="a" name="bronze trophy of excellence">
+<item id="9215" article="a" name="gold medal">
+<item id="9216" article="a" name="silver medal">
+<item id="9217" article="a" name="bronze medal">
+<item id="9218" article="a" name="badge of glory">
+<item id="9219" article="an" name="arcane insignia">
+<item id="9220" article="a" name="hero's medal">
+<item id="9221" article="a" name="laurel wreath">
+<item id="9222" article="a" name="royal medal">
+<item id="9223" article="a" name="heavy medal">
+<item id="9224" article="an" name="elven trophy">
+<item id="9614" article="the" name="famous golden bug">
+<item id="9615" article="a" name="midnight shard">
+<item id="14670" article="a" name="CM token">
+<item id="19082" article="a" name="golden raid token">
+<item id="19083" article="a" name="silver raid token">
+<item id="27499" name="golden symbol of Suon">
+<item id="3023" article="a" name="holy scarab">
+<item id="3024" article="a" name="holy falcon">
+<item id="2848" article="a" name="purple tome">
+<item id="2849" article="a" name="green tome">
+<item id="2850" article="a" name="blue tome">
+<item id="2851" article="a" name="grey tome">
+<item id="2852" article="a" name="red tome">
+<item id="12540" article="a" name="armageddon plans">
+<item id="37572" article="a" name="vessel of Gaz'haragoth">
+<item id="37573" article="a" name="vessel of Ferumbras">
+<item id="37574" article="a" name="vessel of the Mad Mage">
+<item id="37575" article="a" name="vessel of Horestis">
+<item id="37576" article="a" name="vessel of Devovorga">
+<item id="22771" article="a" name="scroll of ascension">
+<item id="22772" article="a" name="scroll of ascension">
+<item id="27845" article="a" name="Citizen Doll">
+<item id="27846" article="a" name="Citizen Doll">
+<item id="37333" article="an" name="Adventurers' Guild picture">
+<item id="8778" article="a" name="jester doll">
+<item id="3248" article="a" name="portable hole">
+<item id="22120" article="a" name="little adventurer doll">
+<item id="22121"" article="a" name="little adventurer doll">
+<item id="37311" article="a" name="picture album">
+<item id="5090" article="a" name="treasure map">
+<item id="14143" article="a" name="four-leaf clover"> - LOOT
+<item id="38844" article="an" name="asuri talisman">
+<item id="19216" article="a" name="partially charged lodestone">
+<item id="19204" article="a" name="tuning fork">
+<item id="32584" article="a" name="vial with a skull cork">
+<item id="32603" article="a" name="grave flower extract">
+<item id="8020" article="a" name="baking tray">
+<item id="8198" article="a" name="baking tray">
+<item id="31913" article="a" name="baking tray">
+<item id="31685" name="reed balls">
+<item id="3120" article="a" name="mouldy cheese">
+<item id="12231" name="tonguefruit">
+
+<item id="14671" name="Delany's golden bug trophy">
+<item id="14672" name="Bolfrim's golden bug trophy">
+<item id="14673" name="Siramal's golden bug trophy">
+
+<item id="9206" article="a" name="champion's cup">
+<item id="9207" article="a" name="silver cup of honour">
+<item id="9208" article="a" name="bronze cup of honour">
+<item id="37059" article="a" name="lucky clover amulet">
+
+
+	<item id="36810" article="an" name="artefact box">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="description" value="The knight Galthen built this box to hold Prime Artefacts"/>
+		<attribute key="containersize" value="32"/>
+		<attribute key="weight" value="5000"/>
+	</item>
+
+	<item id="36813" article="a" name="Galthen's satchel">
+		<attribute key="description" value="The original satchel in which Galthen once carried all his personal notes and research"/>
+		<attribute key="containersize" value="32"/>
+		<attribute key="weight" value="1000"/>
+
