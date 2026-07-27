@@ -48,6 +48,17 @@
 
 		<attribute key="speed" value="500"/>
 
+		<attribute key="elementice" value="47"/>
+		<attribute key="elementfire" value="47"/>
+		<attribute key="elementearth" value="47"/>
+		<attribute key="elementenergy" value="47"/>
+		<attribute key="elementholy" value="47"/>
+		<attribute key="elementdeath" value="47"/>
+
+
+		<attribute key="attack" value="62"/>
+		<attribute key="extradef" value="3"/>
+		<attribute key="defense" value="35"/>
 
 
 
@@ -122,16 +133,20 @@ armadura EK
 				</attribute>
 
 armadura RP
-			<attribute key="augments" value="1">
-				<attribute key="strong ethereal spear" value="life leech">
-					<attribute key="value" value="4" />
-				</attribute>
+		<attribute key="augments" value="1">
+			<attribute key="strong ethereal spear" value="life leech">
+				<attribute key="value" value="4" />
+			</attribute>
+			<attribute key="divine missile" value="critical extra damage">
+				<attribute key="value" value="5" />
+			</attribute>
+		</attribute>
 
 armadura MS
 			<attribute key="augments" value="1">
 				<attribute key="energy wave" value="life leech">
 					<attribute key="value" value="5" />
-				</attribute>
+			</attribute>
 
 armadura ED
 			<attribute key="augments" value="1">

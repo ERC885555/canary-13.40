@@ -1,186 +1,226 @@
-escudo
-Defence: 43
-Protection: physical +15%, holy +15%, death +15%
-Minimum Required Level: 800
-Vocations: knights
-Weight: 58.00 oz
-Imbuement Slots: 1
+ARMADURAS
+       MASTER SORCERER
+              Armor: 18
+              Protection: physical +10%, death +18%
+              Minimum Required Level: 800
+              Vocations: sorcerers
+              Skill Boost:  magic level +8
+              Weight: 24.00 oz
+              Imbuement Slots: 2
+              Classification: 4
+              Tier: 0
 
-Attack: 55
-Defence: 35 +3
-Minimum Required Level: 800
-Vocations: knights
-Skill Boost: axe fighting +8, life leech chance +100%, life leech amount +10%, mana leech chance +100%, mana leech amount +10%
-Weapon Type: axe
-Weight: 40.00 oz
-Imbuement Slots: 2
-Classification: 4
-Tier: 0
+       ROYAL PALADIN
+              Armor: 19
+              Protection: physical +8%, energy +12%, fire +18%
+              Minimum Required Level: 800
+              Vocations: paladins
+              Skill Boost: distance fighting +8
+              Weight: 123.00 oz
+              Imbuement Slots: 2
+              Classification: 4
+              Tier: 0
 
-arco
-Attack: attack +9, chance to hit +7%, 6 fields
-Protection: holy +15%
-Minimum Required Level: 800
-Vocations: paladins
-Skill Boost: distance fighting +6, critical hit chance 20%, critical extra damage +20%
-Weapon Type: distance, two-handed
-Weight: 47.00 oz
-Imbuement Slots: 3
-Classification: 4
-Tier: 0
+       ELITE KNIGHT
+              Armor: 22
+              Protection: physical +18%, death +12%, energy 8%
+              Minimum Required Level: 800
+              Vocations: knights
+              Skill Boost: club fighting +8, sword fighting +8, axe fighting +8
+              Weight: 138.00 oz
+              Imbuement Slots: 2
+              Classification: 4
+              Tier: 0
+
+       ELDER DRUID
+              Armor: 18
+              Protection: physical +10%, death +18%
+              Minimum Required Level: 800
+              Vocations: druids
+              Skill Boost:  magic level +8
+              Weight: 24.00 oz
+              Imbuement Slots: 2
+              Classification: 4
+              Tier: 0
+
+ESCUDOS/SPELLBOOKS
+       ELITE KNIGHT
+              Defence: 43 (50)
+              Protection: physical +15%, holy +15%, death +15%
+              Minimum Required Level: 800
+              Vocations: knights
+              Weight: 58.00 oz
+              Imbuement Slots: 1
 
 
-Attack: 6 physical +50 fire
-Defence: 36 +3
-Minimum Required Level: 800
-Vocations: knights
-Skill Boost: club fighting +8, life leech chance +100%, life leech amount +10%, mana leech chance +100%, mana leech amount +15%
-Weapon Type: club
-Weight: 41.00 oz
-Imbuement Slots: 2
-Classification: 4
-Tier: 0
+CALÇAS
+       MASTER SORCERER
+              Armor: 11
+              Protection: fire +8%, death +18%
+              Minimum Required Level: 800
+              Vocations: sorcerers
+              Skill Boost:  magic level +6
+              Weight: 38.00 oz
 
-Attack: 7 physical +50 earth
-Defence: 35 +3
-Minimum Required Level: 800
-Vocations: knights
-Skill Boost: sword fighting +8, life leech chance +100%, life leech amount +10%, mana leech chance +100%, mana leech amount +10%
-Weapon Type: sword
-Weight: 63.00 oz
-Imbuement Slots: 2
-Classification: 4
-Tier: 0
+       ELDER DRUID
+              Armor: 11
+              Protection: earth +18%
+              Minimum Required Level: 800
+              Vocations: druids
+              Skill Boost:  magic level +6
+              Weight: 38.00 oz
 
-Attack: 10 physical +52 fire
-Defence: 37
-Minimum Required Level: 800
-Vocations: knights
-Skill Boost: axe fighting +8, critical hit chance 15%, critical extra damage +15%
-Weapon Type: axe, two-handed
-Weight: 72.00 oz
-Imbuement Slots: 3
-Classification: 4
-Tier: 0
+BOTAS
+       ROYAL PALADIN
+              Armor: 4
+              Protection: physical +10%
+              Minimum Required Level: 800
+              Vocations: paladins
+              Skill Boost: distance fighting +3, speed +40
+              Weight: 13.00 oz
+              Imbuement Slots: 1
 
-Protection: fire +18%
-Minimum Required Level: 800
-Vocations: druids
-Skill Boost: critical hit chance 15%, critical extra damage +15%, life leech chance +100%, life leech amount +10%, mana leech chance +100%, mana leech amount +15%,  magic level +8
-Weapon Type: wand
-Weight: 25.00 oz
-Imbuement Slots: 2
-Classification: 4
-Tier: 0
+ARMAS
+       ELITE KNIGHT
+              MACHADO UMA MÃO
+                     Attack: 10 physical +50 earth
+                     Defence: 35 +3
+                     Minimum Required Level: 800
+                     Vocations: knights
+                     Skill Boost: axe fighting +8, life leech chance +100%, life leech amount +10%, mana leech chance +100%, mana leech amount +10%
+                     Weapon Type: axe
+                     Weight: 40.00 oz
+                     Imbuement Slots: 2
+                     Classification: 4
+                     Tier: 0
 
-Attack: 10 physical +51 earth
-Defence: 38
-Minimum Required Level: 800
-Vocations: knights
-Skill Boost: club fighting +8, critical hit chance 15%, critical extra damage +16%
-Weapon Type: club, two-handed
-Weight: 89.00 oz
-Imbuement Slots: 3
-Classification: 4
-Tier: 0
+              MACHADO DUAS MÃOS
+                     Attack: 10 physical +54 energy
+                     Defence: 38
+                     Minimum Required Level: 800
+                     Vocations: knights
+                     Skill Boost: axe fighting +8, critical hit chance 15%, critical extra damage +15%
+                     Weapon Type: axe, two-handed
+                     Weight: 72.00 oz
+                     Imbuement Slots: 3
+                     Classification: 4
+                     Tier: 0
 
-mantle
-Armor: 18
-Protection: physical +10%
-Minimum Required Level: 800
-Vocations: sorcerers
-Skill Boost:  magic level +8
-Weight: 24.00 oz
-Imbuement Slots: 2
-Classification: 4
-Tier: 0
+              ESPADA UMA MÃO
+                     Attack: 10 physical +50 fire
+                     Defence: 35 +3
+                     Minimum Required Level: 800
+                     Vocations: knights
+                     Skill Boost: sword fighting +8, life leech chance +100%, life leech amount +10%, mana leech chance +100%, mana leech amount +10%
+                     Weapon Type: sword
+                     Weight: 63.00 oz
+                     Imbuement Slots: 2
+                     Classification: 4
+                     Tier: 0
 
-besta
-Attack: attack +11, chance to hit +9%, 6 fields
-Protection: death +15%
-Minimum Required Level: 800
-Vocations: paladins
-Skill Boost: distance fighting +8, critical hit chance 18%, critical extra damage +15%
-Weapon Type: distance, two-handed
-Weight: 40.00 oz
-Imbuement Slots: 3
-Classification: 4
-Tier: 0
+              ESPADA DUAS MÃOS
+                     Attack: 10 physical +54 death
+                     Defence: 35
+                     Minimum Required Level: 800
+                     Vocations: knights
+                     Skill Boost: sword fighting +8, critical hit chance 15%, critical extra damage +18%
+                     Weapon Type: sword, two-handed
+                     Weight: 81.00 oz
+                     Imbuement Slots: 3
+                     Classification: 4
+                     Tier: 0
 
-calça
-Armor: 11
-Protection: fire +8%, death +18%
-Minimum Required Level: 800
-Vocations: sorcerers
-Skill Boost:  magic level +6
-Weight: 38.00 oz
+              CLAVA UMA MÃO
+                     Attack: 10 physical +50 death
+                     Defence: 36 +3
+                     Minimum Required Level: 800
+                     Vocations: knights
+                     Skill Boost: club fighting +8, life leech chance +100%, life leech amount +10%, mana leech chance +100%, mana leech amount +15%
+                     Weapon Type: club
+                     Weight: 41.00 oz
+                     Imbuement Slots: 2
+                     Classification: 4
+                     Tier: 0
 
-armadura
-Armor: 19
-Protection: physical +8%, energy +12%, fire +18%
-Minimum Required Level: 800
-Vocations: paladins
-Skill Boost: distance fighting +8
-Weight: 123.00 oz
-Imbuement Slots: 2
-Classification: 4
-Tier: 0
+              CLAVA DUAS MÃOS
+                     Attack: 10 physical +54 ice
+                     Defence: 38
+                     Minimum Required Level: 800
+                     Vocations: knights
+                     Skill Boost: club fighting +8, critical hit chance 15%, critical extra damage +16%
+                     Weapon Type: club, two-handed
+                     Weight: 89.00 oz
+                     Imbuement Slots: 3
+                     Classification: 4
+                     Tier: 0
 
-Attack: 10 physical +51 fire
-Defence: 35
-Minimum Required Level: 800
-Vocations: knights
-Skill Boost: sword fighting +8, critical hit chance 15%, critical extra damage +18%
-Weapon Type: sword, two-handed
-Weight: 81.00 oz
-Imbuement Slots: 3
-Classification: 4
-Tier: 0
+       ROYAL PALADIN
+              ARCO
+                     Attack: attack +11, chance to hit +9%, 7 fields
+                     Protection: fire +15%
+                     Minimum Required Level: 800
+                     Vocations: paladins
+                     Skill Boost: distance fighting +7, critical hit chance 20%, critical extra damage +20%
+                     Weapon Type: distance, two-handed
+                     Weight: 47.00 oz
+                     Imbuement Slots: 3
+                     Classification: 4
+                     Tier: 0
 
-armadura
-Armor: 18
-Protection: physical +10%, death +18%
-Minimum Required Level: 800
-Vocations: druids
-Skill Boost:  magic level +8
-Weight: 24.00 oz
-Imbuement Slots: 2
-Classification: 4
-Tier: 0
+              BESTA
+                     Attack: attack +12, chance to hit +10%, 6 fields
+                     Protection: death +15%
+                     Minimum Required Level: 800
+                     Vocations: paladins
+                     Skill Boost: distance fighting +9, critical hit chance 18%, critical extra damage +15%
+                     Weapon Type: distance, two-handed
+                     Weight: 40.00 oz
+                     Imbuement Slots: 3
+                     Classification: 4
+                     Tier: 0
 
-calça
-Armor: 11
-Protection: earth +18%
-Minimum Required Level: 800
-Vocations: druids
-Skill Boost:  magic level +6
-Weight: 38.00 oz
+       ELDER DRUID
+              ROD
+                     Protection: fire +18%
+                     Minimum Required Level: 800
+                     Vocations: druids
+                     Skill Boost: critical hit chance 15%, critical extra damage +15%, life leech chance +100%, life leech amount +10%, mana leech chance +100%, mana leech amount +15%,  magic level +8, healing magic level +2, ice magic level +1
+                     Weapon Type: wand
+                     Weight: 25.00 oz
+                     Imbuement Slots: 2
+                     Classification: 4
+                     Tier: 0
 
-Protection: death +18%
-Minimum Required Level: 800
-Vocations: sorcerers
-Skill Boost: critical hit chance 15%, critical extra damage +15%,  magic level +8
-Weapon Type: wand
-Weight: 19.00 oz
-Imbuement Slots: 2
-Classification: 4
-Tier: 0
+       MASTER SORCERER
+              WAND
+                     Protection: death +18%
+                     Minimum Required Level: 800
+                     Vocations: sorcerers
+                     Skill Boost: critical hit chance 15%, critical extra damage +15%,  magic level +8, death magic level +1, energy magic level +1
+                     Weapon Type: wand
+                     Weight: 19.00 oz
+                     Imbuement Slots: 2
+                     Classification: 4
+                     Tier: 0
 
-bota
-Armor: 4
-Protection: physical +10%
-Minimum Required Level: 800
-Vocations: paladins
-Skill Boost: distance fighting +3, speed +40
-Weight: 13.00 oz
-Imbuement Slots: 1
 
-bota
-Armor: 5
-Protection: physical +14%, fire +10%
-Minimum Required Level: 800
-Vocations: knights
-Skill Boost: club fighting +3, sword fighting +3, axe fighting +3, speed +30
-Weight: 13.00 oz
-Imbuement Slots: 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
