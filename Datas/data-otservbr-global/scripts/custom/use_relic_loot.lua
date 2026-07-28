@@ -1,7 +1,7 @@
 local lootAction = Action()
 
 -- Configurações da Relíquia
-local BOOST_DURATION = 2 * 60 * 60 -- Tempo de duração: 2 horas (em segundos)
+local BOOST_DURATION = 1 * 60 * 60 -- Tempo de duração: 1 hora (em segundos)
 local STORAGE_TIME = 859603 -- Storage que guarda quando o buff vai acabar
 local STORAGE_ACTIVE = 859604 -- Storage que diz se o buff está ligado
 
@@ -23,7 +23,7 @@ function lootAction.onUse(player, item, fromPosition, target, toPosition, isHotk
     player:setStorageValue(STORAGE_ACTIVE, 1)
 
     -- Mensagem e efeito visual
-    player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "The Relic of Abundant Fortune has been unleashed! You now have 10x Loot Rate for the next 2 hours.")
+    player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "The Relic of Abundant Fortune has been unleashed! You now have 10x Loot Rate for the next 1 hour.")
     player:getPosition():sendMagicEffect(CONST_ME_GREEN_RINGS)
     
     return true

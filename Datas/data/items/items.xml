@@ -42794,9 +42794,11 @@ My sad story is told by few living humans but many dead warriors"/>
 		<attribute key="weight" value="980"/>
 	</item>
 	<item id="21444" name="RESERVED SPRITE"/>
-	<item id="21445" article="a" name="war backpack">
-		<attribute key="containersize" value="20"/>
-		<attribute key="weight" value="1500"/>
+	<item id="21445" article="a" name="masterforged war backpack">
+		<attribute key="showAttributes" value="1"/>
+		<attribute key="containersize" value="28"/>
+		<attribute key="weight" value="1000"/>
+		<attribute key="speed" value="500"/>
 		<attribute key="imbuementslot" value="1">
 			<attribute key="increase capacity" value="3"/>
 		</attribute>

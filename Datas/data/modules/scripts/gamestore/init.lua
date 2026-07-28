@@ -1566,35 +1566,37 @@ function GameStore.processItemPurchase(player, offerId, offerCount, movable, set
 
 	-- Lista com os IDs oficiais das suas relíquias livres de travas
 	local customRelics ={
-				44621, -- Masterforged heavy dragon armor
-				44622, -- Masterforged light dragon armor
-				44623, -- Masterforged robe of nature
-				44624, -- Masterforged robe of darkness
+				44621, -- Masterforged Heavy Dragon Armor
+				44622, -- Masterforged Light Dragon Armor
+				44623, -- Masterforged Robe of Nature
+				44624, -- Masterforged Robe of Darkness
 				8103, -- Masterforged Blade
-				26044, -- Masterforged Blade of corruption
-				661, -- Masterforged Blade of inferno
-				680, -- Masterforged Blade of frost
-				780, -- Masterforged Blade of nature
-				795, -- Masterforged Blade of thunder
+				26044, -- Masterforged Blade of Corruption
+				661, -- Masterforged Blade of Inferno
+				680, -- Masterforged Blade of Frost
+				780, -- Masterforged Blade of Nature
+				795, -- Masterforged Blade of Thunder
 				8097, -- Masterforged Axe
-				26050, -- Masterforged Axe of corruption
-				25924, -- Masterforged Axe of inferno
-				25939, -- Masterforged Axe of frost
-				25954, -- Masterforged Axe of nature
-				25969, -- Masterforged Axe of thunder
+				26050, -- Masterforged Axe of Corruption
+				25924, -- Masterforged Axe of Inferno
+				25939, -- Masterforged Axe of Frost
+				25954, -- Masterforged Axe of Nature
+				25969, -- Masterforged Axe of Thunder
 				8099, -- Masterforged Hammer
-				26059, -- Masterforged Hammer of corruption
-				671, -- Masterforged Hammer of inferno
-				690, -- Masterforged Hammer of frost
-				790, -- Masterforged Hammer of nature
-				807, -- Masterforged Hammer of thunder
+				26059, -- Masterforged Hammer of Corruption
+				671, -- Masterforged Hammer of Inferno
+				690, -- Masterforged Hammer of Frost
+				790, -- Masterforged Hammer of Nature
+				807, -- Masterforged Hammer of Thunder
 				26003, -- Masterforged Bow of mayhem
 				26006, -- Masterforged Crossbow of mayhem
 				35848, -- Masterforged Blue Quiver
 				35849 -- Masterforged Red Quiver
-				21445 -- War Backpack
-				31414 -- masterforged rod of nature
-				11362 -- masterforged wand of darkness
+				21445 -- Masterforged War Backpack
+				31414 -- Masterforged Rod of Nature
+				11362 -- Masterforged Wand of Darkness
+				12809 -- Masterforged Hat of Darkness
+				36978 -- Masterforged Hat of Nature
 				22120, -- Relic Hunt
 				16262, -- Relic Bosses
 				31633, -- Relic Travel

@@ -1,8 +1,8 @@
 local xpAction = Action()
 
 -- Configurações da Relíquia
-local XP_MULTIPLIER = 1000000 -- 1000000% representa 10000x XP
-local BOOST_DURATION = 2 * 60 * 60 -- Tempo de duração: 2 horas (em segundos)
+local XP_MULTIPLIER = 2000 -- 2000% representa 20x XP
+local BOOST_DURATION = 1 * 60 * 60 -- Tempo de duração: 1 hora (em segundos)
 local STORAGE_TIME = 859601 -- Storage que guarda quando o buff vai acabar
 local STORAGE_ACTIVE = 859602 -- Storage que diz se o buff está ligado
 
@@ -23,7 +23,7 @@ function xpAction.onUse(player, item, fromPosition, target, toPosition, isHotkey
     player:setStorageValue(STORAGE_TIME, endTime)
     player:setStorageValue(STORAGE_ACTIVE, 1)
 
-    -- Injeta o ganho de 10x XP direto na engine do Canary
+    -- Injeta o ganho de 20x XP direto na engine do Canary
     player:setBaseXpGain(XP_MULTIPLIER)
 
     -- Mensagem verde de impacto na tela e efeitos mágicos sagrados
