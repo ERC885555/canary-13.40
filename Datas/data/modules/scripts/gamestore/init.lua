@@ -1565,7 +1565,7 @@ function GameStore.processItemPurchase(player, offerId, offerCount, movable, set
 	end
 
 	-- Lista com os IDs oficiais das suas relíquias livres de travas
-	local customRelics ={
+	local customRelics = {
 				44621, -- Masterforged Heavy Dragon Armor
 				44622, -- Masterforged Light Dragon Armor
 				44623, -- Masterforged Robe of Nature
@@ -1591,12 +1591,12 @@ function GameStore.processItemPurchase(player, offerId, offerCount, movable, set
 				26003, -- Masterforged Bow of mayhem
 				26006, -- Masterforged Crossbow of mayhem
 				35848, -- Masterforged Blue Quiver
-				35849 -- Masterforged Red Quiver
-				21445 -- Masterforged War Backpack
-				31414 -- Masterforged Rod of Nature
-				11362 -- Masterforged Wand of Darkness
-				12809 -- Masterforged Hat of Darkness
-				36978 -- Masterforged Hat of Nature
+				35849, -- Masterforged Red Quiver
+				21445, -- Masterforged War Backpack
+				31414, -- Masterforged Rod of Nature
+				11362, -- Masterforged Wand of Darkness
+				12809, -- Masterforged Hat of Darkness
+				36978, -- Masterforged Hat of Nature
 				22120, -- Relic Hunt
 				16262, -- Relic Bosses
 				31633, -- Relic Travel

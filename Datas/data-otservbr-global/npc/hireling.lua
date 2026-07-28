@@ -1,7 +1,7 @@
 function createHirelingType(HirelingName)
 	local npcType = Game.createNpcType(HirelingName)
 
-	 If it's a Hireling with a name like an npc, example "Hireling Canary", we'll remove the name "Hireling" and keep only the npc name for the look description
+	-- If it's a Hireling with a name like an npc, example "Hireling Canary", we'll remove the name "Hireling" and keep only the npc name for the look description
 	if string.match(HirelingName, "^Hireling%s%w+") then
 		HirelingName = string.sub(HirelingName, 10)
 	end
@@ -556,8 +556,8 @@ function createHirelingType(HirelingName)
 			{ itemName = "giant pacifier", clientId = 21199, sell = 170 },					
 			{ itemName = "giant ruby", clientId = 30059, sell = 70000 },					
 			{ itemName = "giant sapphire", clientId = 30061, sell = 50000 },					
-			{ itemName = "giant shimmering pearl", clientId = 281, sell = 3000 },  green					
-			{ itemName = "giant shimmering pearl", clientId = 282, sell = 3000 },  brown					
+			{ itemName = "giant shimmering pearl", clientId = 281, sell = 3000 }, -- green					
+			{ itemName = "giant shimmering pearl", clientId = 282, sell = 3000 }, -- brown					
 			{ itemName = "giant sword", clientId = 3281, sell = 17000 },					
 			{ itemName = "giant tentacle", clientId = 27619, sell = 10000 },					
 			{ itemName = "giant topaz", clientId = 32623, sell = 80000 },					
@@ -1562,7 +1562,7 @@ function createHirelingType(HirelingName)
 		["supplies"] = {						
 								
 			{ itemName = "fire mushroom", clientId = 3731, sell = 200, buy = 250 },					
-			{ itemName = "Tibia Coins", clientId = 22118, buy = 45000 },					
+			{ itemName = "Tibia Coins", clientId = 22118, buy = 25000 },					
 			{ itemName = "blueberry cupcake", clientId = 28484, buy = 100000 },					
 			{ itemName = "bottle of Tibian Wine", clientId = 24948, buy = 100 },					
 			{ itemName = "brown mushroom", clientId = 3725, buy = 10 },					
@@ -1800,9 +1800,9 @@ function createHirelingType(HirelingName)
 								
 		},						
 	}
-	 ========================[[ END TRADER FUNCTIONS ]] ========================== 		
+	-- ========================[[ END TRADER FUNCTIONS ]] ========================== 		
 
-	 função para separador de milhar
+	 -- função para separador de milhar
 	local function formatNumber(number)
 	local formatted = tostring(number)
 
@@ -1812,25 +1812,25 @@ function createHirelingType(HirelingName)
 
 	return formatted
 	end
-	 função para separador de milhar
+	-- função para separador de milhar
 
-	 On buy npc shop message
+	-- On buy npc shop message
 	npcType.onBuyItem = function(npc, player, itemId, subType, amount, ignore, inBackpacks, totalCost)
 		npc:sellItem(player, itemId, amount, subType, 0, ignore, inBackpacks)
 	end
-	 On sell npc shop message
+	-- On sell npc shop message
 	npcType.onSellItem = function(npc, player, itemId, subtype, amount, ignore, name, totalCost)
 		player:sendTextMessage(MESSAGE_TRADE, string.format("Sold %ix %s for %i gold.", amount, name, totalCost))
 	end
-	 On check npc shop message (look item)
+	-- On check npc shop message (look item)
 	npcType.onCheckItem = function(npc, player, clientId, subType) end
 
 	local keywordHandler = KeywordHandler:new()
 	local npcHandler = NpcHandler:new(keywordHandler)
 	local hireling = nil
-	local count = {}  for banking
-	local transfer = {}  for banking
-	local sellConfirm = {}  for sell all itens with confirmation
+	local count = {} -- for banking
+	local transfer = {} -- for banking
+	local sellConfirm = {} -- for sell all itens with confirmation
 
 	npcType.onAppear = function(npc, creature)
 		npcHandler:onAppear(npc, creature)
@@ -1894,7 +1894,7 @@ function createHirelingType(HirelingName)
 		if hireling:hasSkill(HIRELING_SKILLS.STEWARD[2]) then
 			table.insert(skills, HIRELING_SKILLS.STEWARD[1])
 		end
-		 ignoring trader skills as it shows the same message about {goods}
+		-- ignoring trader skills as it shows the same message about {goods}
 		return skills
 	end
 
@@ -1910,7 +1910,7 @@ function createHirelingType(HirelingName)
 			end
 
 			if skills[i] == HIRELING_SKILLS.BANKER[1] then
-				str = str .. "to access your {bank} account"  TODO: this setence is not official
+				str = str .. "to access your {bank} account" -- TODO: this setence is not official
 			elseif skills[i] == HIRELING_SKILLS.COOKING[1] then
 				str = str .. "to order {food}"
 			elseif skills[i] == HIRELING_SKILLS.STEWARD[1] then
@@ -1935,15 +1935,14 @@ function createHirelingType(HirelingName)
 
 		npcHandler:say(message, npc, creature)
 	end
-	 [[ END STEWARD FUNCTIONS ]] 
-	[[
-	############################################################################
-	############################################################################
-	############################################################################
-	]]
-	 ========================[[ COOKER FUNCTIONS ]] ========================== 
+	-- [[ END STEWARD FUNCTIONS ]] 
+	-- [[ ############################################################################
+	-- ############################################################################
+	-- ############################################################################
+	-- ]]
+	-- ========================[[ COOKER FUNCTIONS ]] ========================== 
 
-	local function getDeliveredMessageByFoodId(food_id)  remove the hardcoded food ids
+	local function getDeliveredMessageByFoodId(food_id) -- remove the hardcoded food ids
 		local message = ""
 		if food_id == 29408 then
 			message = "Oh yes, a tasty roasted wings to make you even tougher and skilled with the defensive arts."
@@ -1993,10 +1992,10 @@ function createHirelingType(HirelingName)
 		local playerId = creature:getId()
 		local random = math.random(6)
 		if random == 6 then
-			 ask for preferred skill
+			-- ask for preferred skill
 			npcHandler:setTopic(playerId, TOPIC_FOOD.SKILL_CHOOSE)
 			npcHandler:say("Yay! I have the ingredients to make a skill boost dish. Would you rather like to boost your {magic}, {melee}, {shielding} or {distance} skill?", npc, creature)
-		else  deliver the random generated index
+		else -- deliver the random generated index
 			deliverFood(npc, creature, HIRELING_FOODS_IDS[random])
 		end
 	end
@@ -2025,7 +2024,7 @@ function createHirelingType(HirelingName)
 		end
 	end
 
-	 ======================[[ END COOKER FUNCTIONS ]] ======================== 
+	-- ======================[[ END COOKER FUNCTIONS ]] ======================== 
 	local function creatureSayCallback(npc, creature, type, message)
 		local player = Player(creature)
 		local playerId = player:getId()
@@ -2038,21 +2037,7 @@ function createHirelingType(HirelingName)
 			return false
 		end
 
-<<<<<<< HEAD
-		codigo aqui
-		elseif MsgContains(message, "test pouch") then
-
-		local pouch = player:getLootPouch()
-
-		if pouch then
-			npcHandler:say("Pouch found.", npc, creature)
-		else
-			npcHandler:say("Pouch not found.", npc, creature)
-		end
-		codigo aqui
-
-=======
-	 ======================[[ SELL ALL FUNCTIONS ]] ======================== 
+	-- ======================[[ SELL ALL FUNCTIONS ]] ======================== 
 		if MsgContains(message, "sell all") then
 
 		local inbox = player:getSlotItem(CONST_SLOT_STORE_INBOX)
@@ -2067,7 +2052,7 @@ function createHirelingType(HirelingName)
 		for i = 0, inbox:getSize() - 1 do
 		local item = inbox:getItem(i)
 
-		if item and item:getId() == 23721 then  Gold Pouch
+		if item and item:getId() == 23721 then -- Gold Pouch
 			pouch = Container(item.uid)
 			break
 		end
@@ -2202,15 +2187,14 @@ function createHirelingType(HirelingName)
 
 		return true
 		end
-	 ======================[[ END OF SELL ALL FUNCTIONS ]] ======================== 
->>>>>>> 2cd67417869fdcd9c085adfdafb65e20442b1abb
-		 roleplay
+	-- ======================[[ END OF SELL ALL FUNCTIONS ]] ======================== 
+		-- roleplay
 		if MsgContains(message, "sword of fury") then
 			npcHandler:say("In my youth I dreamt to wield it! Now I wield the broom of... brooming. I guess that's the next best thing!", npc, creature)
 		elseif MsgContains(message, "rookgaard") then
 			npcHandler:say("What an uncivilised place without any culture.", npc, creature)
 		elseif MsgContains(message, "excalibug") then
-			 end roleplay
+			-- end roleplay
 			npcHandler:say("I'll keep an eye open for it when cleaning up the things you brought home!", npc, creature)
 		elseif MsgContains(message, "service") then
 			npcHandler:setTopic(playerId, TOPIC.SERVICES)
@@ -2280,7 +2264,7 @@ function createHirelingType(HirelingName)
 		elseif npcHandler:getTopic(playerId) == TOPIC.FOOD or npcHandler:getTopic(playerId) == TOPIC_FOOD.SKILL_CHOOSE then
 			handleFoodActions(npc, creature, message)
 		elseif npcHandler:getTopic(playerId) == TOPIC.GOODS then
-			 Ensures players cannot access other shop categories
+			-- Ensures players cannot access other shop categories
 			if not hireling:hasSkill(HIRELING_SKILLS.TRADER[2]) then
 				if not MsgContains(message, "various") then
 					local text = "While I'm not a trader, I still have a collection of {various} items to sell if you like!"
@@ -2301,11 +2285,11 @@ function createHirelingType(HirelingName)
 			end
 		end
 		if enableBankSystem[playerId] then
-			 Parse bank
+			-- Parse bank
 			npc:parseBank(message, npc, creature, npcHandler)
-			 Parse guild bank
+			-- Parse guild bank
 			npc:parseGuildBank(message, npc, creature, playerId, npcHandler)
-			 Normal messages
+			-- Normal messages
 			npc:parseBankMessages(message, npc, creature, npcHandler)
 		end
 		return true
@@ -2318,7 +2302,7 @@ function createHirelingType(HirelingName)
 	npcHandler:setCallback(CALLBACK_MESSAGE_DEFAULT, creatureSayCallback)
 	npcHandler:addModule(FocusModule:new(), npcConfig.name, true, true, true)
 
-	 npcType registering the npcConfig table
+	-- npcType registering the npcConfig table
 	npcType:register(npcConfig)
 end
 

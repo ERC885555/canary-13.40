@@ -119,7 +119,7 @@ local towns = {
 	[TOWNS_LIST.KAZORDOON] = {
 		name = "Kazordoon",
 		about = { "The underground dwarven city. Doesn't have a real harbour, so I can't bring you there, sorry." },
-		canBeSailed = false,
+		canBeSailed = true,
 	},
 	[TOWNS_LIST.LIBERTY_BAY] = {
 		name = "Liberty Bay",
@@ -150,7 +150,7 @@ local towns = {
 			"Negative, can't bring you there. You gotta pass some sort of Barbarian test \z
 			before they let you live there. Still, you should go there sometime, I heard it's quite interesting.",
 		},
-		canBeSailed = false,
+		canBeSailed = true,
 	},
 	[TOWNS_LIST.THAIS] = {
 		name = "Thais",
@@ -183,7 +183,7 @@ local towns = {
 			Might be not cosy for a newcomer like yourself, though. And I can't sail there anyway... \z
 			they don't let everyone enter their fine pretty harbour, they're a bit particular.",
 		},
-		canBeSailed = false,
+		canBeSailed = true,
 	},
 }
 
