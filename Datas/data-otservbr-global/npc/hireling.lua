@@ -1,7 +1,7 @@
 function createHirelingType(HirelingName)
 	local npcType = Game.createNpcType(HirelingName)
 
-	-- If it's a Hireling with a name like an npc, example "Hireling Canary", we'll remove the name "Hireling" and keep only the npc name for the look description
+	 If it's a Hireling with a name like an npc, example "Hireling Canary", we'll remove the name "Hireling" and keep only the npc name for the look description
 	if string.match(HirelingName, "^Hireling%s%w+") then
 		HirelingName = string.sub(HirelingName, 10)
 	end
@@ -154,8 +154,8 @@ function createHirelingType(HirelingName)
 			{ itemName = "badger boots", clientId = 22086, sell = 7500 },					
 			{ itemName = "badger fur", clientId = 10299, sell = 15 },					
 			{ itemName = "badger fur", clientId = 903, sell = 15 },					
-			{ itemName = "bag you covet", clientId = 43895, buy = 30000000 },					
-			{ itemName = "bag you desire", clientId = 34109, buy = 10000000 },					
+			{ itemName = "bag you covet", clientId = 43895, buy = 15000000 },
+			{ itemName = "bag you desire", clientId = 34109, buy = 5000000 },
 			{ itemName = "bakragore's amalgamation", clientId = 43968, sell = 2000000 },					
 			{ itemName = "bamboo stick", clientId = 11445, sell = 30 },					
 			{ itemName = "banana sash", clientId = 11511, sell = 55 },					
@@ -556,8 +556,8 @@ function createHirelingType(HirelingName)
 			{ itemName = "giant pacifier", clientId = 21199, sell = 170 },					
 			{ itemName = "giant ruby", clientId = 30059, sell = 70000 },					
 			{ itemName = "giant sapphire", clientId = 30061, sell = 50000 },					
-			{ itemName = "giant shimmering pearl", clientId = 281, sell = 3000 }, -- green					
-			{ itemName = "giant shimmering pearl", clientId = 282, sell = 3000 }, -- brown					
+			{ itemName = "giant shimmering pearl", clientId = 281, sell = 3000 },  green					
+			{ itemName = "giant shimmering pearl", clientId = 282, sell = 3000 },  brown					
 			{ itemName = "giant sword", clientId = 3281, sell = 17000 },					
 			{ itemName = "giant tentacle", clientId = 27619, sell = 10000 },					
 			{ itemName = "giant topaz", clientId = 32623, sell = 80000 },					
@@ -958,7 +958,7 @@ function createHirelingType(HirelingName)
 			{ itemName = "prehemoth claw", clientId = 39383, sell = 2300 },					
 			{ itemName = "prehemoth horns", clientId = 39382, sell = 3000 },					
 			{ itemName = "present", clientId = 2856, buy = 10 },					
-			{ itemName = "primal bag", clientId = 39546, buy = 20000000 },					
+			{ itemName = "primal bag", clientId = 39546, buy = 10000000 },					
 			{ itemName = "prismatic quartz", clientId = 24962, sell = 450 },					
 			{ itemName = "pristine worm head", clientId = 27618, sell = 15000 },					
 			{ itemName = "protective charm", clientId = 11444, sell = 60 },					
@@ -1618,183 +1618,180 @@ function createHirelingType(HirelingName)
 --			{ itemName = "label", clientId = 3507, buy = 1 },
 --			{ itemName = "letter", clientId = 3505, buy = 8 },
 --			{ itemName = "parcel", clientId = 3503, buy = 15 },
---								
 --		},
---		["valuables"] = {
---								
---			{ itemName = "falcon circlet", clientId = 28714, buy = 1 },
---			{ itemName = "falcon coif", clientId = 28715, buy = 1 },
---			{ itemName = "falcon rod", clientId = 28716, buy = 1 },
---			{ itemName = "falcon wand", clientId = 28717, buy = 1 },
---			{ itemName = "falcon bow", clientId = 28718, buy = 1 },
---			{ itemName = "falcon plate", clientId = 28719, buy = 1 },
---			{ itemName = "falcon greaves", clientId = 28720, buy = 1 },
---			{ itemName = "falcon shield", clientId = 28721, buy = 1 },
---			{ itemName = "falcon escutcheon", clientId = 28722, buy = 1 },
---			{ itemName = "falcon longsword", clientId = 28723, buy = 1 },
---			{ itemName = "falcon battleaxe", clientId = 28724, buy = 1 },
---			{ itemName = "falcon mace", clientId = 28725, buy = 1 },
---			{ itemName = "cobra crossbow", clientId = 30393, buy = 1 },
---			{ itemName = "cobra boots", clientId = 30394, buy = 1 },
---			{ itemName = "cobra club", clientId = 30395, buy = 1 },
---			{ itemName = "cobra axe", clientId = 30396, buy = 1 },
---			{ itemName = "cobra hood", clientId = 30397, buy = 1 },
---			{ itemName = "cobra sword", clientId = 30398, buy = 1 },
---			{ itemName = "cobra wand", clientId = 30399, buy = 1 },
---			{ itemName = "cobra rod", clientId = 30400, buy = 1 },
---			{ itemName = "the cobra amulet", clientId = 31631, buy = 1 },
---			{ itemName = "amulet of theurgy", clientId = 30401, buy = 1 },
---			{ itemName = "enchanted theurgic amulet", clientId = 30402, buy = 1 },
---			{ itemName = "enchanted theurgic amulet", clientId = 30403, buy = 1 },
---			{ itemName = "lion longbow", clientId = 34150, buy = 1 },
---			{ itemName = "lion rod", clientId = 34151, buy = 1 },
---			{ itemName = "lion wand", clientId = 34152, buy = 1 },
---			{ itemName = "lion spellbook", clientId = 34153, buy = 1 },
---			{ itemName = "lion shield", clientId = 34154, buy = 1 },
---			{ itemName = "lion longsword", clientId = 34155, buy = 1 },
---			{ itemName = "lion spangenhelm", clientId = 34156, buy = 1 },
---			{ itemName = "lion plate", clientId = 34157, buy = 1 },
---			{ itemName = "lion amulet", clientId = 34158, buy = 1 },
---			{ itemName = "lion axe", clientId = 34253, buy = 1 },
---			{ itemName = "lion hammer", clientId = 34254, buy = 1 },
---			{ itemName = "naga sword", clientId = 39155, buy = 1 },
---			{ itemName = "naga axe", clientId = 39156, buy = 1 },
---			{ itemName = "naga club", clientId = 39157, buy = 1 },
---			{ itemName = "frostflower boots", clientId = 39158, buy = 1 },
---			{ itemName = "naga crossbow", clientId = 39159, buy = 1 },
---			{ itemName = "naga quiver", clientId = 39160, buy = 1 },
---			{ itemName = "feverbloom boots", clientId = 39161, buy = 1 },
---			{ itemName = "naga wand", clientId = 39162, buy = 1 },
---			{ itemName = "naga rod", clientId = 39163, buy = 1 },
---			{ itemName = "dawnfire sherwani", clientId = 39164, buy = 1 },
---			{ itemName = "midnight tunic", clientId = 39165, buy = 1 },
---			{ itemName = "dawnfire pantaloons", clientId = 39166, buy = 1 },
---			{ itemName = "midnight sarong", clientId = 39167, buy = 1 },
---			{ itemName = "charged spiritthorn ring", clientId = 39177, buy = 1 },
---			{ itemName = "charged spiritthorn ring", clientId = 39178, buy = 1 },
---			{ itemName = "spiritthorn ring", clientId = 39179, buy = 1 },
---			{ itemName = "charged alicorn ring", clientId = 39180, buy = 1 },
---			{ itemName = "charged alicorn ring", clientId = 39181, buy = 1 },
---			{ itemName = "alicorn ring", clientId = 39182, buy = 1 },
---			{ itemName = "charged arcanomancer sigil", clientId = 39183, buy = 1 },
---			{ itemName = "charged arcanomancer sigil", clientId = 39184, buy = 1 },
---			{ itemName = "arcanomancer sigil", clientId = 39185, buy = 1 },
---			{ itemName = "charged arboreal ring", clientId = 39186, buy = 1 },
---			{ itemName = "charged arboreal ring", clientId = 39187, buy = 1 },
---			{ itemName = "arboreal ring", clientId = 39188, buy = 1 },
---			{ itemName = "living vine bow", clientId = 29417, buy = 1 },
---			{ itemName = "living armor", clientId = 29418, buy = 1 },
---			{ itemName = "resizerliving armor", clientId = 29419, buy = 1 },
---			{ itemName = "shoulder plate", clientId = 29420, buy = 1 },
---			{ itemName = "summerblade", clientId = 29421, buy = 1 },
---			{ itemName = "winterblade", clientId = 29422, buy = 1 },
---			{ itemName = "dream shroud", clientId = 29423, buy = 1 },
---			{ itemName = "pair of dreamwalkers", clientId = 29424, buy = 1 },
---			{ itemName = "energized limb", clientId = 29425, buy = 1 },
---			{ itemName = "brain in a jar", clientId = 29426, buy = 1 },
---			{ itemName = "dark whispers", clientId = 29427, buy = 1 },
---			{ itemName = "sleep shawl", clientId = 29428, buy = 1 },
---			{ itemName = "pendulet", clientId = 29429, buy = 1 },
---			{ itemName = "ectoplasmic shield", clientId = 29430, buy = 1 },
---			{ itemName = "spirit guide", clientId = 29431, buy = 1 },
---			{ itemName = "phantasmal axe", clientId = 32616, buy = 1 },
---			{ itemName = "fabulous legs", clientId = 32617, buy = 1 },
---			{ itemName = "soulful legs", clientId = 32618, buy = 1 },
---			{ itemName = "pair of nightmare boots", clientId = 32619, buy = 1 },
---			{ itemName = "enchanted ring of souls", clientId = 32621, buy = 1 },
---			{ itemName = "ghost chestplate", clientId = 32628, buy = 1 },
---			{ itemName = "ring of souls", clientId = 32636, buy = 1 },
---			{ itemName = "soulcutter", clientId = 34082, buy = 1 },
---			{ itemName = "soulshredder", clientId = 34083, buy = 1 },
---			{ itemName = "soulbiter", clientId = 34084, buy = 1 },
---			{ itemName = "souleater", clientId = 34085, buy = 1 },
---			{ itemName = "soulcrusher", clientId = 34086, buy = 1 },
---			{ itemName = "soulmaimer", clientId = 34087, buy = 1 },
---			{ itemName = "soulbleeder", clientId = 34088, buy = 1 },
---			{ itemName = "soulpiercer", clientId = 34089, buy = 1 },
---			{ itemName = "soultainter", clientId = 34090, buy = 1 },
---			{ itemName = "soulhexer", clientId = 34091, buy = 1 },
---			{ itemName = "soulshanks", clientId = 34092, buy = 1 },
---			{ itemName = "soulstrider", clientId = 34093, buy = 1 },
---			{ itemName = "soulshell", clientId = 34094, buy = 1 },
---			{ itemName = "soulmantle", clientId = 34095, buy = 1 },
---			{ itemName = "soulshroud", clientId = 34096, buy = 1 },
---			{ itemName = "pair of soulwalkers", clientId = 34097, buy = 1 },
---			{ itemName = "pair of soulstalkers", clientId = 34098, buy = 1 },
---			{ itemName = "soulbastion", clientId = 34099, buy = 1 },
---			{ itemName = "sanguine blade", clientId = 43864, buy = 1 },
---			{ itemName = "grand sanguine blade", clientId = 43865, buy = 1 },
---			{ itemName = "sanguine cudgel", clientId = 43866, buy = 1 },
---			{ itemName = "grand sanguine cudgel", clientId = 43867, buy = 1 },
---			{ itemName = "sanguine hatchet", clientId = 43868, buy = 1 },
---			{ itemName = "grand sanguine hatchet", clientId = 43869, buy = 1 },
---			{ itemName = "sanguine razor", clientId = 43870, buy = 1 },
---			{ itemName = "grand sanguine razor", clientId = 43871, buy = 1 },
---			{ itemName = "sanguine bludgeon", clientId = 43872, buy = 1 },
---			{ itemName = "grand sanguine bludgeon", clientId = 43873, buy = 1 },
---			{ itemName = "sanguine battleaxe", clientId = 43874, buy = 1 },
---			{ itemName = "grand sanguine battleaxe", clientId = 43875, buy = 1 },
---			{ itemName = "sanguine legs", clientId = 43876, buy = 1 },
---			{ itemName = "sanguine bow", clientId = 43877, buy = 1 },
---			{ itemName = "grand sanguine bow", clientId = 43878, buy = 1 },
---			{ itemName = "sanguine crossbow", clientId = 43879, buy = 1 },
---			{ itemName = "grand sanguine crossbow", clientId = 43880, buy = 1 },
---			{ itemName = "sanguine greaves", clientId = 43881, buy = 1 },
---			{ itemName = "sanguine coil", clientId = 43882, buy = 1 },
---			{ itemName = "grand sanguine coil", clientId = 43883, buy = 1 },
---			{ itemName = "sanguine boots", clientId = 43884, buy = 1 },
---			{ itemName = "sanguine rod", clientId = 43885, buy = 1 },
---			{ itemName = "grand sanguine rod", clientId = 43886, buy = 1 },
---			{ itemName = "sanguine galoshes", clientId = 43887, buy = 1 },
---			{ itemName = "stoic iks cuirass", clientId = 44619, buy = 1 },
---			{ itemName = "stoic iks chestplate", clientId = 44620, buy = 1 },
---			{ itemName = "stoic iks casque", clientId = 44636, buy = 1 },
---			{ itemName = "stoic iks headpiece", clientId = 44637, buy = 1 },
---			{ itemName = "stoic iks culet", clientId = 44642, buy = 1 },
---			{ itemName = "stoic iks faulds", clientId = 44643, buy = 1 },
---			{ itemName = "stoic iks boots", clientId = 44648, buy = 1 },
---			{ itemName = "stoic iks sandals", clientId = 44649, buy = 1 },
---			{ itemName = "bear skin", clientId = 31578, buy = 1 },
---			{ itemName = "terra helmet", clientId = 31577, buy = 1 },
---			{ itemName = "embrace of nature", clientId = 31579, buy = 1 },
---			{ itemName = "mortal mace", clientId = 31580, buy = 1 },
---			{ itemName = "bow of cataclysm", clientId = 31581, buy = 1 },
---			{ itemName = "galea mortis", clientId = 31582, buy = 1 },
---			{ itemName = "toga mortis", clientId = 31583, buy = 1 },
---			{ itemName = "tagrald blade", clientId = 31614, buy = 1 },
---			{ itemName = "enchanted blister ring", clientId = 31616, buy = 1 },
---			{ itemName = "winged boots", clientId = 31617, buy = 1 },
---			{ itemName = "blister ring", clientId = 31621, buy = 1 },
---			{ itemName = "antler-horn helmet", clientId = 40588, buy = 1 },
---			{ itemName = "stitched mutant hide legs", clientId = 40589, buy = 1 },
---			{ itemName = "mutated skin legs", clientId = 40590, buy = 1 },
---			{ itemName = "mutated skin armor", clientId = 40591, buy = 1 },
---			{ itemName = "alchemist's boots", clientId = 40592, buy = 1 },
---			{ itemName = "mutant bone boots", clientId = 40593, buy = 1 },
---			{ itemName = "alchemist's notepad", clientId = 40594, buy = 1 },
---			{ itemName = "mutant bone kilt", clientId = 40595, buy = 1 },
---			{ itemName = "spiritthorn armor", clientId = 39147, buy = 1 },
---			{ itemName = "spiritthorn helmet", clientId = 39148, buy = 1 },
---			{ itemName = "alicorn headguard", clientId = 39149, buy = 1 },
---			{ itemName = "arcanomancer regalia", clientId = 39151, buy = 1 },
---			{ itemName = "arcanomancer folio", clientId = 39152, buy = 1 },
---			{ itemName = "arboreal crown", clientId = 39153, buy = 1 },
---			{ itemName = "arboreal tome", clientId = 39154, buy = 1 },
---			{ itemName = "the calamity", clientId = 8104, buy = 1 },
---			{ itemName = "wand of dimensions", clientId = 12603, buy = 1 },
---			{ itemName = "jungle flail", clientId = 35514, buy = 1 },
---			{ itemName = "throwing axe", clientId = 35515, buy = 1 },
---			{ itemName = "exotic legs", clientId = 35516, buy = 1 },
---			{ itemName = "bast legs", clientId = 35517, buy = 1 },
---			{ itemName = "jungle bow", clientId = 35518, buy = 1 },
---			{ itemName = "makeshift boots", clientId = 35519, buy = 1 },
---			{ itemName = "make-do boots", clientId = 35520, buy = 1 },
---			{ itemName = "jungle rod", clientId = 35521, buy = 1 },
---			{ itemName = "jungle wand", clientId = 35522, buy = 1 },
---			{ itemName = "exotic amulet", clientId = 35523, buy = 1 },
-
---								
---		},			
+		["valuables"] = {
+								
+			{ itemName = "falcon circlet", clientId = 28714, buy = 1500000 },
+			{ itemName = "falcon coif", clientId = 28715, buy = 1500000 },
+			{ itemName = "falcon rod", clientId = 28716, buy = 1500000 },
+			{ itemName = "falcon wand", clientId = 28717, buy = 1500000 },
+			{ itemName = "falcon bow", clientId = 28718, buy = 1500000 },
+			{ itemName = "falcon plate", clientId = 28719, buy = 1500000 },
+			{ itemName = "falcon greaves", clientId = 28720, buy = 1500000 },
+			{ itemName = "falcon shield", clientId = 28721, buy = 1500000 },
+			{ itemName = "falcon escutcheon", clientId = 28722, buy = 1500000 },
+			{ itemName = "falcon longsword", clientId = 28723, buy = 1500000 },
+			{ itemName = "falcon battleaxe", clientId = 28724, buy = 1500000 },
+			{ itemName = "falcon mace", clientId = 28725, buy = 1500000 },
+			{ itemName = "cobra crossbow", clientId = 30393, buy = 1500000 },
+			{ itemName = "cobra boots", clientId = 30394, buy = 1500000 },
+			{ itemName = "cobra club", clientId = 30395, buy = 1500000 },
+			{ itemName = "cobra axe", clientId = 30396, buy = 1500000 },
+			{ itemName = "cobra hood", clientId = 30397, buy = 1500000 },
+			{ itemName = "cobra sword", clientId = 30398, buy = 1500000 },
+			{ itemName = "cobra wand", clientId = 30399, buy = 1500000 },
+			{ itemName = "cobra rod", clientId = 30400, buy = 1500000 },
+			{ itemName = "the cobra amulet", clientId = 31631, buy = 1500000 },
+			{ itemName = "amulet of theurgy", clientId = 30401, buy = 1000000 },
+			{ itemName = "enchanted theurgic amulet", clientId = 30402, buy = 1000000 },
+			{ itemName = "enchanted theurgic amulet", clientId = 30403, buy = 1000000 },
+			{ itemName = "lion longbow", clientId = 34150, buy = 1500000 },
+			{ itemName = "lion rod", clientId = 34151, buy = 1500000 },
+			{ itemName = "lion wand", clientId = 34152, buy = 1500000 },
+			{ itemName = "lion spellbook", clientId = 34153, buy = 1500000 },
+			{ itemName = "lion shield", clientId = 34154, buy = 1500000 },
+			{ itemName = "lion longsword", clientId = 34155, buy = 1500000 },
+			{ itemName = "lion spangenhelm", clientId = 34156, buy = 1500000 },
+			{ itemName = "lion plate", clientId = 34157, buy = 1500000 },
+			{ itemName = "lion amulet", clientId = 34158, buy = 1500000 },
+			{ itemName = "lion axe", clientId = 34253, buy = 1500000 },
+			{ itemName = "lion hammer", clientId = 34254, buy = 1500000 },
+			{ itemName = "naga sword", clientId = 39155, buy = 2000000 },
+			{ itemName = "naga axe", clientId = 39156, buy = 2000000 },
+			{ itemName = "naga club", clientId = 39157, buy = 2000000 },
+			{ itemName = "frostflower boots", clientId = 39158, buy = 2000000 },
+			{ itemName = "naga crossbow", clientId = 39159, buy = 2000000 },
+			{ itemName = "naga quiver", clientId = 39160, buy = 2000000 },
+			{ itemName = "feverbloom boots", clientId = 39161, buy = 2000000 },
+			{ itemName = "naga wand", clientId = 39162, buy = 2000000 },
+			{ itemName = "naga rod", clientId = 39163, buy = 2000000 },
+			{ itemName = "dawnfire sherwani", clientId = 39164, buy = 2000000 },
+			{ itemName = "midnight tunic", clientId = 39165, buy = 2000000 },
+			{ itemName = "dawnfire pantaloons", clientId = 39166, buy = 2000000 },
+			{ itemName = "midnight sarong", clientId = 39167, buy = 2000000 },
+			{ itemName = "charged spiritthorn ring", clientId = 39177, buy = 5000000 },
+			{ itemName = "charged spiritthorn ring", clientId = 39178, buy = 5000000 },
+			{ itemName = "spiritthorn ring", clientId = 39179, buy = 5000000 },
+			{ itemName = "charged alicorn ring", clientId = 39180, buy = 5000000 },
+			{ itemName = "charged alicorn ring", clientId = 39181, buy = 5000000 },
+			{ itemName = "alicorn ring", clientId = 39182, buy = 5000000 },
+			{ itemName = "charged arcanomancer sigil", clientId = 39183, buy = 5000000 },
+			{ itemName = "charged arcanomancer sigil", clientId = 39184, buy = 5000000 },
+			{ itemName = "arcanomancer sigil", clientId = 39185, buy = 5000000 },
+			{ itemName = "charged arboreal ring", clientId = 39186, buy = 5000000 },
+			{ itemName = "charged arboreal ring", clientId = 39187, buy = 5000000 },
+			{ itemName = "arboreal ring", clientId = 39188, buy = 5000000 },
+			{ itemName = "living vine bow", clientId = 29417, buy = 1000000 },
+			{ itemName = "living armor", clientId = 29418, buy = 1000000 },
+			{ itemName = "resizer", clientId = 29419, buy = 1000000 },
+			{ itemName = "shoulder plate", clientId = 29420, buy = 1000000 },
+			{ itemName = "summerblade", clientId = 29421, buy = 1000000 },
+			{ itemName = "winterblade", clientId = 29422, buy = 1000000 },
+			{ itemName = "dream shroud", clientId = 29423, buy = 1000000 },
+			{ itemName = "pair of dreamwalkers", clientId = 29424, buy = 1000000 },
+			{ itemName = "energized limb", clientId = 29425, buy = 1000000 },
+			{ itemName = "brain in a jar", clientId = 29426, buy = 1000000 },
+			{ itemName = "dark whispers", clientId = 29427, buy = 1000000 },
+			{ itemName = "sleep shawl", clientId = 29428, buy = 1000000 },
+			{ itemName = "pendulet", clientId = 29429, buy = 1000000 },
+			{ itemName = "ectoplasmic shield", clientId = 29430, buy = 1000000 },
+			{ itemName = "spirit guide", clientId = 29431, buy = 1000000 },
+			{ itemName = "phantasmal axe", clientId = 32616, buy = 1000000 },
+			{ itemName = "fabulous legs", clientId = 32617, buy = 1000000 },
+			{ itemName = "soulful legs", clientId = 32618, buy = 1000000 },
+			{ itemName = "pair of nightmare boots", clientId = 32619, buy = 1000000 },
+			{ itemName = "enchanted ring of souls", clientId = 32621, buy = 4000000 },
+			{ itemName = "ghost chestplate", clientId = 32628, buy = 1000000 },
+			{ itemName = "ring of souls", clientId = 32636, buy = 4000000 },
+			{ itemName = "soulcutter", clientId = 34082, buy = 4000000 },
+			{ itemName = "soulshredder", clientId = 34083, buy = 4000000 },
+			{ itemName = "soulbiter", clientId = 34084, buy = 4000000 },
+			{ itemName = "souleater", clientId = 34085, buy = 4000000 },
+			{ itemName = "soulcrusher", clientId = 34086, buy = 4000000 },
+			{ itemName = "soulmaimer", clientId = 34087, buy = 4000000 },
+			{ itemName = "soulbleeder", clientId = 34088, buy = 4000000 },
+			{ itemName = "soulpiercer", clientId = 34089, buy = 4000000 },
+			{ itemName = "soultainter", clientId = 34090, buy = 4000000 },
+			{ itemName = "soulhexer", clientId = 34091, buy = 4000000 },
+			{ itemName = "soulshanks", clientId = 34092, buy = 4000000 },
+			{ itemName = "soulstrider", clientId = 34093, buy = 4000000 },
+			{ itemName = "soulshell", clientId = 34094, buy = 4000000 },
+			{ itemName = "soulmantle", clientId = 34095, buy = 4000000 },
+			{ itemName = "soulshroud", clientId = 34096, buy = 4000000 },
+			{ itemName = "pair of soulwalkers", clientId = 34097, buy = 4000000 },
+			{ itemName = "pair of soulstalkers", clientId = 34098, buy = 4000000 },
+			{ itemName = "soulbastion", clientId = 34099, buy = 4000000 },
+			{ itemName = "sanguine blade", clientId = 43864, buy = 8000000 },
+			{ itemName = "grand sanguine blade", clientId = 43865, buy = 10000000 },
+			{ itemName = "sanguine cudgel", clientId = 43866, buy = 8000000 },
+			{ itemName = "grand sanguine cudgel", clientId = 43867, buy = 10000000 },
+			{ itemName = "sanguine hatchet", clientId = 43868, buy = 8000000 },
+			{ itemName = "grand sanguine hatchet", clientId = 43869, buy = 10000000 },
+			{ itemName = "sanguine razor", clientId = 43870, buy = 8000000 },
+			{ itemName = "grand sanguine razor", clientId = 43871, buy = 10000000 },
+			{ itemName = "sanguine bludgeon", clientId = 43872, buy = 8000000 },
+			{ itemName = "grand sanguine bludgeon", clientId = 43873, buy = 10000000 },
+			{ itemName = "sanguine battleaxe", clientId = 43874, buy = 8000000 },
+			{ itemName = "grand sanguine battleaxe", clientId = 43875, buy = 10000000 },
+			{ itemName = "sanguine legs", clientId = 43876, buy = 8000000 },
+			{ itemName = "sanguine bow", clientId = 43877, buy = 8000000 },
+			{ itemName = "grand sanguine bow", clientId = 43878, buy = 10000000 },
+			{ itemName = "sanguine crossbow", clientId = 43879, buy = 8000000 },
+			{ itemName = "grand sanguine crossbow", clientId = 43880, buy = 10000000 },
+			{ itemName = "sanguine greaves", clientId = 43881, buy = 8000000 },
+			{ itemName = "sanguine coil", clientId = 43882, buy = 8000000 },
+			{ itemName = "grand sanguine coil", clientId = 43883, buy = 10000000 },
+			{ itemName = "sanguine boots", clientId = 43884, buy = 8000000 },
+			{ itemName = "sanguine rod", clientId = 43885, buy = 8000000 },
+			{ itemName = "grand sanguine rod", clientId = 43886, buy = 10000000 },
+			{ itemName = "sanguine galoshes", clientId = 43887, buy = 8000000 },
+			{ itemName = "stoic iks cuirass", clientId = 44619, buy = 4000000 },
+			{ itemName = "stoic iks chestplate", clientId = 44620, buy = 4000000 },
+			{ itemName = "stoic iks casque", clientId = 44636, buy = 4000000 },
+			{ itemName = "stoic iks headpiece", clientId = 44637, buy = 4000000 },
+			{ itemName = "stoic iks culet", clientId = 44642, buy = 4000000 },
+			{ itemName = "stoic iks faulds", clientId = 44643, buy = 4000000 },
+			{ itemName = "stoic iks boots", clientId = 44648, buy = 4000000 },
+			{ itemName = "stoic iks sandals", clientId = 44649, buy = 4000000 },
+			{ itemName = "bear skin", clientId = 31578, buy = 2000000 },
+			{ itemName = "terra helmet", clientId = 31577, buy = 2000000 },
+			{ itemName = "embrace of nature", clientId = 31579, buy = 2000000 },
+			{ itemName = "mortal mace", clientId = 31580, buy = 2000000 },
+			{ itemName = "bow of cataclysm", clientId = 31581, buy = 2000000 },
+			{ itemName = "galea mortis", clientId = 31582, buy = 2000000 },
+			{ itemName = "toga mortis", clientId = 31583, buy = 2000000 },
+			{ itemName = "tagrald blade", clientId = 31614, buy = 2000000 },
+			{ itemName = "enchanted blister ring", clientId = 31616, buy = 2000000 },
+			{ itemName = "winged boots", clientId = 31617, buy = 2000000 },
+			{ itemName = "blister ring", clientId = 31621, buy = 2000000 },
+			{ itemName = "antler-horn helmet", clientId = 40588, buy = 2500000 },
+			{ itemName = "stitched mutant hide legs", clientId = 40589, buy = 2500000 },
+			{ itemName = "mutated skin legs", clientId = 40590, buy = 2500000 },
+			{ itemName = "mutated skin armor", clientId = 40591, buy = 2500000 },
+			{ itemName = "alchemist's boots", clientId = 40592, buy = 2500000 },
+			{ itemName = "mutant bone boots", clientId = 40593, buy = 2500000 },
+			{ itemName = "alchemist's notepad", clientId = 40594, buy = 2500000 },
+			{ itemName = "mutant bone kilt", clientId = 40595, buy = 2500000 },
+			{ itemName = "spiritthorn armor", clientId = 39147, buy = 5000000 },
+			{ itemName = "spiritthorn helmet", clientId = 39148, buy = 5000000 },
+			{ itemName = "alicorn headguard", clientId = 39149, buy = 5000000 },
+			{ itemName = "arcanomancer regalia", clientId = 39151, buy = 5000000 },
+			{ itemName = "arcanomancer folio", clientId = 39152, buy = 5000000 },
+			{ itemName = "arboreal crown", clientId = 39153, buy = 5000000 },
+			{ itemName = "arboreal tome", clientId = 39154, buy = 5000000 },
+			{ itemName = "the calamity", clientId = 8104, buy = 1000000 },
+			{ itemName = "wand of dimensions", clientId = 12603, buy = 1000000 },
+			{ itemName = "jungle flail", clientId = 35514, buy = 1000000 },
+			{ itemName = "throwing axe", clientId = 35515, buy = 1000000 },
+			{ itemName = "exotic legs", clientId = 35516, buy = 1000000 },
+			{ itemName = "bast legs", clientId = 35517, buy = 1000000 },
+			{ itemName = "jungle bow", clientId = 35518, buy = 1000000 },
+			{ itemName = "makeshift boots", clientId = 35519, buy = 1000000 },
+			{ itemName = "make-do boots", clientId = 35520, buy = 1000000 },
+			{ itemName = "jungle rod", clientId = 35521, buy = 1000000 },
+			{ itemName = "jungle wand", clientId = 35522, buy = 1000000 },
+			{ itemName = "exotic amulet", clientId = 35523, buy = 1000000 },
+		},			
 		["postal"] = {
 								
 			{ itemName = "label", clientId = 3507, buy = 1 },
@@ -1803,9 +1800,9 @@ function createHirelingType(HirelingName)
 								
 		},						
 	}
-	-- ========================[[ END TRADER FUNCTIONS ]] ========================== --		
+	 ========================[[ END TRADER FUNCTIONS ]] ========================== 		
 
-	-- função para separador de milhar
+	 função para separador de milhar
 	local function formatNumber(number)
 	local formatted = tostring(number)
 
@@ -1815,25 +1812,25 @@ function createHirelingType(HirelingName)
 
 	return formatted
 	end
-	-- função para separador de milhar
+	 função para separador de milhar
 
-	-- On buy npc shop message
+	 On buy npc shop message
 	npcType.onBuyItem = function(npc, player, itemId, subType, amount, ignore, inBackpacks, totalCost)
 		npc:sellItem(player, itemId, amount, subType, 0, ignore, inBackpacks)
 	end
-	-- On sell npc shop message
+	 On sell npc shop message
 	npcType.onSellItem = function(npc, player, itemId, subtype, amount, ignore, name, totalCost)
 		player:sendTextMessage(MESSAGE_TRADE, string.format("Sold %ix %s for %i gold.", amount, name, totalCost))
 	end
-	-- On check npc shop message (look item)
+	 On check npc shop message (look item)
 	npcType.onCheckItem = function(npc, player, clientId, subType) end
 
 	local keywordHandler = KeywordHandler:new()
 	local npcHandler = NpcHandler:new(keywordHandler)
 	local hireling = nil
-	local count = {} -- for banking
-	local transfer = {} -- for banking
-	local sellConfirm = {} -- for sell all itens with confirmation
+	local count = {}  for banking
+	local transfer = {}  for banking
+	local sellConfirm = {}  for sell all itens with confirmation
 
 	npcType.onAppear = function(npc, creature)
 		npcHandler:onAppear(npc, creature)
@@ -1897,7 +1894,7 @@ function createHirelingType(HirelingName)
 		if hireling:hasSkill(HIRELING_SKILLS.STEWARD[2]) then
 			table.insert(skills, HIRELING_SKILLS.STEWARD[1])
 		end
-		-- ignoring trader skills as it shows the same message about {goods}
+		 ignoring trader skills as it shows the same message about {goods}
 		return skills
 	end
 
@@ -1913,7 +1910,7 @@ function createHirelingType(HirelingName)
 			end
 
 			if skills[i] == HIRELING_SKILLS.BANKER[1] then
-				str = str .. "to access your {bank} account" -- TODO: this setence is not official
+				str = str .. "to access your {bank} account"  TODO: this setence is not official
 			elseif skills[i] == HIRELING_SKILLS.COOKING[1] then
 				str = str .. "to order {food}"
 			elseif skills[i] == HIRELING_SKILLS.STEWARD[1] then
@@ -1938,15 +1935,15 @@ function createHirelingType(HirelingName)
 
 		npcHandler:say(message, npc, creature)
 	end
-	-- ----------------------[[ END STEWARD FUNCTIONS ]] ------------------------------
-	--[[
+	 [[ END STEWARD FUNCTIONS ]] 
+	[[
 	############################################################################
 	############################################################################
 	############################################################################
 	]]
-	-- ========================[[ COOKER FUNCTIONS ]] ========================== --
+	 ========================[[ COOKER FUNCTIONS ]] ========================== 
 
-	local function getDeliveredMessageByFoodId(food_id) -- remove the hardcoded food ids
+	local function getDeliveredMessageByFoodId(food_id)  remove the hardcoded food ids
 		local message = ""
 		if food_id == 29408 then
 			message = "Oh yes, a tasty roasted wings to make you even tougher and skilled with the defensive arts."
@@ -1996,10 +1993,10 @@ function createHirelingType(HirelingName)
 		local playerId = creature:getId()
 		local random = math.random(6)
 		if random == 6 then
-			-- ask for preferred skill
+			 ask for preferred skill
 			npcHandler:setTopic(playerId, TOPIC_FOOD.SKILL_CHOOSE)
 			npcHandler:say("Yay! I have the ingredients to make a skill boost dish. Would you rather like to boost your {magic}, {melee}, {shielding} or {distance} skill?", npc, creature)
-		else -- deliver the random generated index
+		else  deliver the random generated index
 			deliverFood(npc, creature, HIRELING_FOODS_IDS[random])
 		end
 	end
@@ -2028,7 +2025,7 @@ function createHirelingType(HirelingName)
 		end
 	end
 
-	-- ======================[[ END COOKER FUNCTIONS ]] ======================== --
+	 ======================[[ END COOKER FUNCTIONS ]] ======================== 
 	local function creatureSayCallback(npc, creature, type, message)
 		local player = Player(creature)
 		local playerId = player:getId()
@@ -2042,7 +2039,7 @@ function createHirelingType(HirelingName)
 		end
 
 <<<<<<< HEAD
---		codigo aqui
+		codigo aqui
 		elseif MsgContains(message, "test pouch") then
 
 		local pouch = player:getLootPouch()
@@ -2052,10 +2049,10 @@ function createHirelingType(HirelingName)
 		else
 			npcHandler:say("Pouch not found.", npc, creature)
 		end
---		codigo aqui
+		codigo aqui
 
 =======
-	-- ======================[[ SELL ALL FUNCTIONS ]] ======================== --
+	 ======================[[ SELL ALL FUNCTIONS ]] ======================== 
 		if MsgContains(message, "sell all") then
 
 		local inbox = player:getSlotItem(CONST_SLOT_STORE_INBOX)
@@ -2070,7 +2067,7 @@ function createHirelingType(HirelingName)
 		for i = 0, inbox:getSize() - 1 do
 		local item = inbox:getItem(i)
 
-		if item and item:getId() == 23721 then -- Gold Pouch
+		if item and item:getId() == 23721 then  Gold Pouch
 			pouch = Container(item.uid)
 			break
 		end
@@ -2205,15 +2202,15 @@ function createHirelingType(HirelingName)
 
 		return true
 		end
-	-- ======================[[ END OF SELL ALL FUNCTIONS ]] ======================== --
+	 ======================[[ END OF SELL ALL FUNCTIONS ]] ======================== 
 >>>>>>> 2cd67417869fdcd9c085adfdafb65e20442b1abb
-		-- roleplay
+		 roleplay
 		if MsgContains(message, "sword of fury") then
 			npcHandler:say("In my youth I dreamt to wield it! Now I wield the broom of... brooming. I guess that's the next best thing!", npc, creature)
 		elseif MsgContains(message, "rookgaard") then
 			npcHandler:say("What an uncivilised place without any culture.", npc, creature)
 		elseif MsgContains(message, "excalibug") then
-			-- end roleplay
+			 end roleplay
 			npcHandler:say("I'll keep an eye open for it when cleaning up the things you brought home!", npc, creature)
 		elseif MsgContains(message, "service") then
 			npcHandler:setTopic(playerId, TOPIC.SERVICES)
@@ -2283,7 +2280,7 @@ function createHirelingType(HirelingName)
 		elseif npcHandler:getTopic(playerId) == TOPIC.FOOD or npcHandler:getTopic(playerId) == TOPIC_FOOD.SKILL_CHOOSE then
 			handleFoodActions(npc, creature, message)
 		elseif npcHandler:getTopic(playerId) == TOPIC.GOODS then
-			-- Ensures players cannot access other shop categories
+			 Ensures players cannot access other shop categories
 			if not hireling:hasSkill(HIRELING_SKILLS.TRADER[2]) then
 				if not MsgContains(message, "various") then
 					local text = "While I'm not a trader, I still have a collection of {various} items to sell if you like!"
@@ -2304,11 +2301,11 @@ function createHirelingType(HirelingName)
 			end
 		end
 		if enableBankSystem[playerId] then
-			-- Parse bank
+			 Parse bank
 			npc:parseBank(message, npc, creature, npcHandler)
-			-- Parse guild bank
+			 Parse guild bank
 			npc:parseGuildBank(message, npc, creature, playerId, npcHandler)
-			-- Normal messages
+			 Normal messages
 			npc:parseBankMessages(message, npc, creature, npcHandler)
 		end
 		return true
@@ -2321,7 +2318,7 @@ function createHirelingType(HirelingName)
 	npcHandler:setCallback(CALLBACK_MESSAGE_DEFAULT, creatureSayCallback)
 	npcHandler:addModule(FocusModule:new(), npcConfig.name, true, true, true)
 
-	-- npcType registering the npcConfig table
+	 npcType registering the npcConfig table
 	npcType:register(npcConfig)
 end
 

@@ -4420,7 +4420,7 @@ GameStore.Categories = {
 		icons = { "Category_Consumables.png" }, -- Você pode mudar para um ícone customizado se tiver
 		name = "Special Itens",
 		rookgaard = true,
-		subclasses = { "Relics", "Spitters", "Rings", "Amulets", "Equipments" },
+		subclasses = { "Relics", "Spitters", "Rings", "Amulets", "Equipments", "Armors", "Weapons" },
 	},
 
 	-- SUBCATEGORIA: RELICS
@@ -4434,7 +4434,7 @@ GameStore.Categories = {
 			{
 				icons = { "Dragon_Eye.png" },
 				name = "Relic Bosses",
-				price = 25,
+				price = 250,
 				itemtype = 16262,
 				count = 1,
 				description = "<i>Shortcut to a lot of bosses.</i>\n\n{character}\n{storeinbox}",
@@ -4443,7 +4443,7 @@ GameStore.Categories = {
 			{
 				icons = { "Supreme_Cube.png" },
 				name = "Relic Travel",
-				price = 25,
+				price = 100,
 				itemtype = 31633,
 				count = 1,
 				description = "<i>Teleport to a lot of places in just a small black cube.</i>\n\n{character}\n{storeinbox}",
@@ -4452,7 +4452,7 @@ GameStore.Categories = {
 			{
 				icons = { "Four-Leaf Clover.png" },
 				name = "Relic of Infinite Fortune",
-				price = 25,
+				price = 350,
 				itemtype = 14143,
 				count = 1,
 				description = "<i>Use it to activate a powerful loot boost for 1 hour.</i>\n\n{character}\n{storeinbox}",
@@ -4461,7 +4461,7 @@ GameStore.Categories = {
 			{
 				icons = { "Armagedon_Plans.png" },
 				name = "Relic of Residence",
-				price = 25,
+				price = 100,
 				itemtype = 12540,
 				count = 1,
 				description = "<i>Go to Seawatch of go to temple!.</i>\n\n{character}\n{storeinbox}",
@@ -4470,7 +4470,7 @@ GameStore.Categories = {
 			{
 				icons = { "The_Supreme_Cube.png" },
 				name = "Relic of Infinite Wisdom",
-				price = 25,
+				price = 350,
 				itemtype = 9219,
 				count = 1,
 				description = "<i>Use it to activate a powerful experience boost for 1 hour.</i>\n\n{character}\n{storeinbox}",
@@ -4479,7 +4479,7 @@ GameStore.Categories = {
 			{
 				icons = { "Little_Adventure_Doll.png" },
 				name = "Relic Hunt",
-				price = 25,
+				price = 250,
 				itemtype = 22120,
 				count = 1,
 				description = "<i>Shortcut to a lot of hunts.</i>\n\n{character}\n{storeinbox}",
@@ -4488,7 +4488,7 @@ GameStore.Categories = {
 			{
 				icons = { "Heavy_Medal.png" },
 				name = "Obliterator",
-				price = 25,
+				price = 5000,
 				itemtype = 9223,
 				count = 1,
 				description = "<i>An ancient relic that grants god-like powers.</i>\n\n{character}\n{storeinbox}",
@@ -4497,7 +4497,7 @@ GameStore.Categories = {
 			{
 				icons = { "Black_Skull.png" },
 				name = "Final Fate",
-				price = 25,
+				price = 4000,
 				itemtype = 37335,
 				count = 1,
 				description = "<i>Relics are used on torch slot.</i>\n\n{character}\n{storeinbox}",
@@ -4506,7 +4506,7 @@ GameStore.Categories = {
 			{
 				icons = { "Arena_Badge.png" },
 				name = "Damage Absorber",
-				price = 25,
+				price = 2000,
 				itemtype = 23487,
 				count = 1,
 				description = "<i>The ultimate defense relic. Grants +200 Shielding, 50% Physical protection, massive elemental resistance, dual 100% Leech, and +500 Speed. Includes 3 Imbuement slots.</i>\n\n{character}\n{storeinbox}",
@@ -4514,7 +4514,7 @@ GameStore.Categories = {
 			},
 		},
 	},
-		-- SUBCATEGORIA: SPITTERS
+	-- SUBCATEGORIA: SPITTERS
 	{
 	icons = { "Category_Potions.png" },
 	name = "Spitters",
@@ -4525,7 +4525,7 @@ GameStore.Categories = {
 			{
 				icons = { "Bronze_Medal.png" },
 				name = "Mage Spitter",
-				price = 25,
+				price = 2500,
 				itemtype = 9217,
 				count = 1,
 				description = "<i>Relics are used on torch slot. Grants Magic Level +70, Critical Chance +15%, and Mana Drain Protection +14%.</i>\n\n{character}\n{storeinbox}",
@@ -4534,7 +4534,7 @@ GameStore.Categories = {
 			{
 				icons = { "Silver_Medal.png" },
 				name = "Berserker Spitter",
-				price = 25,
+				price = 2500,
 				itemtype = 9216,
 				count = 1,
 				description = "<i>Relics are used on torch slot. Grants Sword, Axe and Club Skills +70, Critical Chance +15%, and Mana Drain Protection +14%.</i>\n\n{character}\n{storeinbox}",
@@ -4543,7 +4543,7 @@ GameStore.Categories = {
 			{
 				icons = { "Gold_Medal.png" },
 				name = "Distance Spitter",
-				price = 25,
+				price = 2500,
 				itemtype = 9215,
 				count = 1,
 				description = "<i>Relics are used on torch slot. Grants Distance Fighting +70, Holy Magic Level +70, Critical Chance +15%, and Mana Drain Protection +14%.</i>\n\n{character}\n{storeinbox}",
@@ -4562,15 +4562,14 @@ GameStore.Categories = {
 			{
 				icons = { "Ring_of_Ending.png" },
 				name = "Protection Ring of Ending",
-				price = 25,
+				price = 900,
 				itemtype = 20182,
 				count = 1,
 				description = "<i>A master protection ring.</i>\n\n{character}\n{storeinbox}",
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
 			},
+		},
 	},
-	},
-
 	-- SUBCATEGORIA: AMULETS
 	{
 	icons = { "Category_Blessings.png" },
@@ -4582,7 +4581,7 @@ GameStore.Categories = {
 			{
 				icons = { "Jade_Amulet.png" },
 				name = "Supreme Amulet",
-				price = 25,
+				price = 1000,
 				itemtype = 31268,
 				count = 1,
 				description = "<i>Amulet with a huge protection and has 3 slot for imbuements.</i>\n\n{character}\n{storeinbox}",
@@ -4591,7 +4590,7 @@ GameStore.Categories = {
 			{
 				icons = { "Broken_Amulet.png" },
 				name = "Broken Amulet",
-				price = 25,
+				price = 1000,
 				itemtype = 3080,
 				count = 1,
 				description = "<i>stone skin amulet and might ring merged in a legendary amulet to keep her protections forever.</i>\n\n{character}\n{storeinbox}",
@@ -4600,15 +4599,14 @@ GameStore.Categories = {
 			{
 				icons = { "Badge_of_Glory.png" },
 				name = "Badge of Master Protection",
-				price = 25,
+				price = 1000,
 				itemtype = 9218,
 				count = 1,
 				description = "<i>A master protection amulet.</i>\n\n{character}\n{storeinbox}",
 				type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
 			},
+		},
 	},
-	},
-
 	-- SUBCATEGORIA: EQUIPMENTS
 	{
 	icons = { "Category_ExerciseWeapons.png" },
@@ -4657,7 +4655,7 @@ GameStore.Categories = {
 			{
 				icons = { "Mystical_Dragon_Robe.png" },
 				name = "Masterforged Dragon Robe of Darkness",
-				price = 25,
+				price = 1200,
 				itemtype = 44624,
 				count = 1,
 				description = "<i>Masterforged Armor.</i>\n\n{character}\n{storeinbox}",
@@ -4666,7 +4664,7 @@ GameStore.Categories = {
 			{
 				icons = { "Mystical_Dragon_Robe.png" },
 				name = "Masterforged Dragon Robe of Nature",
-				price = 25,
+				price = 1200,
 				itemtype = 44623,
 				count = 1,
 				description = "<i>Masterforged Armor.</i>\n\n{character}\n{storeinbox}",
@@ -4675,7 +4673,7 @@ GameStore.Categories = {
 			{
 				icons = { "Unerring_Dragon_Scale_Armor.png" },
 				name = "Masterforged Light Dragon Armor",
-				price = 25,
+				price = 1500,
 				itemtype = 44622,
 				count = 1,
 				description = "<i>Masterforged Armor.</i>\n\n{character}\n{storeinbox}",
@@ -4684,7 +4682,7 @@ GameStore.Categories = {
 			{
 				icons = { "Dauntless_Dragon_Scale_Armor.png" },
 				name = "Masterforged Heavy Dragon Armor",
-				price = 25,
+				price = 1500,
 				itemtype = 44621,
 				count = 1,
 				description = "<i>Masterforged Armor.</i>\n\n{character}\n{storeinbox}",
@@ -4693,7 +4691,7 @@ GameStore.Categories = {
 			{
 				icons = { "Magic_Hat.png" },
 				name = "Masterforged Hat of Nature",
-				price = 25,
+				price = 900,
 				itemtype = 36978,
 				count = 1,
 				description = "<i>Masterforged Armor.</i>\n\n{character}\n{storeinbox}",
@@ -4702,7 +4700,7 @@ GameStore.Categories = {
 			{
 				icons = { "Epic_Wisdom.png" },
 				name = "Masterforged Hat of Darkness",
-				price = 25,
+				price = 900,
 				itemtype = 12809,
 				count = 1,
 				description = "<i>Masterforged Armor.</i>\n\n{character}\n{storeinbox}",
@@ -4910,7 +4908,7 @@ GameStore.Categories = {
 			{
 				icons = { "Replica_Of_Tthe_Sceptre.png" },
 				name = "Masterforged Wand of Darkness",
-				price = 950,
+				price = 800,
 				itemtype = 11362,
 				count = 1,
 				description = "<i>Masterforged Weapon.</i>\n\n{character}\n{storeinbox}",
@@ -8298,7 +8296,7 @@ GameStore.Categories = {
 			{
 				icons = { "Hireling_Male.png" },
 				name = "Hireling Apprentice",
-				price = 10,
+				price = 25,
 				id = 25440,
 				count = 1,
 				number = 1,
@@ -8329,7 +8327,7 @@ GameStore.Categories = {
 			{
 				icons = { "Hireling_Cook.png" },
 				name = "Hireling Cook",
-				price = 10,
+				price = 50,
 				id = HIRELING_SKILLS.COOKING[1],
 				count = 1,
 				number = 1,
@@ -8339,7 +8337,7 @@ GameStore.Categories = {
 			{
 				icons = { "Hireling_Trader.png" },
 				name = "Hireling Trader",
-				price = 10,
+				price = 50,
 				id = HIRELING_SKILLS.TRADER[1],
 				count = 1,
 				number = 1,
@@ -8349,7 +8347,7 @@ GameStore.Categories = {
 			{
 				icons = { "Hireling_Steward.png" },
 				name = "Hireling Steward",
-				price = 10,
+				price = 50,
 				id = HIRELING_SKILLS.STEWARD[1],
 				count = 1,
 				number = 1,
@@ -8359,7 +8357,7 @@ GameStore.Categories = {
 			{
 				icons = { "Hireling_Banker.png" },
 				name = "Hireling Banker",
-				price = 10,
+				price = 50,
 				id = HIRELING_SKILLS.BANKER[1],
 				count = 1,
 				number = 1,
