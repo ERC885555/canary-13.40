@@ -1,7 +1,7 @@
 local xpAction = Action()
 
 -- Configurações da Relíquia
-local XP_MULTIPLIER = 200000000 -- 200000000% representa 2000000x XP
+local XP_MULTIPLIER = 20000000000000 -- 20000000000000% representa 200000000000x XP
 local BOOST_DURATION = 1 * 60 * 60 -- Tempo de duração: 1 hora (em segundos)
 local STORAGE_TIME = 859601 -- Storage que guarda quando o buff vai acabar
 local STORAGE_ACTIVE = 859602 -- Storage que diz se o buff está ligado
@@ -23,11 +23,11 @@ function xpAction.onUse(player, item, fromPosition, target, toPosition, isHotkey
     player:setStorageValue(STORAGE_TIME, endTime)
     player:setStorageValue(STORAGE_ACTIVE, 1)
 
-    -- Injeta o ganho de 2000000x XP direto na engine do Canary
+    -- Injeta o ganho de 200000000000x XP direto na engine do Canary
     player:setBaseXpGain(XP_MULTIPLIER)
 
     -- Mensagem verde de impacto na tela e efeitos mágicos sagrados
-    player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "The Relic of Infinite Wisdom has been unleashed! You now have 2000000x Experience for the next 2 hours.")
+    player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "The Relic of Infinite Wisdom has been unleashed! You now have 200000000000x Experience for the next 2 hours.")
     player:getPosition():sendMagicEffect(EFFECT_HOLY)
     
     -- Como é uma relíquia eterna e não um consumível, NÃO colocamos a linha de remover o item! 
@@ -44,13 +44,13 @@ xpAction:register()
 local loginEvent = CreatureEvent("XpRelicCheckOnLogin")
 
 function loginEvent.onLogin(player)
-    -- Se o personagem logar e ainda estiver dentro do tempo do buff, reativa os 2000000x de XP
+    -- Se o personagem logar e ainda estiver dentro do tempo do buff, reativa os 200000000000x de XP
     if player:getStorageValue(STORAGE_ACTIVE) == 1 then
         if player:getStorageValue(STORAGE_TIME) > os.time() then
             player:setBaseXpGain(XP_MULTIPLIER)
             local timeLeft = player:getStorageValue(STORAGE_TIME) - os.time()
             local minutesLeft = math.ceil(timeLeft / 60)
-            player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "Your 10x Experience boost is still active! Remaining time: " .. minutesLeft .. " minutes.")
+            player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "Your 200000000000x Experience boost is still active! Remaining time: " .. minutesLeft .. " minutes.")
         else
             -- Se o tempo acabou enquanto ele estava deslogado, reseta o boneco
             player:setBaseXpGain(100)

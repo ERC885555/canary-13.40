@@ -78587,6 +78587,7 @@ Granted by TibiaGoals.com" />
 			value="Belongs to MADA SALBERT" />
 		<attribute key="weight" value="1.00" />
 		<!-- otserv\data-otservbr-global\scripts\custom\mada_salbert_trinquet.lua -->
+	</item>
 	<item id="44751" name="gold-scaled sentinel">
 		<attribute key="primarytype" value="valuables" />
 		<attribute key="weight" value="20" />
