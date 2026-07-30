@@ -59,7 +59,7 @@ local bossCategories = {
     },
     ["Dream Courts"] = {
         ["Faceless Bane"] = Position(33640, 32564, 13),
-        ["Dream Courts Hub"] = Position(32043, 31936, 14),
+        ["Dream Courts Hub"] = Position(32208, 32035, 13),
         ["The Nightmare Beast"] = Position(32212, 32073, 15),
     },
     ["Soul War"] = {

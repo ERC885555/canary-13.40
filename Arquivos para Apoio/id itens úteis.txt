@@ -43,7 +43,6 @@ EQUIPAMENTOS
 <item id="28915" article="an" name="adamant shield">
 <item fromid="37052" toid="37053" article="a" name="bonelord tome">
 <item id="34264" name="Tibiapedia">
-<<<<<<< HEAD
 <item fromid="36978" toid="36979" name="magic hat"> - ED
 <item fromid="12809" toid="12810" article="the" name="epic wisdom"> - MS
 <item id="31414" name="sceptre of sun and sea"> - ED
@@ -82,21 +81,6 @@ CLAVAS
 DISTÂNCIA
 <item id="26003" article="an" name="masterforged bow of mayhem"> - USADO
 <item id="26006" article="an" name="masterforged crossbow of mayhem"> - USADO
-=======
-<item fromid="36978" toid="36979" name="magic hat">
-<item id="19374" name="vampire silk slippers">
-<item id="3365" article="a" name="golden helmet">
-<item fromid="22153" toid="22154" name="dark wizard's crown">
-<item id="31414" name="sceptre of sun and sea">
-<item id="18935" article="a" name="vampire's signet ring">
-<item id="895" article="a" name="jester staff">
-<item id="8155" article="a" name="heavily bound book">
-<item id="44621" article="a" name="dauntless dragon scale armor">
-<item id="44622" article="an" name="unerring dragon scale armor">
-<item id="44623" article="an" name="arcane dragon robe">
-<item id="44624" article="an" name="mystical dragon robe">
-<item id="36808" article="an" name="old royal diary">
->>>>>>> 7ecf0b47193c6c771fcffb3d26d2dca945dd31d9
 
 
 <item id="8150" article="a" name="key of numerous locks">

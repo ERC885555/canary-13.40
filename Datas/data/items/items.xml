@@ -78582,10 +78582,11 @@ Granted by TibiaGoals.com" />
 		<attribute key="primarytype" value="creature products" />
 		<attribute key="weight" value="200" />
 	</item>
-	<item id="44750" name="exalted seal">
-		<attribute key="primarytype" value="valuables" />
-		<attribute key="weight" value="20" />
-	</item>
+	<item id="44750" name="mada salbert trinquet">
+		<attribute key="description"
+			value="Belongs to MADA SALBERT" />
+		<attribute key="weight" value="1.00" />
+		<!-- otserv\data-otservbr-global\scripts\custom\mada_salbert_trinquet.lua -->
 	<item id="44751" name="gold-scaled sentinel">
 		<attribute key="primarytype" value="valuables" />
 		<attribute key="weight" value="20" />
